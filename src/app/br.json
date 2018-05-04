@@ -1,0 +1,26 @@
+[
+    {
+        "id": "b001",
+        "name": "社交情感",
+        "description": "",
+        "improvement": ""
+    },
+    {
+        "id": "b002",
+        "name": "语言交流",
+        "description": "",
+        "improvement": ""
+    },
+    {
+        "id": "b003",
+        "name": "认知学习",
+        "description": "",
+        "improvement": ""
+    },
+    {
+        "id": "b004",
+        "name": "身体运动",
+        "description": "",
+        "improvement": ""
+    }
+]

@@ -1,0 +1,6 @@
+<h1>Hello {{username}}! Welcome to your tree!</h1>
+<div *ngFor="let branch of branches" class="branch-div">
+        <a class="branch-box" 
+        routerLink="/tree/{{branch.id}}">
+        {{branch.name}}</a>
+</div>

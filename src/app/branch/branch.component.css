@@ -1,0 +1,52 @@
+h1, p {
+    font-family: Hiragino Sans GB, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color:rgb(194, 118, 47);
+}
+
+.previous-container, .next-container {
+    width: 120px;
+    margin: 10px;
+    display: inline-block;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.next-container {
+    float: right;  
+}
+
+.previous, .next {
+    font-family: Hiragino Sans GB, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #607D8B;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.fruit-container {
+    text-align: center;
+}
+.fruit {
+    font-family: Hiragino Sans GB, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: rgb(86, 196, 132);
+    color: #FFFFFF; 
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+    display: inline;
+}

@@ -1,0 +1,1514 @@
+[
+    {
+        "id": "b001-f001",
+        "content": "对人微笑",
+        "level": 1,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f002",
+        "content": "可以暂时地让自己平静下来",
+        "level": 1,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f003",
+        "content": "试着朝父母看",
+        "level": 1,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f004",
+        "content": "自发地笑，尤其会对人笑",
+        "level": 2,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f005",
+        "content": "喜欢和别人玩，停止玩耍时可能哭",
+        "level": 2,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f006",
+        "content": "模仿某些动作和面部表情，例如笑或皱眉头",
+        "level": 2,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f007",
+        "content": "认识熟悉的面孔并开始知道谁是陌生人",
+        "level": 3,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f008",
+        "content": "对其他人的情绪作出反应，并经常看起来很开心",
+        "level": 3,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f009",
+        "content": "想要和别人玩耍，特别是父母",
+        "level": 3,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f010",
+        "content": "喜欢照镜子看自己",
+        "level": 3,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f011",
+        "content": "可能怕陌生人",
+        "level": 4,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f012",
+        "content": "有喜欢的玩具",
+        "level": 4,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f013",
+        "content": "可能缠着熟悉的成年人",
+        "level": 4,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f014",
+        "content": "对陌生人感到害羞或紧张",
+        "level": 5,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f015",
+        "content": "重复声音或动作以吸引别人的注意力",
+        "level": 5,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f016",
+        "content": "妈妈或爸爸离开时会哭",
+        "level": 5,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f017",
+        "content": "有喜欢的事物和人",
+        "level": 5,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f018",
+        "content": "大人给他穿衣时会伸出手臂或腿",
+        "level": 5,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f019",
+        "content": "在某些情况下会害怕",
+        "level": 5,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f020",
+        "content": "当他想要听故事时，会拿一本书给您",
+        "level": 5,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f021",
+        "content": "会玩游戏，例如“躲猫猫”和“拍手游戏”",
+        "level": 5,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f022",
+        "content": "玩耍时喜欢将东西拿给别人",
+        "level": 6,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f023",
+        "content": "在新的环境中会依赖照顾者",
+        "level": 6,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f024",
+        "content": "可能会乱发脾气",
+        "level": 6,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f025",
+        "content": "将感兴趣的东西指给别人看",
+        "level": 6,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f026",
+        "content": "可能怕陌生人",
+        "level": 6,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f027",
+        "content": "父母在近旁时独自探索",
+        "level": 6,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f028",
+        "content": "会对熟悉的人表达感情",
+        "level": 6,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f029",
+        "content": "玩简单的假扮游戏，例如喂洋娃娃",
+        "level": 6,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f030",
+        "content": "模仿其他人，特别是成年人和年龄较大的儿童",
+        "level": 7,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f031",
+        "content": "和其他小孩在一起时表现兴奋",
+        "level": 7,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f032",
+        "content": "表现得越来越独立",
+        "level": 7,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f033",
+        "content": "作出挑衅行为(做别人告诉他不能做的事)",
+        "level": 7,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f034",
+        "content": "主要在其他小孩旁边玩耍，但开始接纳其他小孩，例如玩追逐游戏",
+        "level": 7,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f035",
+        "content": "模仿成年人和朋友",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f036",
+        "content": "没有提示时，向朋友表达感情",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f037",
+        "content": "轮流玩游戏",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f038",
+        "content": "向哭泣的朋友表示关心",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f039",
+        "content": "自己穿衣和脱衣",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f040",
+        "content": "理解“我的”和“他的”或“她的”的概念",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f041",
+        "content": "表达不同的情绪",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f042",
+        "content": "较容易离开妈妈和爸爸",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f043",
+        "content": "日常活动出现较大变化时会感到不高兴",
+        "level": 8,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f044",
+        "content": "享受做新的事情",
+        "level": 9,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f045",
+        "content": "玩装扮游戏时越来越有创意",
+        "level": 9,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f046",
+        "content": "更喜欢和别的小孩玩，而不是自己玩",
+        "level": 9,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f047",
+        "content": "和其他小孩合作",
+        "level": 9,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f048",
+        "content": "玩“妈妈”或“爸爸”的游戏",
+        "level": 9,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f049",
+        "content": "经常不会区别什么是真的与什么是假扮的",
+        "level": 9,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f050",
+        "content": "谈论她喜欢和她感兴趣的事情",
+        "level": 9,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f051",
+        "content": "想要取悦朋友",
+        "level": 10,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f052",
+        "content": "想要和朋友一样",
+        "level": 10,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f053",
+        "content": "更有可能遵守规则",
+        "level": 10,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f054",
+        "content": "喜欢唱歌、跳舞和运动",
+        "level": 10,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f055",
+        "content": "意识到性别差异",
+        "level": 10,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f056",
+        "content": "会区别什么是真的及什么是假扮的",
+        "level": 10,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f057",
+        "content": "表现得更独立(例如，可能造访邻居[仍需大人陪伴])",
+        "level": 10,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b001-f058",
+        "content": "有时非常苛求，有时很合作",
+        "level": 10,
+        "field": "社交情感",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f001",
+        "content": "嘤嘤低语，发出咕噜声",
+        "level": 1,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f002",
+        "content": "朝着声音转头",
+        "level": 1,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f003",
+        "content": "开始呀呀学语",
+        "level": 2,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f004",
+        "content": "呀呀学语时带有表情并会模仿他听到的声音",
+        "level": 2,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f005",
+        "content": "以不同的方式哭，以表达饥饿、疼痛或疲劳",
+        "level": 2,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f006",
+        "content": "通过发出声音对声音作出回应",
+        "level": 3,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f007",
+        "content": "发出的咿哑声(“啊”、“嗯”、“哦”)时将元音串在一起，并喜欢和父母轮流发出声音",
+        "level": 3,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f008",
+        "content": "对自己的名字作出反应",
+        "level": 3,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f009",
+        "content": "发出声音以表达愉快和不愉快的情绪",
+        "level": 3,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f010",
+        "content": "开始说辅音(快而含糊地说出“m”、“b”)",
+        "level": 3,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f011",
+        "content": "理解“不”",
+        "level": 4,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f012",
+        "content": "发出许多不同的声音，例如“mamamama”和“bababababa”",
+        "level": 4,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f013",
+        "content": "模仿其他人的声音和动作",
+        "level": 4,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f014",
+        "content": "用手指指着东西",
+        "level": 4,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f015",
+        "content": "对简单的口头要求作出回应",
+        "level": 5,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f016",
+        "content": "使用简单的身体姿势，例如摇头表示“不”，或摆手表示“再见”",
+        "level": 5,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f017",
+        "content": "发出音调有变化的声音(声音更像讲话)",
+        "level": 5,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f018",
+        "content": "说“妈妈”和“爸爸”并会发出“噢喔!”那样的惊叹",
+        "level": 5,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f019",
+        "content": "试着向您说话",
+        "level": 5,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f020",
+        "content": "说出几个单词",
+        "level": 6,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f021",
+        "content": "摇头并说“不”",
+        "level": 6,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f022",
+        "content": "向别人指出他想要的东西",
+        "level": 6,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f023",
+        "content": "别人说出物品或图画的名称时，会指着它们",
+        "level": 7,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f024",
+        "content": "知道熟悉的人的姓名和身体部位名称",
+        "level": 7,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f025",
+        "content": "会说含有 2 到 4 个单词的句子",
+        "level": 7,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f026",
+        "content": "遵循简单的指示",
+        "level": 7,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f027",
+        "content": "交谈时重复听到的单词",
+        "level": 7,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f028",
+        "content": "指着书中的东西",
+        "level": 7,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f029",
+        "content": "遵循有2个或3个步骤的指示",
+        "level": 8,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f030",
+        "content": "可以说出多数熟悉物品的名称",
+        "level": 8,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f031",
+        "content": "理解“在...之内”、“在...之上”和“在...之下”等词的意思",
+        "level": 8,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f032",
+        "content": "说出名字、年龄和性别",
+        "level": 8,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f033",
+        "content": "说出朋友的姓名",
+        "level": 8,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f034",
+        "content": "和陌生人很好地交谈，多数时间理解对话内容",
+        "level": 8,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f035",
+        "content": "会说“我”、“自己”、“我们”和“你”等词以及某些复数(汽车、狗和猫)",
+        "level": 8,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f036",
+        "content": "会使用2到3个句子进行交谈",
+        "level": 8,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f037",
+        "content": "讲故事",
+        "level": 9,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f038",
+        "content": "凭记忆唱一首歌或念一首诗，例如“蝴蝶蝴蝶真美丽”或“丑小鸭",
+        "level": 9,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f039",
+        "content": "知道语法的某些基本规则，例如正确使用“他”和“她”",
+        "level": 9,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f040",
+        "content": "可以说出姓氏和名字",
+        "level": 9,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f041",
+        "content": "清楚地说话",
+        "level": 10,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f042",
+        "content": "使用完整的句子讲述简单的故事",
+        "level": 10,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f043",
+        "content": "使用将来时态;例如，“奶奶将要来这里。”",
+        "level": 10,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b002-f044",
+        "content": "说出名字和住址",
+        "level": 10,
+        "field": "语言交流",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f001",
+        "content": "注意面部表情",
+        "level": 1,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f002",
+        "content": "开始用眼睛跟随事物，并能在稍远一些的距离认出人",
+        "level": 1,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f003",
+        "content": "如果活动没有变化，会开始觉得厌烦(哭、生气)",
+        "level": 1,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f004",
+        "content": "让您知道她快乐或难过",
+        "level": 2,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f005",
+        "content": "对情感作出回应",
+        "level": 2,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f006",
+        "content": "用一只手拿玩具",
+        "level": 2,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f007",
+        "content": "同时使用手和眼睛，例如看到一个玩具并伸手拿它",
+        "level": 2,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f008",
+        "content": "目光跟随移动物体从一边转到另一边",
+        "level": 2,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f009",
+        "content": "注意观察面部表情",
+        "level": 2,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f010",
+        "content": "可以从稍远的距离认出熟悉的人和物",
+        "level": 2,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f011",
+        "content": "观察周围的事物",
+        "level": 3,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f012",
+        "content": "对事物表现出好奇心，并试着拿自己拿不到的东西",
+        "level": 3,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f013",
+        "content": "将东西放到嘴巴里",
+        "level": 3,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f014",
+        "content": "开始将东西从一只手传到另一只手",
+        "level": 3,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f015",
+        "content": "某件东西掉落时会观察它的路径",
+        "level": 4,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f016",
+        "content": "找出他看到您藏起来的东西",
+        "level": 4,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f017",
+        "content": "玩躲猫猫游戏",
+        "level": 4,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f018",
+        "content": "将东西放在嘴巴里",
+        "level": 4,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f019",
+        "content": "平稳地将东西从一只手换到另一只手",
+        "level": 4,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f020",
+        "content": "用拇指和食指捡起谷物等东西",
+        "level": 4,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f021",
+        "content": "以不同的方式探索事物，例如摇动、敲击、投掷",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f022",
+        "content": "轻松找到藏起来的东西",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f023",
+        "content": "说出名称时，看着正确的图片或物品",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f024",
+        "content": "模仿姿态",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f025",
+        "content": "将东西放入容器内，从容器内取出东西",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f026",
+        "content": "用两件东西相互敲击",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f027",
+        "content": "开始正确使用物品;例如，用杯子喝水，梳头",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f028",
+        "content": "在没有帮助的情况下自己做好事情",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f029",
+        "content": "用食指戳(指点)",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f030",
+        "content": " 遵循简单指示，例如  “捡起玩具”",
+        "level": 5,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f031",
+        "content": "知道普通物品的用途;例如电话、梳子、汤匙",
+        "level": 6,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f032",
+        "content": "指向身体部位",
+        "level": 6,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f033",
+        "content": "对洋娃娃或填充动物玩偶感兴趣，并会假装喂养它们",
+        "level": 6,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f034",
+        "content": "用手指以引起其他人的注意",
+        "level": 6,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f035",
+        "content": "自己乱写乱画",
+        "level": 6,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f036",
+        "content": " 可以遵循1个步骤的口头命令，无需任何手势。例如，当您说“坐下”时会坐下",
+        "level": 6,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f037",
+        "content": "找出藏在两层或三层覆盖物下面的物体。",
+        "level": 7,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f038",
+        "content": "开始分类形状和颜色",
+        "level": 7,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f039",
+        "content": "完成熟悉的书中的句子和儿歌",
+        "level": 7,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f040",
+        "content": "玩简单的假扮游戏",
+        "level": 7,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f041",
+        "content": "搭有4块或更多块积木",
+        "level": 7,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f042",
+        "content": "可能使用一只手多于另一只手",
+        "level": 7,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f043",
+        "content": "遵循两步指示，例如“拿起你的鞋子，并将它们放入鞋柜。”",
+        "level": 7,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f044",
+        "content": "说出图画书中的物体的名称，例如猫、鸟或狗",
+        "level": 7,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f045",
+        "content": "会玩有按钮、杠杆和移动部件的玩具",
+        "level": 8,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f046",
+        "content": "会与玩偶、动物和人玩假扮游戏",
+        "level": 8,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f047",
+        "content": "会拼出3块或4块游戏拼图",
+        "level": 8,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f048",
+        "content": "理解“两个”是什么意思",
+        "level": 8,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f049",
+        "content": "用铅笔或蜡笔画圆圈",
+        "level": 8,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f050",
+        "content": "一次一页翻书",
+        "level": 8,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f051",
+        "content": "搭有6块以上积木的塔",
+        "level": 8,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f052",
+        "content": "旋上和旋下广口瓶盖或转动门把手",
+        "level": 8,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f053",
+        "content": "说出某些颜色和某些数字",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f054",
+        "content": "了解数数的概念",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f055",
+        "content": "开始了解时间",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f056",
+        "content": "记住故事的部分内容",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f057",
+        "content": "了解“相同”和“不同”的概念",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f058",
+        "content": "画一个有2到4个身体部位的人",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f059",
+        "content": "使用剪刀",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f060",
+        "content": "开始复写某些大写字母",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f061",
+        "content": "玩棋盘或纸牌游戏",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f062",
+        "content": "告诉您书中接下来将要发生的事情",
+        "level": 9,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f063",
+        "content": "数10个或更多个物体",
+        "level": 10,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f064",
+        "content": "可以画一个至少有6个身体部位的人",
+        "level": 10,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f065",
+        "content": "复制三角形和其它形状",
+        "level": 10,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f066",
+        "content": "会端正地写出某些字母或数字",
+        "level": 10,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b003-f067",
+        "content": "知道每天使用的物品，例如钱和食物",
+        "level": 10,
+        "field": "认知学习",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f001",
+        "content": "宝宝俯卧时，会抬起头并开始俯身撑起",
+        "level": 1,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f002",
+        "content": "用手臂和腿做出更流畅的动作",
+        "level": 1,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f003",
+        "content": "不用支撑保持头部稳定",
+        "level": 2,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f004",
+        "content": "双脚置于硬表面时下压腿",
+        "level": 2,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f005",
+        "content": "可以从肚子翻到背部",
+        "level": 2,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f006",
+        "content": "可以拿着玩具并摇晃它，以及摇晃悬挂着的玩具",
+        "level": 2,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f007",
+        "content": "将手放在嘴巴里",
+        "level": 2,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f008",
+        "content": "俯卧时会俯身撑起",
+        "level": 2,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f009",
+        "content": "朝不同方向翻身(从前往后， 从后往前)",
+        "level": 3,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f010",
+        "content": "站立时，用脚支撑体重并会跳起来",
+        "level": 3,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f011",
+        "content": "开始不用支撑坐着",
+        "level": 3,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f012",
+        "content": "前后摇摆，有时在向前移动前会向后爬",
+        "level": 3,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f013",
+        "content": "站立，保持姿势",
+        "level": 4,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f014",
+        "content": "不用支撑坐好",
+        "level": 4,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f015",
+        "content": "爬行",
+        "level": 4,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f016",
+        "content": "可以进入坐姿",
+        "level": 4,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f017",
+        "content": "爬着站起来",
+        "level": 4,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f018",
+        "content": "不用帮助进入坐姿",
+        "level": 5,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f019",
+        "content": "拉起站立，扶着家具走路(“流畅地”)",
+        "level": 5,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f020",
+        "content": "不用扶可以自己走几步",
+        "level": 5,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f021",
+        "content": "可以单独站立",
+        "level": 5,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f022",
+        "content": "独自走路",
+        "level": 6,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f023",
+        "content": "会爬楼梯和跑步",
+        "level": 6,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f024",
+        "content": "走路时拖拉玩具",
+        "level": 6,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f025",
+        "content": "会帮助自己脱衣服",
+        "level": 6,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f026",
+        "content": "用杯子喝水",
+        "level": 6,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f027",
+        "content": "用汤匙吃东西",
+        "level": 6,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f028",
+        "content": "足尖站立",
+        "level": 7,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f029",
+        "content": "踢球",
+        "level": 7,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f030",
+        "content": "开始跑",
+        "level": 7,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f031",
+        "content": "手扶扶手上下楼梯",
+        "level": 7,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f032",
+        "content": "在没有帮助的情况下爬上并爬下家具",
+        "level": 7,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f033",
+        "content": "举手过肩扔球",
+        "level": 7,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f034",
+        "content": "画或复制直线和圆圈",
+        "level": 7,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f035",
+        "content": "很会爬",
+        "level": 8,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f036",
+        "content": "跑起来很轻松",
+        "level": 8,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f037",
+        "content": "会骑三轮脚踏车",
+        "level": 8,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f038",
+        "content": "会一脚一个台阶上下楼梯",
+        "level": 8,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f039",
+        "content": "单脚跳并用一只脚站立最长2秒",
+        "level": 9,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f040",
+        "content": "倒水，在监督下使用餐刀，并自己捣碎食物",
+        "level": 9,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f041",
+        "content": "多数时间可以抓住弹跳的球",
+        "level": 9,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f042",
+        "content": "单脚站立10秒钟或更长时间",
+        "level": 10,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f043",
+        "content": "单脚跳，也可以跳绳",
+        "level": 10,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f044",
+        "content": "会翻跟斗",
+        "level": 10,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f045",
+        "content": "使用叉子和勺子，并偶尔使用餐刀",
+        "level": 10,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f046",
+        "content": "会自己使用厕所",
+        "level": 10,
+        "field": "身体运动",
+        "improvement": ""
+    },
+    {
+        "id": "b004-f047",
+        "content": "荡秋千和攀爬",
+        "level": 10,
+        "field": "身体运动",
+        "improvement": ""
+    }
+]

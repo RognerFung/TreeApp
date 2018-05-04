@@ -1,0 +1,15 @@
+<h1>欢迎来到成长树</h1>
+<form #userForm="ngForm" (ngSubmit)="verifyUser(userForm.value)" novalidate>
+  <label>请登录</label><br>
+  <input type="text" name="username" placeholder="用户名" required [(ngModel)]="username" /><br/>
+  <input type="password" name="password" placeholder="密码" required [(ngModel)]="password" /><br/>
+  <input type="submit" [disabled]="!userForm.valid" value="登录" />
+  <button routerLink="/register">注册</button>
+</form>
+
+
+<tr *ngFor="let kk of Repdata; let i = index">
+  <td>{{i + 1}}</td>
+  <td>{{kk.username}}</td>
+  <td>{{kk.password}}</td>
+</tr>  
