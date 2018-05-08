@@ -123,6 +123,12 @@ app.get("/api/getBranches", function (req, res) {
     );
 });
 
+app.get("/api/signOut", function (req, res) {
+    req.session.destroy(()=> {
+        res.send('false')
+    });
+});
+
 app.listen(3333, function () {
     console.log('Example app listening on port 3333!');
 });

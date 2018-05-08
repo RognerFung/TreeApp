@@ -1,8 +1,14 @@
 <div class="container" *ngIf="username && username!=='guest'">
-    <h1>Hello {{username}}! Welcome to your tree!</h1>
-    <div *ngFor="let branch of branches" class="branch-div">
-        <a class="branch-box" routerLink="/tree/{{branch.id}}">{{branch.name}}</a>
+    <span>{{username}}</span>
+    <div class="row">
+        <div class="col-12">
+            <p>Username: Username</p>
+        </div>
     </div>
+        <p>Password:</p><button>Change</button>
+        <p>Age:</p><p>Age</p>
+
+        <button>Edit</button>
 </div>
 <div class="container" *ngIf="username==='guest'">
     <div class="row">

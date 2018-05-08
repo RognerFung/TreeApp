@@ -39,4 +39,10 @@ export class CommonService {
       withCredentials: true
     }).map((response: Response) => response.json());
   }
+
+  signOut() {
+      return this.http.get('http://localhost:3333/api/signOut', {
+          withCredentials: true
+      }).map((response: Response) => response.json());
+  }
 }  

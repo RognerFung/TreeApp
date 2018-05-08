@@ -1,12 +1,24 @@
-<h1>请填写注册表单</h1>
-<form #regForm="ngForm" (ngSubmit)="regUser(regForm.value)" novalidate>
-  <input type="text" name="username" placeholder="用户名" required minlength="3" maxlength="20" [(ngModel)]="username" (input)="verifyUsername(username)"/><br />
-  <input type="password" name="password1" placeholder="密码" required minlength="8" maxlength="24" [(ngModel)]="password1" /><br />
-  <input type="password" name="password2" placeholder="请重复输入密码" required minlength="8" maxlength="24" [(ngModel)]="password2" /><br />
-  <input type="submit" [disabled]="!regForm.valid || password1 !== password2 || usernameTaken" value="注册" />
-
-  <p *ngIf="usernameTaken">用户名已存在</p>
-  <p *ngIf="username && username.length < 3">用户名过短</p>
-  <p *ngIf="username && username.length > 2 && ((password1 && password1.length < 8) || (password2 && password2.length < 8))">密码过短</p>
-  <p *ngIf="username && username.length > 2 && (password1 && password1.length > 7) && (password2 && password2.length > 7) && password1 !== password2">两次输入密码不一致</p>
-</form>
+<div class="container">
+    <h1>Sign up</h1>
+    <form #regForm="ngForm" (ngSubmit)="regUser(regForm.value)" novalidate>
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="username" placeholder="Username" required minlength="3" maxlength="20" [(ngModel)]="username" (input)="verifyUsername(username)"/>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="password1" placeholder="Password" required minlength="8" maxlength="24" [(ngModel)]="password1" />
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="password2" placeholder="Repeat Password" required minlength="8" maxlength="24" [(ngModel)]="password2" />
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" [disabled]="!regForm.valid || password1 !== password2 || usernameTaken" value="Sign up" />
+        </div>
+        <p *ngIf="usernameTaken">Username already exist</p>
+        <p *ngIf="username && username.length < 3">Username too short</p>
+        <p *ngIf="username && username.length > 2 && ((password1 && password1.length < 8) || (password2 && password2.length < 8))">Password too short</p>
+        <p *ngIf="username && username.length > 2 && (password1 && password1.length > 7) && (password2 && password2.length > 7) && password1 !== password2">Repeat password not the same</p>
+    </form>
+</div>

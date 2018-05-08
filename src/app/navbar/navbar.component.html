@@ -1,0 +1,27 @@
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top bg-warning mb-5">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="fa fa-tree text-success"></i>
+        </a>  
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar" (click)="toggleCollapse()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar" [class.collapse]="isCollapsed">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" (click)="toggleCollapse()" routerLink=""><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item active"><a class="nav-link" (click)="toggleCollapse()" routerLink="/tree"><span class="fa fa-list fa-lg"></span> Tree</a></li>
+                <li class="nav-item active"><a class="nav-link" (click)="toggleCollapse()" routerLink="/about"><span class="fa fa-info fa-lg"></span> About</a></li>
+                <li class="nav-item active"><a class="nav-link" (click)="toggleCollapse()" routerLink="/profile"><span class="fa fa-address-card fa-lg"></span> Profile</a></li>
+            </ul>
+            <span routerLink="/login" class="navbar-item active" *ngIf="username==='guest'">
+                <span class="fa fa-sign-in"></span> Sign in&emsp;
+            </span>
+            <span routerLink="/register" class="navbar-item active" *ngIf="username==='guest'">
+                <span class="fa fa-user-plus"></span> Sign up
+            </span>
+            <span routerLink="/index" class="navbar-item active" *ngIf="username && username!=='guest'" (click)="signOut()">
+                <span class="fa fa-sign-out"></span> Sign out
+            </span>
+        </div>            
+    </div>
+</nav>

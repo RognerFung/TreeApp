@@ -13,6 +13,11 @@ a:visited {
     color: #FFFFFF;
 }
 
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .branch-div {
     position: relative;
     text-align:center;
