@@ -1,26 +1,26 @@
 <div *ngIf=branch>
-  <h1>{{branch.name}}</h1>
-  <p>{{branch.description}}</p>
-  <div class="container">
-    <div class="previous-container">
-      <div class="previous"
-        *ngFor="let previous of branch.previous">
-          <a routerLink="/tree/{{previous}}">
-            {{previous | idToName}}</a>
-      </div>
+    <h1>{{branch.name}}</h1>
+    <p>{{branch.description}}</p>
+    <div class="container">
+        <div class="previous-container">
+            <div class="previous"
+                *ngFor="let previous of branch.previous">
+                <a routerLink="/tree/{{previous}}">
+                    {{previous | idToName}}</a>
+            </div>
+        </div>
+        <div class="next-container">
+            <div class="next"
+                *ngFor="let next of branch.next">
+                <a routerLink="/tree/{{next}}">
+                    {{next | idToName}}</a>
+            </div>
+        </div>
     </div>
-    <div class="next-container">
-      <div class="next"
-        *ngFor="let next of branch.next">
-          <a routerLink="/tree/{{next}}">
-            {{next | idToName}}</a>
-      </div>
+    <div class="fruit-container" *ngIf=fruits>
+        <div class="fruit" *ngFor="let fruit of fruits">
+            <a routerLink="/tree/{{branchId}}/{{fruit.id}}">
+            {{fruit.name}}</a>
+        </div>
     </div>
-  </div>
-  <div class="fruit-container" *ngIf=fruits>
-    <div class="fruit" *ngFor="let fruit of fruits">
-      <a routerLink="/tree/{{branchId}}/{{fruit.id}}">
-      {{fruit.name}}</a>
-    </div>
-  </div>
 </div>

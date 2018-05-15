@@ -1,22 +1,22 @@
 
 <div class="info">
-  <p>项目名称: {{fruit.name}}</p>
-  <p *ngFor="let branch of fruit.branch">所属科目: {{branch | idToName}}</p>
-  <p>{{fruit.description}}</p>
+    <p>项目名称: {{fruit.name}}</p>
+    <p *ngFor="let branch of fruit.branch">所属科目: {{branch | idToName}}</p>
+    <p>{{fruit.description}}</p>
 </div>
 <div *ngIf="fruit.content" class="content-container">
-  <div class="content-line" *ngFor="let div of divs">
-    <div [ngClass]="selectedItems.indexOf(con) === -1 ? 'content' : 'contentChecked'" *ngFor="let con of fruit.content.slice(div[0], div[1])"
-      (click)="selectItem(con)">
-      {{con}}
+    <div class="content-line" *ngFor="let div of divs">
+        <div [ngClass]="selectedItems.indexOf(con) === -1 ? 'content' : 'contentChecked'" *ngFor="let con of fruit.content.slice(div[0], div[1])"
+            (click)="selectItem(con)">
+            {{con}}
+        </div>
     </div>
-  </div>
 </div>
 <div *ngIf="fruit.content" class="progress-container">
-  <p>完成度: {{selectedItems.length/fruit.content.length*100 | number: '1.0-1' }}%</p>
-  <div class="progress-outer">
-    <div class="progress-inner" [style.width.%]="selectedItems.length/fruit.content.length*100"></div>
-  </div>
+    <p>完成度: {{selectedItems.length/fruit.content.length*100 | number: '1.0-1' }}%</p>
+    <div class="progress-outer">
+        <div class="progress-inner" [style.width.%]="selectedItems.length/fruit.content.length*100"></div>
+    </div>
 </div>
 
 

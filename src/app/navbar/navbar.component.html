@@ -21,7 +21,8 @@
             </span>
             <span routerLink="/index" class="navbar-item active" *ngIf="username && username!=='guest'" (click)="signOut()">
                 <span class="fa fa-sign-out"></span> Sign out
-            </span>
+            </span> 
+            <p>{{user}}</p>
         </div>            
     </div>
 </nav>

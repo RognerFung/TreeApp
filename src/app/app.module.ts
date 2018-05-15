@@ -8,7 +8,6 @@ import { FruitComponent } from './fruit/fruit.component';
 import { BranchService } from './branch.service';
 import { RouterModule } from '@angular/router';
 import { ExampleComponent } from './example/example.component';
-import { TestComponent } from './test/test.component';
 import { IdToNamePipe } from './idToName.pipe';
 import { LocalStorageModule } from 'angular-2-local-storage';
 import { LoginComponent } from './login/login.component';
@@ -23,37 +22,38 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { FooterComponent } from './footer/footer.component';
 import { IndexComponent } from './index/index.component';
 import { ProfileComponent } from './profile/profile.component';
+import { MessageService } from './message.service';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TreeComponent,
-    BranchComponent,
-    FruitComponent,
-    ExampleComponent,
-    TestComponent,
-    IdToNamePipe,
-    LoginComponent,
-    RegisterComponent,
-    NavbarComponent,
-    CarouselComponent,
-    JumbotronComponent,
-    FooterComponent,
-    IndexComponent,
-    ProfileComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule,
-    HttpModule,
-    FormsModule,
-    NgbModule.forRoot()
-  ],
-  providers: [
-    BranchService,
-    CommonService
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        TreeComponent,
+        BranchComponent,
+        FruitComponent,
+        ExampleComponent,
+        IdToNamePipe,
+        LoginComponent,
+        RegisterComponent,
+        NavbarComponent,
+        CarouselComponent,
+        JumbotronComponent,
+        FooterComponent,
+        IndexComponent,
+        ProfileComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        RouterModule,
+        HttpModule,
+        FormsModule,
+        NgbModule.forRoot()
+    ],
+    providers: [
+        BranchService,
+        CommonService,
+        MessageService
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

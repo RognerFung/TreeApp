@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges, OnDestroy } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CommonService } from '../common.service';
+import { MessageService } from '../message.service';
 
 @Component({
     selector: 'app-navbar',
@@ -12,10 +13,16 @@ export class NavbarComponent implements OnInit {
     username: string;
 
     constructor(
-        private commonService: CommonService
+        private commonService: CommonService,
+        private messageService: MessageService
     ) { }
 
     ngOnInit() {
+        this.checkLogin();
+        this.messageService.cast.subscribe(username => this.username = username);
+    }
+
+    ngOnChanges() {
         this.checkLogin();
     }
 

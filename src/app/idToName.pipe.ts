@@ -6,7 +6,7 @@ import { FRUITS } from './mock-fruits';
 
 @Pipe({name: 'idToName'})
 export class IdToNamePipe implements PipeTransform {
-  transform(id: string): string {
-    return (BRANCHES.find(branch => id === branch.id) === undefined) ? FRUITS.find(fruit => id === fruit.id).name : BRANCHES.find(branch => id === branch.id).name;
-  }
+    transform(id: string): string {
+        return (BRANCHES.find(branch => id === branch.id) === undefined) ? FRUITS.find(fruit => id === fruit.id).name : BRANCHES.find(branch => id === branch.id).name;
+    }
 }
