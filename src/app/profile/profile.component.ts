@@ -60,5 +60,14 @@ export class ProfileComponent implements OnInit {
     selectToday() {
         this.today = { year: now.getFullYear(), month: now.getMonth() + 1, day: now.getDate() };
     }
-  
+
+    updateUser = function (user) {
+        console.log(user);
+        // this.commonService.updateUser(user).subscribe(
+        //     data => {
+        //         console.log(data);
+        //     }, 
+        //     error => this.errorMessage = error
+        // )
+    }
 }

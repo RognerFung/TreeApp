@@ -1,6 +1,6 @@
 <div class="container" *ngIf="username && username!=='guest'">
     <div class="col-sm-6">
-        <form>
+        <form #userInfoForm="ngForm" (ngSubmit)="updateUser(userInfoForm.value)" novalidate>
             <div class="form-group row">
                 <label for="username" class="col-12 col-md-2 col-form-label">Username</label>
                 <div class="col-12 col-md-10">
@@ -22,9 +22,9 @@
             
             <div class="form-group row">
                 <label for="photo" class="col-6 col-md-2 col-form-label">Photo</label>
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-4 border-primary">
                     <svg style="fill:#ffffff;height:150px;width:120px;" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="80" height="100" style="fill:#17a2b8;stroke-width:3;stroke:#17a2b8" />
+                        <rect width="80" height="100" style="fill: #17a2b8;" />
                         <path d="M33.5,10.4C33.7,5.1,29.2,1,24,1s-9.8,4.2-9.5,9.4c0.1,1.1,1.1,6.3,1.1,6.3c0.8,4.5,3.8,8.3,8.4,8.3s7.6-3.8,8.4-8.4C32.4,16.6,33.4,11.4,33.5,10.4z"></path>
                         <path d="M47,47H1l1.1-8.2c0.5-2.7,2.9-4.3,5.6-4.9L24,31l16.3,2.9c2.7,0.6,5.1,2.2,5.5,4.9L47,47z"></path>  
                     </svg>
@@ -38,18 +38,18 @@
             <div class="form-group row">
                 <label for="email" class="col-12 col-md-2 col-form-label">Email</label>
                 <div class="col-12 col-md-10">
-                    <input class="form-control border-primary" name="email" placeholder="{{email}}">
+                    <input class="form-control border-primary" name="email" [(ngModel)]="email" placeholder="{{email}}">
                 </div>
             </div>
 
             <div class="form-group row">
                 <label for="firstname" class="col-12 col-md-2 col-form-label">Firstname</label>
                 <div class="col-12 col-md-4">
-                    <input class="form-control border-primary" name="firstname" placeholder="{{firstname}}">
+                    <input class="form-control border-primary" name="firstname" [(ngModel)]="firstname" placeholder="{{firstname}}">
                 </div>
                 <label for="lastname" class="col-12 col-md-2 col-form-label">Lastname</label>
                 <div class="col-12 col-md-4">
-                    <input class="form-control border-primary" name="lastname" placeholder="{{lastname}}">
+                    <input class="form-control border-primary" name="lastname" [(ngModel)]="lastname" placeholder="{{lastname}}">
                 </div>
             </div>
             
@@ -71,13 +71,13 @@
             <div class="form-group row">
                 <label for="age" class="col-12 col-md-2 col-form-label">Age</label>
                 <div class="col-12 col-md-4">
-                    <input *ngIf="selectDay" class="form-control border-primary" name="age" placeholder="{{today.year - selectDay.year}}">
+                    <input *ngIf="selectDay" class="form-control border-primary" name="age" [(ngModel)]="age" [ngModelOptions]="{standalone: true}" placeholder="{{today.year - selectDay.year}}">
                     <input *ngIf="!selectDay" class="form-control border-primary" name="age" placeholder="">
                 </div>
                 <label for="sex" class="col-12 col-md-1 offset-md-1 col-form-label">Sex</label>
                 <div class="col-12 col-md-4">
-                    <select class="custom-select border-primary">
-                        <option selected>Sex</option>
+                    <select class="custom-select border-primary" name="sex" [(ngModel)]="sex">
+                        <option [ngValue]="undefined" disabled selected>Sex</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                         <option value="others">Others</option>
@@ -88,17 +88,17 @@
             <div class="form-group row">
                 <label for="education" class="col-12 col-md-2 col-form-label">Education</label>
                 <div class="col-12 col-md-10">
-                    <select class="custom-select border-primary">
-                        <option selected>Highest Education Level</option>
-                        <option value="none">Early Learner</option>
+                    <select class="custom-select border-primary" name="education" [(ngModel)]="education">
+                        <option [ngValue]="undefined" disabled selected>Highest Education Level</option>
+                        <option value="early">Early Learner</option>
                         <option value="elementary">Elementary School (or equivalent)</option>
                         <option value="middle">Middle School (or equivalent)</option>
-                        <option value="middle">High School (or equivalent)</option>
-                        <option value="middle">College Student (or equivalent)</option>
-                        <option value="middle">Bachelor's Degree</option>
-                        <option value="middle">Master's Degree</option>
-                        <option value="middle">Professional School Degree</option>
-                        <option value="middle">Doctorate Degree</option>
+                        <option value="high">High School (or equivalent)</option>
+                        <option value="college">College Student (or equivalent)</option>
+                        <option value="bachelor">Bachelor's Degree</option>
+                        <option value="master">Master's Degree</option>
+                        <option value="professional">Professional School Degree</option>
+                        <option value="doctor">Doctorate Degree</option>
                     </select>
                 </div>
             </div>
@@ -106,8 +106,8 @@
             <div class="form-group row">
                 <label for="country" class="col-12 col-md-2 col-form-label">Country</label>
                 <div class="col-12 col-md-6">
-                    <select class="custom-select border-primary">
-                        <option selected>Country / Region</option>
+                    <select class="custom-select border-primary" name="country" [(ngModel)]="country">
+                        <option [ngValue]="undefined" disabled selected>Country / Region</option>
                         <option value="AF">Afghanistan</option>
                         <option value="AX">Åland Islands</option>
                         <option value="AL">Albania</option>
@@ -361,21 +361,27 @@
                 </div>
                 <label for="state" class="col-12 col-md-1 col-form-label">State</label>
                 <div class="col-12 col-md-3">
-                    <input class="form-control border-primary" name="state" placeholder="{{state}}">
+                    <input class="form-control border-primary" name="state" [(ngModel)]="state" placeholder="{{state}}">
                 </div>
             </div>
 
             <div class="form-group row">
                 <label for="address" class="col-12 col-md-2 col-form-label">Address</label>
                 <div class="col-12 col-md-10">
-                    <textarea class="form-control border-primary" name="address" placeholder="{{address}}" aria-label="With textarea"></textarea> 
+                    <textarea class="form-control border-primary" name="address" [(ngModel)]="address" placeholder="{{address}}" aria-label="With textarea"></textarea> 
                 </div>
             </div>
 
             <div class="form-group row">
                 <label for="aboutme" class="col-12 col-md-2 col-form-label">About Me</label>
                 <div class="col-12 col-md-10">
-                    <textarea class="form-control border-primary" name="aboutme" placeholder="{{aboueme}}" aria-label="With textarea"></textarea> 
+                    <textarea class="form-control border-primary" name="aboutme" [(ngModel)]="aboutme" placeholder="{{aboueme}}" aria-label="With textarea"></textarea> 
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-12 col-md-2 offset-md-2">
+                    <input type="submit" class="btn btn-primary" value="Save Changes"> 
                 </div>
             </div>
         </form>

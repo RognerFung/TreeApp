@@ -34,6 +34,12 @@ export class CommonService {
         }).map((response: Response) => response.json());
     }
 
+    updateUser(user){
+        return this.http.post('http://localhost:3333/api/updateUser/', user, {
+            withCredentials: true
+        }).map((response: Response) => response.json());
+    }
+
     checkLogin() {
         return this.http.get('http://localhost:3333/api/checkLogin/', {
             withCredentials: true
