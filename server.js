@@ -45,8 +45,7 @@ var UsersSchema = new Schema({
     email: String,
     firstname: String,
     lastname: String,
-    birthday: String,
-    age: Number,
+    birthday: Object,
     sex: String,
     education: String,
     country: String,
@@ -64,23 +63,8 @@ var BranchesSchema = new Schema({
     description: String
 }, { versionKey: false });
 
-var UserInfoSchema = new Schema({
-    email: String,
-    firstname: String,
-    lastname: String,
-    birthday: String,
-    age: Number,
-    sex: String,
-    education: String,
-    country: String,
-    state: String,
-    address: String,
-    aboutme: String
-}, { versionKey: false});
-
 var model = mongo.model('users', UsersSchema, 'users');
 var branchModel = mongo.model('branches', BranchesSchema, 'branches');
-var userInfoModel = mongo.model('user', UserInfoSchema, 'user');
 
 //Register user, save username and password (in hash) in database
 app.post("/api/regUser", function(req, res) {
@@ -88,18 +72,7 @@ app.post("/api/regUser", function(req, res) {
         bcrypt.hash(req.body.password, salt, function(err, hash) {
             var user = { 
                 username: req.body.username, 
-                password: hash,
-                email: '',
-                firstname: '',
-                lastname: '',
-                birthday: '',
-                age: NaN,
-                sex: '',
-                education: '',
-                country: '',
-                state: '',
-                address: '',
-                aboutme: ''
+                password: hash
             };
             var mod = new model(user);
             mod.save(function(err, data) {
@@ -115,10 +88,8 @@ app.post("/api/regUser", function(req, res) {
 
 //Verify login password correct or wrong, if correct, save username in session
 app.post("/api/verifyUser", function(req, res) {
-    model.find({username: req.body.username}, function(err, data) {      
-        if (err) {
-            res.send(err);
-        } else {
+    model.find({ username: req.body.username }, function(err, data) {    
+        if (data.length > 0) {
             bcrypt.compare(req.body.password, data[0].password, function(err, result) {
                 if (result) {
                     req.session.username = data[0].username;
@@ -128,6 +99,8 @@ app.post("/api/verifyUser", function(req, res) {
                     res.send('false');
                 }
             });
+        } else {
+            res.send('false');
         }
     });
 });
@@ -173,37 +146,65 @@ app.get("/api/signOut", function (req, res) {
     });
 });
 
-//Update user info in database
+//Update user info in database. Find the _id of the user first, then findById to update user
 app.post("/api/updateUser", function (req, res) {
+    model.find({ username: req.body.username }, function(err, data) {
+        if (data.length > 0) {
+            model.findById(data[0]._id, function (error, user) {
+                if (error) {
+                    res.send(error);
+                } else {
+                    if (req.body.email) user.email = req.body.email;
+                    if (req.body.firstname) user.firstname = req.body.firstname;
+                    if (req.body.lastname) user.lastname = req.body.lastname;
+                    if (req.body.birthday) user.birthday = req.body.birthday;
+                    if (req.body.sex) user.sex = req.body.sex;
+                    if (req.body.education) user.education = req.body.education;
+                    if (req.body.country) user.country = req.body.country;
+                    if (req.body.state) user.state = req.body.state;
+                    if (req.body.address) user.address = req.body.address;
+                    if (req.body.aboutme) user.aboutme = req.body.aboutme;
+                    user.save(function(er, data2) {
+                        if(err){
+                            res.send(er);
+                        } else {
+                            res.send({ data2: "Update Successfully" });
+                        }
+                    });
+                }
+            });    
+        } else {
+            res.send('false');
+        }
+    });    
+});
+
+//Reset password, save username and password (in hash) in database
+app.post("/api/resetPassword", function(req, res) {
     model.find({ username: req.body.username }, function(err, data) {
         if (err) {
             res.send(err);
         } else {
-            var user = {
-                username: data[0].username,
-                password: data[0].password,
-                email: req.body.email,
-                firstname: req.body.firstname,
-                lastname: req.body.lastname,
-                birthday: req.body.birthday,
-                age: req.body.age,
-                sex: req.body.sex,
-                education: req.body.education,
-                country: req.body.country,
-                state: req.body.state,
-                address: req.body.address,
-                aboutme: req.body.aboutme
-            };
-            var mod = new model(user);
-            mod.save(function(err, data) {
-                if(err){
-                    res.send(err);
+            model.findById(data[0]._id, function (error, user) {
+                if (error) {
+                    res.send(error);
                 } else {
-                    res.send({ data: "Update Successfully" });
+                    bcrypt.genSalt(saltRounds, function(er, salt) {
+                        bcrypt.hash(req.body.password, salt, function(er, hash) {
+                            user.password = hash;
+                            user.save(function(erro, data2) {
+                                if(erro){
+                                    res.send(erro);
+                                } else {
+                                    res.send({ data2: "Register Successfully" });
+                                }
+                            });
+                        });
+                    });
                 }
             });
         }
-    });    
+    });
 });
 
 app.listen(3333, function () {

@@ -12,7 +12,6 @@ import { Router } from '@angular/router';
 export class RegisterComponent implements OnInit {
 
     usernameTaken: boolean = false;
-    regDone: boolean = false;
 
     constructor(
         private commonService : CommonService,
@@ -23,7 +22,7 @@ export class RegisterComponent implements OnInit {
     }
 
     verifyUsername = function(username) {
-        this.commonService.verifyUsername({username: username, password: '0'}).subscribe(
+        this.commonService.verifyUsername({username: username}).subscribe(
             data => {
                 if (Object.keys(data).length === 0) {
                     this.usernameTaken = false;

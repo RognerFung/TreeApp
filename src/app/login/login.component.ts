@@ -15,6 +15,7 @@ import { MessageService } from '../message.service';
 export class LoginComponent {
 
     username: string;
+    loginFail: boolean = false;
 
     constructor(
         private commonService : CommonService,
@@ -30,11 +31,9 @@ export class LoginComponent {
             data => {
                 if (data) {
                     this.username = data.data;
-                    console.log(data.data);
                     this.messageService.changeUser(this.username);
                 } else {
                     this.username = 'guest';
-                    console.log('guest');
                 }
             },
             error => this.errorMessage = error
@@ -45,11 +44,10 @@ export class LoginComponent {
         this.commonService.verifyUser(user).subscribe(
             data => {
                 if (data) {
-                    console.log('登录成功');
                     this.router.navigateByUrl('/tree');
                     this.checkLogin();
                 } else {
-                    console.log('用户名与密码不符');
+                    this.loginFail = true;
                 }
             }, error => this.errorMessage = error
         );

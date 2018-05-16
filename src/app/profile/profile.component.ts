@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbDatepickerConfig, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 import { CommonService } from '../common.service';
+import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 const now = new Date();
 
@@ -12,12 +13,13 @@ const now = new Date();
 })
 export class ProfileComponent implements OnInit {
 
+    id: string;
     username: string;
     password: string;
     email: string;
     firstname: string;
     lastname: string;
-    birthday: string;
+    birthday: any;
     age: number;
     sex: string;
     education: string;
@@ -29,8 +31,11 @@ export class ProfileComponent implements OnInit {
     model: NgbDateStruct;
     today: NgbDateStruct;
 
+    closeResult: string;
+
     constructor(
         private commonService: CommonService,
+        private modalService: NgbModal,
         private config: NgbDatepickerConfig
     ) {
         config.minDate = { year: 1900, month: 1, day: 1} ;
@@ -62,12 +67,39 @@ export class ProfileComponent implements OnInit {
     }
 
     updateUser = function (user) {
-        console.log(user);
-        // this.commonService.updateUser(user).subscribe(
-        //     data => {
-        //         console.log(data);
-        //     }, 
-        //     error => this.errorMessage = error
-        // )
+        user.username = this.username;
+        this.commonService.updateUser(user).subscribe(
+            data => {
+                console.log(data);
+            }, 
+            error => this.errorMessage = error
+        )
+    }
+
+    resetPassword = function(password) {
+        this.commonService.resetPassword({ username: this.username, password: password.password1 }).subscribe(
+            data => {
+                console.log("reset successfully");
+            },
+            error => this.errorMessage = error
+        )
+    }
+
+    openModal(content) {
+        this.modalService.open(content).result.then((result) => {
+            this.closeResult = `Closed with: ${result}`;
+        }, (reason) => {
+            this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+        });
+    }
+
+    private getDismissReason(reason: any): string {
+        if (reason === ModalDismissReasons.ESC) {
+            return 'by pressing ESC';
+        } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+            return 'by clicking on a backdrop';
+        } else {
+            return  `with: ${reason}`;
+        }
     }
 }

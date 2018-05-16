@@ -1,6 +1,33 @@
+<ng-template #content let-c="close" let-d="dismiss">    
+    <div class="modal-header bg-light">
+        <h4 class="modal-title">Reset Password</h4>
+        <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <form #resetForm="ngForm" (ngSubmit)="resetPassword(resetForm.value)" novalidate>
+            <div class="form-group row">
+                <label for="password" class="col-5 col-md-3 col-form-label">Password</label>
+                <input type="password" class="form-control col-5 col-md-8 border-primary" name="password1" placeholder="Password" required minlength="8" maxlength="24" [(ngModel)]="password1" />
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-5 col-md-3 col-form-label">Password</label>
+                <input type="password" class="form-control col-5 col-md-8 border-primary" name="password2" placeholder="Repeat Password" required minlength="8" maxlength="24" [(ngModel)]="password2" />
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" [disabled]="!resetForm.valid || password1 !== password2 || usernameTaken" value="Reset" />
+                <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+            </div>
+            <p class="text-danger" *ngIf="(password1 && password1.length < 8) || (password2 && password2.length < 8)">Password too short</p>
+            <p class="text-danger" *ngIf="(password1 && password1.length > 7) && (password2 && password2.length > 7) && password1 !== password2">Repeat password not the same</p>
+        </form>
+    </div>
+</ng-template>
+
 <div class="container" *ngIf="username && username!=='guest'">
     <div class="col-sm-6">
-        <form #userInfoForm="ngForm" (ngSubmit)="updateUser(userInfoForm.value)" novalidate>
+        <form>
             <div class="form-group row">
                 <label for="username" class="col-12 col-md-2 col-form-label">Username</label>
                 <div class="col-12 col-md-10">
@@ -14,12 +41,15 @@
                     <input class="form-control border-primary" name="password" placeholder="********" [disabled]="true">
                 </div>
             </div>
+
             <div class="form-group row">
                 <div class="col-12 col-md-3 offset-md-8">
-                    <button class="btn btn-primary">Change Password</button>
+                    <button type="button" class="btn btn-primary" (click)="openModal(content)">Reset Password</button>
                 </div>
             </div>
-            
+        </form>
+
+        <form>
             <div class="form-group row">
                 <label for="photo" class="col-6 col-md-2 col-form-label">Photo</label>
                 <div class="col-6 col-md-4 border-primary">
@@ -34,7 +64,9 @@
                     <input type="button" class="btn btn-primary mt-2" value="Upload Photo" onclick="document.getElementById('selectedFile').click();" />
                 </div>
             </div>
-            
+        </form>
+
+        <form #userInfoForm="ngForm" (ngSubmit)="updateUser(userInfoForm.value)" novalidate>    
             <div class="form-group row">
                 <label for="email" class="col-12 col-md-2 col-form-label">Email</label>
                 <div class="col-12 col-md-10">

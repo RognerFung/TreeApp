@@ -1,24 +1,28 @@
 <div class="container">
     <h1>Sign up</h1>
     <form #regForm="ngForm" (ngSubmit)="regUser(regForm.value)" novalidate>
-        <div class="form-group">
-            <label>Username</label>
-            <input type="text" name="username" placeholder="Username" required minlength="3" maxlength="20" [(ngModel)]="username" (input)="verifyUsername(username)"/>
+        <div class="form-group row">
+            <label class="col-form-label col-10 col-md-2 offset-md-3">Username</label>
+            <input class="form-control col-10 col-md-3 border-primary" type="text" name="username" placeholder="Username" required minlength="3" maxlength="20" [(ngModel)]="username" (input)="verifyUsername(username)"/>
         </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password1" placeholder="Password" required minlength="8" maxlength="24" [(ngModel)]="password1" />
+        <div class="form-group row">
+            <label class="col-form-label col-10 col-md-2 offset-md-3">Password</label>
+            <input class="form-control col-10 col-md-3 border-primary" type="password" name="password1" placeholder="Password" required minlength="8" maxlength="24" [(ngModel)]="password1" />
         </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password2" placeholder="Repeat Password" required minlength="8" maxlength="24" [(ngModel)]="password2" />
+        <div class="form-group row">
+            <label class="col-form-label col-10 col-md-2 offset-md-3">Password</label>
+            <input class="form-control col-10 col-md-3 border-primary" type="password" name="password2" placeholder="Repeat Password" required minlength="8" maxlength="24" [(ngModel)]="password2" />
         </div>
-        <div class="form-group">
-            <input type="submit" class="btn btn-primary" [disabled]="!regForm.valid || password1 !== password2 || usernameTaken" value="Sign up" />
+        <div class="form-group row">
+            <input type="submit" class="col-4 offset-3 col-md-2 offset-md-5 btn btn-primary" [disabled]="!regForm.valid || password1 !== password2 || usernameTaken" value="Sign up" />
         </div>
-        <p *ngIf="usernameTaken">Username already exist</p>
-        <p *ngIf="username && username.length < 3">Username too short</p>
-        <p *ngIf="username && username.length > 2 && ((password1 && password1.length < 8) || (password2 && password2.length < 8))">Password too short</p>
-        <p *ngIf="username && username.length > 2 && (password1 && password1.length > 7) && (password2 && password2.length > 7) && password1 !== password2">Repeat password not the same</p>
+        <div class="form-group row">
+            <div class="col-10 col-md-12">
+                <p class="text-danger" *ngIf="usernameTaken">Username already exist</p>
+                <p class="text-danger" *ngIf="username && username.length < 3">Username too short</p>
+                <p class="text-danger" *ngIf="username && username.length > 2 && ((password1 && password1.length < 8) || (password2 && password2.length < 8))">Password too short</p>
+                <p class="text-danger" *ngIf="username && username.length > 2 && (password1 && password1.length > 7) && (password2 && password2.length > 7) && password1 !== password2">Repeat password not the same</p>
+            </div>
+        </div>
     </form>
 </div>

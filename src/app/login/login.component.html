@@ -1,18 +1,25 @@
 <div class="container">
     <h1>Welcome! Please sign in</h1>
     <form #userForm="ngForm" (ngSubmit)="verifyUser(userForm.value)" novalidate>
-        <div class="form-group">
-            <label>Username</label>
-            <input type="text" name="username" placeholder="Username" required [(ngModel)]="username" />
+        <div class="form-group row">
+            <label class="col-form-label col-10 col-md-2 offset-md-3">Username</label>
+            <input class="form-control col-10 col-md-3 border-primary" type="text" name="username" placeholder="Username" required [(ngModel)]="username" />
         </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password" placeholder="Password" required [(ngModel)]="password" />
+        <div class="form-group row">
+            <label class="col-form-label col-10 col-md-2 offset-md-3">Password</label>
+            <input class="form-control col-10 col-md-3 border-primary" type="password" name="password" placeholder="Password" required [(ngModel)]="password" />
         </div>
-        <div class="form-group">
-            <input type="submit" class="btn btn-primary" [disabled]="!userForm.valid" value="Sign in" />
-            <button class="btn btn-primary" routerLink="/register">Sign up</button>   
+        <div class="form-group row">
+            <div class="col-12 col-md-4 offset-md-4">
+                <input type="submit" class="btn btn-primary" [disabled]="!userForm.valid" value="Sign in" />
+                <button class="btn btn-primary" routerLink="/register">Sign up</button>
+            </div> 
         </div>
-    </form>
+        <div class="form-group row">
+            <div class="col-10 col-md-12">
+                <p class="text-danger" *ngIf="loginFail">Incorrect username or password</p>
+            </div>
+        </div>
+    </form>  
 </div>
 
