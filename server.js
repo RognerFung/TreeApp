@@ -125,6 +125,21 @@ app.get("/api/checkLogin", function (req, res) {
     }
 });
 
+//Get users info from database, using session.username
+app.get("/api/getUsersInfo", function (req, res) {
+    if (req.session.username) {
+        model.find({ username: req.session.username }, { _id: false, password: false }, function(err,data) {
+            if (data.length > 0) {
+                res.send(data[0]);
+            } else {
+                res.send('false');
+            }
+        })
+    } else {
+        res.send('false');
+    }
+});
+
 //Get branches data
 app.get("/api/getBranches", function (req, res) {
     branchModel.find(

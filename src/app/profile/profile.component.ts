@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbDatepickerConfig, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 import { CommonService } from '../common.service';
-import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal, ModalDismissReasons, NgbActiveModal, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
+import * as COUNTRIES from '../userinfo.countries';
+import * as EDUCATIONS from '../userinfo.educations';
+import * as SEXES from '../userinfo.sexes';
 
 const now = new Date();
 
@@ -13,25 +16,17 @@ const now = new Date();
 })
 export class ProfileComponent implements OnInit {
 
-    id: string;
-    username: string;
-    password: string;
-    email: string;
-    firstname: string;
-    lastname: string;
-    birthday: any;
-    age: number;
-    sex: string;
-    education: string;
-    country: string;
-    state: string;
-    address: string;
-    aboutme: string;
+    user: object;
 
     model: NgbDateStruct;
     today: NgbDateStruct;
 
+    modalReference: NgbModalRef;
     closeResult: string;
+
+    countries: Array<string> = COUNTRIES.COUNTRIES;
+    sexes : Array<string> = SEXES.SEXES;
+    educations: Array<string> = EDUCATIONS.EDUCATIONS;
 
     constructor(
         private commonService: CommonService,
@@ -45,17 +40,34 @@ export class ProfileComponent implements OnInit {
   
 
     ngOnInit() {
-        this.checkLogin();
         this.selectToday();
+        this.getUsersInfo();
     }
 
-    checkLogin = function () {
-        this.commonService.checkLogin().subscribe(
+    getUsersInfo = function () {
+        this.commonService.getUsersInfo().subscribe(
             data => {
                 if (data) {
-                    this.username = data.data;
+                    console.log(data);
+                    this.user = data;
+                    if (this.user.birthday) {
+                        var year = this.user.birthday.year.toString();
+                        var month;
+                        var day;
+                        if (this.user.birthday.month < 10) {
+                            month = '0' + this.user.birthday.month.toString();
+                        } else {
+                            month = this.user.birthday.month.toString();
+                        }
+                        if (this.user.birthday.day < 10) {
+                            day = '0' + this.user.birthday.day.toString();
+                        } else {
+                            day = this.user.birthday.day.toString();
+                        }
+                        this.user.birthday = year + '-' + month + '-' + day;
+                    }
                 } else {
-                    this.username = 'guest';
+                    this.user = false;
                 }
             },
             error => this.errorMessage = error
@@ -67,7 +79,7 @@ export class ProfileComponent implements OnInit {
     }
 
     updateUser = function (user) {
-        user.username = this.username;
+        user.username = this.user.username;
         this.commonService.updateUser(user).subscribe(
             data => {
                 console.log(data);
@@ -77,7 +89,8 @@ export class ProfileComponent implements OnInit {
     }
 
     resetPassword = function(password) {
-        this.commonService.resetPassword({ username: this.username, password: password.password1 }).subscribe(
+        this.closeModal();
+        this.commonService.resetPassword({ username: this.user.username, password: password.password1 }).subscribe(
             data => {
                 console.log("reset successfully");
             },
@@ -86,13 +99,14 @@ export class ProfileComponent implements OnInit {
     }
 
     openModal(content) {
-        this.modalService.open(content).result.then((result) => {
+        this.modalReference = this.modalService.open(content);
+        this.modalReference.result.then((result) => {
             this.closeResult = `Closed with: ${result}`;
         }, (reason) => {
             this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
-        });
+        }); 
     }
-
+    
     private getDismissReason(reason: any): string {
         if (reason === ModalDismissReasons.ESC) {
             return 'by pressing ESC';
@@ -102,4 +116,9 @@ export class ProfileComponent implements OnInit {
             return  `with: ${reason}`;
         }
     }
+
+    closeModal() {
+        this.modalReference.close();
+    }
+
 }

@@ -52,6 +52,12 @@ export class CommonService {
         }).map((response: Response) => response.json());
     }
 
+    getUsersInfo() {
+        return this.http.get('http://localhost:3333/api/getUsersInfo/', {
+            withCredentials: true
+        }).map((response: Response) => response.json());
+    }
+
     signOut() {
         return this.http.get('http://localhost:3333/api/signOut', {
             withCredentials: true
