@@ -105,6 +105,23 @@ app.post("/api/verifyUser", function(req, res) {
     });
 });
 
+//Verify input password correct or wrong, if correct, user can reset password
+app.post("/api/verifyPassword", function(req, res) {
+    model.find({ username: req.body.username }, "password", function(err, data) {    
+        if (data.length > 0) {
+            bcrypt.compare(req.body.password, data[0].password, function(err, result) {
+                if (result) {
+                    res.send('true');
+                } else {
+                    res.send('false');
+                }
+            });
+        } else {
+            res.send('false');
+        }
+    });
+});
+
 //Verify username already exist in database or not
 app.post("/api/verifyUsername", function(req, res) {
     model.find({ username: req.body.username }, function(err, data) {

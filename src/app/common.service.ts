@@ -40,6 +40,12 @@ export class CommonService {
         }).map((response: Response) => response.json());
     }
 
+    verifyPassword(user){
+        return this.http.post('http://localhost:3333/api/verifyPassword/', user, {
+            withCredentials: true
+        }).map((response: Response) => response.json());
+    }
+
     resetPassword(password){
         return this.http.post('http://localhost:3333/api/resetPassword/', password, {
             withCredentials: true

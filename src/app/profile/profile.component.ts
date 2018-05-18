@@ -17,6 +17,11 @@ const now = new Date();
 export class ProfileComponent implements OnInit {
 
     user: object;
+    password: string = '';
+    passwordNotVerified: boolean = true;
+    password1: string;
+    password2: string;
+    warning: string;
 
     model: NgbDateStruct;
     today: NgbDateStruct;
@@ -88,17 +93,37 @@ export class ProfileComponent implements OnInit {
         )
     }
 
+    verifyPassword = function(password) {
+        this.commonService.verifyPassword({ username: this.user.username, password: password }).subscribe(
+            data => {
+                if (data) {
+                    this.passwordNotVerified = false;
+                    this.warning = undefined;
+                } else {
+                    this.warning = 'Password incorrect';
+                }
+            },
+            error => this.errorMessage = error
+        );
+    }
+
     resetPassword = function(password) {
         this.closeModal();
         this.commonService.resetPassword({ username: this.user.username, password: password.password1 }).subscribe(
             data => {
                 console.log("reset successfully");
+                this.passwordNotVerified = true;
             },
             error => this.errorMessage = error
-        )
+        );
     }
 
     openModal(content) {
+        //clear the password form every time open the modal
+        this.password = '';
+        this.warning = undefined;
+        this.password1 = '';
+        this.password2 = '';
         this.modalReference = this.modalService.open(content);
         this.modalReference.result.then((result) => {
             this.closeResult = `Closed with: ${result}`;

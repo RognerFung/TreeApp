@@ -8,17 +8,25 @@
     <div class="modal-body">
         <form #resetForm="ngForm" (ngSubmit)="resetPassword(resetForm.value)" novalidate>
             <div class="form-group row">
-                <label for="password" class="col-5 col-md-3 col-form-label">Password</label>
-                <input type="password" class="form-control col-5 col-md-8 border-primary" name="password1" placeholder="Password" required minlength="8" maxlength="24" [(ngModel)]="password1" />
-            </div>
-            <div class="form-group row">
-                <label for="password" class="col-5 col-md-3 col-form-label">Password</label>
-                <input type="password" class="form-control col-5 col-md-8 border-primary" name="password2" placeholder="Repeat Password" required minlength="8" maxlength="24" [(ngModel)]="password2" />
+                <label for="password" class="col-3 col-md-3 col-form-label">Password</label>
+                <input type="password" class="form-control col-5 col-md-8 border-primary" name="password" placeholder="Old Password" required minlength="8" maxlength="24" [(ngModel)]="password" />
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" [disabled]="!resetForm.valid || password1 !== password2 || usernameTaken" value="Reset" />
+                <button type="button" class="btn btn-primary" [disabled]="!password || password.length < 8" (click)="verifyPassword(password)">Verify</button>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-3 col-md-3 col-form-label">Password</label>
+                <input type="password" class="form-control col-5 col-md-8 border-primary" [disabled]="passwordNotVerified" name="password1" placeholder="Password" required minlength="8" maxlength="24" [(ngModel)]="password1" />
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-3 col-md-3 col-form-label">Password</label>
+                <input type="password" class="form-control col-5 col-md-8 border-primary" [disabled]="passwordNotVerified" name="password2" placeholder="Repeat Password" required minlength="8" maxlength="24" [(ngModel)]="password2" />
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" [disabled]="passwordNotVerified || !resetForm.valid || password1 !== password2" value="Reset" />
                 <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
             </div>
+            <p class="text-danger" *ngIf="warning">{{ warning }}</p>
             <p class="text-danger" *ngIf="(password1 && password1.length < 8) || (password2 && password2.length < 8)">Password too short</p>
             <p class="text-danger" *ngIf="(password1 && password1.length > 7) && (password2 && password2.length > 7) && password1 !== password2">Repeat password not the same</p>
         </form>
