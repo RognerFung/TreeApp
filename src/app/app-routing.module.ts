@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { IndexComponent } from './index/index.component';
 import { ProfileComponent } from './profile/profile.component';
+import { MapComponent } from './map/map.component';
+import { DrivingTestComponent } from './driving-test/driving-test.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'index', pathMatch: 'full' },
@@ -15,6 +17,8 @@ const routes: Routes = [
     { path: 'register', component: RegisterComponent },
     { path: 'login', component: LoginComponent },
     { path: 'profile', component: ProfileComponent },
+    { path: 'map', component: MapComponent },
+    { path: 'driving-test', component: DrivingTestComponent },
     { path: 'tree', component: TreeComponent },
     { path: 'tree/:branchId', component: BranchComponent },
     { path: 'tree/:branchId/:fruitId', component: FruitComponent },

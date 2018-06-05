@@ -53,7 +53,6 @@ export class ProfileComponent implements OnInit {
         this.commonService.getUsersInfo().subscribe(
             data => {
                 if (data) {
-                    console.log(data);
                     this.user = data;
                     if (this.user.birthday) {
                         var year = this.user.birthday.year.toString();
@@ -145,5 +144,4 @@ export class ProfileComponent implements OnInit {
     closeModal() {
         this.modalReference.close();
     }
-
 }

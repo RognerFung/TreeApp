@@ -1,0 +1,844 @@
+[
+    {
+        "No": "1",
+        "Name": "Managers",
+        "Sub": [
+            {
+                "No": "11",
+                "Name": "Chief executives, senior officials and legislators",
+                "Sub": [
+                    {
+                        "No": "111",
+                        "Name": "Legislators and senior officials"
+                    },
+                    {
+                        "No": "112",
+                        "Name": "Managing directors and chief executives"
+                    }
+                ]
+            },
+            {
+                "No": 12,
+                "Name": "Administrative and commercial managers",
+                "Sub": [
+                    {
+                        "No": 121,
+                        "Name": "Business services and administration managers"
+                    },
+                    {
+                        "No": 122,
+                        "Name": "Sales, marketing and development managers"
+                    }
+                ]
+            },
+            {
+                "No": 13,
+                "Name": "Production and specialized services managers",
+                "Sub": [
+                    {
+                        "No": 131,
+                        "Name": "Production managers in agriculture, forestry and fisheries"
+                    },
+                    {
+                        "No": 132,
+                        "Name": "Manufacturing, mining, construction, and distribution managers"
+                    },
+                    {
+                        "No": 133,
+                        "Name": "Information and communications technology service managers"
+                    },
+                    {
+                        "No": 134,
+                        "Name": "Professional services managers"
+                    }
+                ]
+            },
+            {
+                "No": 14,
+                "Name": "Hospitality, retail and other services managers",
+                "Sub": [
+                    {
+                        "No": 141,
+                        "Name": "Hotel and restaurant managers"
+                    },
+                    {
+                        "No": 142,
+                        "Name": "Retail and wholesale trade managers"
+                    },
+                    {
+                        "No": 143,
+                        "Name": "Other services managers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": 2,
+        "Name": "Professionals",
+        "Sub": [
+            {
+                "No": 21,
+                "Name": "Science and engineering professionals",
+                "Sub": [
+                    {
+                        "No": 211,
+                        "Name": "Physical and earth science professionals"
+                    },
+                    {
+                        "No": 212,
+                        "Name": "Mathematicians, actuaries and statisticians"
+                    },
+                    {
+                        "No": 213,
+                        "Name": "Life science professionals"
+                    },
+                    {
+                        "No": 214,
+                        "Name": "Engineering professionals (excluding electrotechnology)"
+                    },
+                    {
+                        "No": 215,
+                        "Name": "Electrotechnology engineers"
+                    },
+                    {
+                        "No": 216,
+                        "Name": "Architects, planners, surveyors and designers"
+                    }
+                ]
+            },
+            {    
+                "No": 22,
+                "Name": "Health professionals",
+                "Sub": [
+                    {
+                    "No": 221,
+                    "Name": "Medical doctors"
+                    },
+                    {
+                    "No": 222,
+                    "Name": "Nursing and midwifery professionals"
+                    },
+                    {
+                    "No": 223,
+                    "Name": "Traditional and complementary medicine professionals"
+                    },
+                    {
+                    "No": 224,
+                    "Name": "Paramedical practitioners"
+                    },
+                    {
+                    "No": 225,
+                    "Name": "Veterinarians"
+                    },
+                    {
+                    "No": 226,
+                    "Name": "Other health professionals"
+                    },
+                    {
+                        "No": 227,
+                        "Name": "Medical Assistant professionals"
+                    }
+                ]
+            },
+            {
+                "No": 23,
+                "Name": "Teaching professionals",
+                "Sub": [
+                    {
+                    "No": 231,
+                    "Name": "University and higher education teachers"
+                    },
+                    {
+                    "No": 232,
+                    "Name": "Vocational education teachers"
+                    },
+                    {
+                    "No": 233,
+                    "Name": "Secondary education teachers"
+                    },
+                    {
+                    "No": 234,
+                    "Name": "Primary school and early childhood teachers"
+                    },
+                    {
+                        "No": 235,
+                        "Name": "Other teaching professionals"
+                    }
+                ]
+            },
+            {
+                "No": 24,
+                "Name": "Business and administration professionals",
+                "Sub": [
+                    {
+                        "No": 241,
+                        "Name": "Finance professionals"
+                    },
+                    {
+                        "No": 242,
+                        "Name": "Administration professionals"
+                    },
+                    {
+                        "No": 243,
+                        "Name": "Sales, marketing and public relations professionals"
+                    }
+                ]
+            },
+            {
+                "No": 25,
+                "Name": "Information and communications technology professionals",
+                "Sub": [
+                    {
+                        "No": 251,
+                        "Name": "Software and applications developers and analysts"
+                    },
+                    {
+                        "No": 252,
+                        "Name": "Database and network professionals"
+                    }
+                ]
+            },
+            {
+                "No": 26,
+                "Name": "Legal, social and cultural professionals",
+                "Sub": [
+                    {
+                        "No": 261,
+                        "Name": "Legal professionals"
+                    },
+                    {
+                        "No": 262,
+                        "Name": "Librarians, archivists and curators"
+                    },
+                    {
+                        "No": 263,
+                        "Name": "Social and religious professionals"
+                    },
+                    {
+                        "No": 264,
+                        "Name": "Authors, journalists and linguists"
+                    },
+                    {
+                        "No": 265,
+                        "Name": "Creative and performing artists"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": 3,
+        "Name": "Technicians and associate professionals",
+        "Sub": [
+            {
+                "No": 31,
+                "Name": "Science and engineering associate professionals",
+                "Sub": [
+                    {
+                        "No": 311,
+                        "Name": "Physical and engineering science technicians"
+                    },
+                    {
+                        "No": 312,
+                        "Name": "Mining, manufacturing and construction supervisors"
+                    },
+                    {
+                        "No": 313,
+                        "Name": "Process control technicians"
+                    },
+                    {
+                        "No": 314,
+                        "Name": "Life science technicians and related associate professionals"
+                    },
+                    {
+                        "No": 315,
+                        "Name": "Ship and aircraft controllers and technicians"
+                    }
+                ]
+            },
+            {
+                "No": 32,
+                "Name": "Health associate professionals",
+                "Sub": [
+                    {
+                        "No": 321,
+                        "Name": "Medical and pharmaceutical technicians"
+                    },
+                    {
+                        "No": 322,
+                        "Name": "Nursing and midwifery associate professionals"
+                    },
+                    {
+                        "No": 323,
+                        "Name": "Traditional and complementary medicine associate professionals"
+                    },
+                    {
+                        "No": 324,
+                        "Name": "Veterinary technicians and assistants"
+                    },
+                    {
+                        "No": 325,
+                        "Name": "Other health associate professionals"
+                    }
+                ]
+            },
+            {
+                "No": 33,
+                "Name": "Business and administration associate professionals",
+                "Sub": [
+                    {
+                        "No": 331,
+                        "Name": "Financial and mathematical associate professionals"
+                    },
+                    {
+                        "No": 332,
+                        "Name": "Sales and purchasing agents and brokers"
+                    },
+                    {
+                        "No": 333,
+                        "Name": "Business services agents"
+                    },
+                    {
+                        "No": 334,
+                        "Name": "Administrative and specialized secretaries"
+                    },
+                    {
+                        "No": 335,
+                        "Name": "Regulatory government associate professionals"
+                    }
+                ]
+            },
+            {
+                "No": 34,
+                "Name": "Legal, social, cultural and related associate professionals",
+                "Sub": [
+                    {
+                        "No": 341,
+                        "Name": "Legal, social and religious associate professionals"
+                    },
+                    {
+                        "No": 342,
+                        "Name": "Sports and fitness workers"
+                    },
+                    {
+                        "No": 343,
+                        "Name": "Artistic, cultural and culinary associate professionals"
+                    }
+                ]
+            },
+            {
+                "No": 35,
+                "Name": "Information and communications technicians",
+                "Sub": [
+                    {
+                        "No": 351,
+                        "Name": "Information and communications technology operations and user support technicians"
+                    },
+                    {
+                        "No": 352,
+                        "Name": "Telecommunications and broadcasting technicians"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": 4,
+        "Name": "Clerical support workers",
+        "Sub": [
+            {
+                "No": 41,
+                "Name": "General and keyboard clerks",
+                "Sub": [
+                    {
+                        "No": 411,
+                        "Name": "General office clerks"
+                    },
+                    {
+                        "No": 412,
+                        "Name": "Secretaries (general)"
+                    },
+                    {
+                        "No": 413,
+                        "Name": "Keyboard operators"
+                    }
+                ]
+            },
+            {
+                "No": 42,
+                "Name": "Customer services clerks",
+                "Sub": [
+                    {
+                        "No": 421,
+                        "Name": "Tellers, money collectors and related clerks"
+                    },
+                    {
+                        "No": 422,
+                        "Name": "Client information workers"
+                    }
+                ]
+            },
+            {
+                "No": 43,
+                "Name": "Numerical and material recording clerks",
+                "Sub": [
+                    {
+                        "No": 431,
+                        "Name": "Numerical clerks"
+                    },
+                    {
+                        "No": 432,
+                        "Name": "Material-recording and transport clerks"
+                    }
+                ]
+            },
+            {
+                "No": 44,
+                "Name": "Other clerical support workers",
+                "Sub": [
+                    {
+                        "No": 441,
+                        "Name": "Other clerical support workers"
+                    }
+                ]
+            }
+        ]
+    },
+    { 
+        "No": 5,
+        "Name": "Service and sales workers",
+        "Sub": [
+            {
+                "No": 51,
+                "Name": "Personal service workers",
+                "Sub": [
+                    {
+                        "No": 511,
+                        "Name": "Travel attendants, conductors and guides"
+                    },
+                    {
+                        "No": 512,
+                        "Name": "Cooks"
+                    },
+                    {
+                        "No": 513,
+                        "Name": "Waiters and bartenders"
+                    },
+                    {
+                        "No": 514,
+                        "Name": "Hairdressers, beauticians and related workers"
+                    },
+                    {
+                        "No": 515,
+                        "Name": "Building and housekeeping supervisors"
+                    },
+                    {
+                        "No": 516,
+                        "Name": "Other personal services workers"
+                    }
+                ]
+            },
+            {
+                "No": 52,
+                "Name": "Sales workers",
+                "Sub": [
+                    {
+                        "No": 521,
+                        "Name": "Street and market salespersons"
+                    },
+                    {
+                        "No": 522,
+                        "Name": "Shop salespersons"
+                    },
+                    {
+                        "No": 523,
+                        "Name": "Cashiers and ticket clerks"
+                    },
+                    {
+                        "No": 524,
+                        "Name": "Other sales workers"
+                    }
+                ]
+            },
+            {
+                "No": 53,
+                "Name": "Personal care workers",
+                "Sub": [
+                    {
+                        "No": 531,
+                        "Name": "Child care workers and teachers' aides"
+                    },
+                    {
+                        "No": 532,
+                        "Name": "Personal care workers in health services"
+                    }
+                ]
+            },
+            {
+                "No": 54,
+                "Name": "Protective services workers",
+                "Sub": [
+                    {
+                        "No": 541,
+                        "Name": "Protective services workers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": 6,
+        "Name": "Skilled agricultural, forestry and fishery workers",
+        "Sub": [
+            {
+                "No": 61,
+                "Name": "Market-oriented skilled agricultural workers",
+                "Sub": [
+                    {
+                        "No": 611,
+                        "Name": "Market gardeners and crop growers"
+                    },
+                    {
+                        "No": 612,
+                        "Name": "Animal producers"
+                    },
+                    {
+                        "No": 613,
+                        "Name": "Mixed crop and animal producers"
+                    }
+                ]
+            },
+            {
+                "No": 62,
+                "Name": "Market-oriented skilled forestry, fishery and hunting workers",
+                "Sub": [
+                    {
+                        "No": 621,
+                        "Name": "Forestry and related workers"
+                    },
+                    {
+                        "No": 622,
+                        "Name": "Fishery workers, hunters and trappers"
+                    }
+                ]
+            },
+            {
+                "No": 63,
+                "Name": "Subsistence farmers, fishers, hunters and gatherers",
+                "Sub": [
+                    {
+                        "No": 631,
+                        "Name": "Subsistence crop farmers"
+                    },
+                    {
+                        "No": 632,
+                        "Name": "Subsistence livestock farmers"
+                    },
+                    {
+                        "No": 633,
+                        "Name": "Subsistence mixed crop and livestock farmers"
+                    },
+                    {
+                        "No": 634,
+                        "Name": "Subsistence fishers, hunters, trappers and gatherers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": 7,
+        "Name": "Craft and related trades workers",
+        "Sub": [
+            {
+                "No": 71,
+                "Name": "Building and related trades workers, excluding electricians",
+                "Sub": [
+                    {
+                        "No": 711,
+                        "Name": "Building frame and related trades workers"
+                    },
+                    {
+                        "No": 712,
+                        "Name": "Building finishers and related trades workers"
+                    },
+                    {
+                        "No": 713,
+                        "Name": "Painters, building structure cleaners and related trades workers"
+                    }
+                ]
+            },
+            {
+                "No": 72,
+                "Name": "Metal, machinery and related trades workers",
+                "Sub": [
+                    {
+                        "No": 721,
+                        "Name": "Sheet and structural metal workers, moulders and welders, and related workers"
+                    },
+                    {
+                        "No": 722,
+                        "Name": "Blacksmiths, toolmakers and related trades workers"
+                    },
+                    {
+                        "No": 723,
+                        "Name": "Machinery mechanics and repairers"
+                    }
+                ]
+            },
+            {
+                "No": 73,
+                "Name": "Handicraft and printing workers",
+                "Sub": [
+                    {
+                        "No": 731,
+                        "Name": "Handicraft workers"
+                    },
+                    {
+                        "No": 732,
+                        "Name": "Printing trades workers"
+                    }
+                ]
+            },
+            {
+                "No": 74,
+                "Name": "Electrical and electronic trades workers",
+                "Sub": [
+                    {
+                        "No": 741,
+                        "Name": "Electrical equipment installers and repairers"
+                    },
+                    {
+                        "No": 742,
+                        "Name": "Electronics and telecommunications installers and repairers"
+                    }
+                ]
+            },
+            {
+                "No": 75,
+                "Name": "Food processing, wood working, garment and other craft and related trades workers",
+                "Sub": [
+                    {
+                        "No": 751,
+                        "Name": "Food processing and related trades workers"
+                    },
+                    {
+                        "No": 752,
+                        "Name": "Wood treaters, cabinet-makers and related trades workers"
+                    },
+                    {
+                        "No": 753,
+                        "Name": "Garment and related trades workers"
+                    },
+                    {
+                        "No": 754,
+                        "Name": "Other craft and related workers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": 8,
+        "Name": "Plant and machine operators and assemblers",
+        "Sub": [
+            {
+                "No": 81,
+                "Name": "Stationary plant and machine operators",
+                "Sub": [
+                    {
+                        "No": 811,
+                        "Name": "Mining and mineral processing plant operators"
+                    },
+                    {
+                        "No": 812,
+                        "Name": "Metal processing and finishing plant operators"
+                    },
+                    {
+                        "No": 813,
+                        "Name": "Chemical and photographic products plant and machine operators"
+                    },
+                    {
+                        "No": 814,
+                        "Name": "Rubber, plastic and paper products machine operators"
+                    },
+                    {
+                        "No": 815,
+                        "Name": "Textile, fur and leather products machine operators"
+                    },
+                    {
+                        "No": 816,
+                        "Name": "Food and related products machine operators"
+                    },
+                    {
+                        "No": 817,
+                        "Name": "Wood processing and papermaking plant operators"
+                    },
+                    {
+                        "No": 818,
+                        "Name": "Other stationary plant and machine operators"
+                    }
+                ]
+            },
+            {
+                "No": 82,
+                "Name": "Assemblers",
+                "Sub": [
+                    {
+                        "No": 821,
+                        "Name": "Assemblers"
+                    }
+                ]
+            },
+            {
+                "No": 83,
+                "Name": "Drivers and mobile plant operators",
+                "Sub": [
+                    {
+                        "No": 831,
+                        "Name": "Locomotive engine drivers and related workers"
+                    },
+                    {
+                        "No": 832,
+                        "Name": "Car, van and motorcycle drivers"
+                    },
+                    {
+                        "No": 833,
+                        "Name": "Heavy truck and bus drivers"
+                    },
+                    {
+                        "No": 834,
+                        "Name": "Mobile plant operators"
+                    },
+                    {
+                        "No": 835,
+                        "Name": "Ships' deck crews and related workers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": 9,
+        "Name": "Elementary occupations",
+        "Sub": [
+            {
+                "No": 91,
+                "Name": "Cleaners and helpers",
+                "Sub": [
+                    {
+                        "No": 911,
+                        "Name": "Domestic, hotel and office cleaners and helpers"
+                    },
+                    {
+                        "No": 912,
+                        "Name": "Vehicle, window, laundry and other hand cleaning workers"
+                    }
+                ]
+            },
+            {
+                "No": 92,
+                "Name": "Agricultural, forestry and fishery labourers",
+                "Sub": [
+                    {
+                        "No": 921,
+                        "Name": "Agricultural, forestry and fishery labourers"
+                    }
+                ]
+            },
+            {
+                "No": 93,
+                "Name": "Labourers in mining, construction, manufacturing and transport",
+                "Sub": [
+                    {
+                        "No": 931,
+                        "Name": "Mining and construction labourers"
+                    },
+                    {
+                        "No": 932,
+                        "Name": "Manufacturing labourers"
+                    },
+                    {
+                        "No": 933,
+                        "Name": "Transport and storage labourers"
+                    }
+                ]
+            },
+            {
+                "No": 94,
+                "Name": "Food preparation assistants",
+                "Sub": [
+                    {
+                        "No": 941,
+                        "Name": "Food preparation assistants"
+                    }
+                ]
+            },
+            {
+                "No": 95,
+                "Name": "Street and related sales and service workers",
+                "Sub": [
+                    {
+                        "No": 951,
+                        "Name": "Street and related service workers"
+                    },
+                    {
+                        "No": 952,
+                        "Name": "Street vendors (excluding food)"
+                    }
+                ]
+            },
+            {
+                "No": 96,
+                "Name": "Refuse workers and other elementary workers",
+                "Sub": [
+                    {
+                        "No": 961,
+                        "Name": "Refuse workers"
+                    },
+                    {
+                        "No": 962,
+                        "Name": "Other elementary workers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": "0",
+        "Name": "Armed forces occupations",
+        "Sub": [
+            {
+                "No": "01",
+                "Name": "Commissioned armed forces officers",
+                "Sub": [
+                    {
+                        "No": "011",
+                        "Name": "Commissioned armed forces officers"
+                    }
+                ]
+            },
+            {
+                "No": "02",
+                "Name": "Non-commissioned armed forces officers",
+                "Sub": [
+                    {
+                        "No": "021",
+                        "Name": "Non-commissioned armed forces officers"
+                    }
+                ]
+            },
+            {
+                "No": "03",
+                "Name": "Armed forces occupations, other ranks",
+                "Sub": [
+                    {
+                        "No": "031",
+                        "Name": "Armed forces occupations, other ranks"
+                    } 
+                ]
+            }
+        ]
+    }
+]

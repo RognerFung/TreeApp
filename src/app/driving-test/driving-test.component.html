@@ -1,0 +1,21 @@
+<div class="stats">
+    <p>Total Questions: {{ totalCount }}</p>
+    <p>Questions Done: {{ doneCount }}</p>
+    <p>Right Answers: {{ rightCount }}</p>
+    <p>正确率: {{ rightCount / doneCount * 100}}%</p>
+</div>
+<div class="container">
+    <div *ngFor="let question of questions" class="row">
+        <div class="col-9">
+            <h3>{{ questions.indexOf(question) + 1 }}. {{ question.question }}</h3>
+            <p class="bg-light" (click)="select(question.answers[0], question)" [ngClass]="{active: isActive(question.answers[0])}">A: {{ question.answers[0] }}</p>
+            <p class="bg-light" (click)="select(question.answers[1], question)" [ngClass]="{active: isActive(question.answers[1])}">B: {{ question.answers[1] }}</p>
+            <p class="bg-light" (click)="select(question.answers[2], question)" [ngClass]="{active: isActive(question.answers[2])}">C: {{ question.answers[2] }}</p>
+            <p *ngIf="!isActive(question.right) && ( isActive(question.answers[0]) || isActive(question.answers[1]) || isActive(question.answers[2]) )" class="bg-warning text-light">Answer: {{ question.right }}</p>
+            <p *ngIf="isActive(question.right)" class="bg-success text-light">Correct!!!</p>
+        </div>
+        <div class="col-3">
+            <img *ngIf="question.pic.length > 0" src="assets/drive/{{question.pic}}" width="200px" height="200px"/>
+        </div>
+    </div>
+</div>

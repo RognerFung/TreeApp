@@ -23,6 +23,8 @@ import { FooterComponent } from './footer/footer.component';
 import { IndexComponent } from './index/index.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MessageService } from './message.service';
+import { MapComponent } from './map/map.component';
+import { DrivingTestComponent } from './driving-test/driving-test.component';
 
 @NgModule({
     declarations: [
@@ -39,7 +41,9 @@ import { MessageService } from './message.service';
         JumbotronComponent,
         FooterComponent,
         IndexComponent,
-        ProfileComponent
+        ProfileComponent,
+        MapComponent,
+        DrivingTestComponent
     ],
     imports: [
         BrowserModule,

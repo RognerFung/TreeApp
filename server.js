@@ -52,7 +52,9 @@ var UsersSchema = new Schema({
     state: String,
     address: String,
     aboutme: String  
-}, { versionKey: false });
+}, {
+    versionKey: false
+});
 
 var BranchesSchema = new Schema({
     id: String,
@@ -61,10 +63,21 @@ var BranchesSchema = new Schema({
     next: Array,
     previous: Array,
     description: String
-}, { versionKey: false });
+}, {
+    versionKey: false
+});
+
+var CareersSchema = new Schema({
+    No: String,
+    Name: String,
+    Sub: Array
+}, {
+    versionKey: false
+});
 
 var model = mongo.model('users', UsersSchema, 'users');
 var branchModel = mongo.model('branches', BranchesSchema, 'branches');
+var careerModel = mongo.model('careers', CareersSchema, 'careers');
 
 //Register user, save username and password (in hash) in database
 app.post("/api/regUser", function(req, res) {
@@ -197,7 +210,7 @@ app.post("/api/updateUser", function (req, res) {
                     if (req.body.address) user.address = req.body.address;
                     if (req.body.aboutme) user.aboutme = req.body.aboutme;
                     user.save(function(er, data2) {
-                        if(err){
+                        if(er){
                             res.send(er);
                         } else {
                             res.send({ data2: "Update Successfully" });
@@ -237,6 +250,46 @@ app.post("/api/resetPassword", function(req, res) {
             });
         }
     });
+});
+
+//Insert, delete, update and select careers in database
+app.post("/api/modifyCareer", function(req, res) {
+    if (req.body.order === "insert") {
+        careerModel.insertMany(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "delete") {
+        careerModel.deleteMany(req.body.data, function(error) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send("deleted");
+            }
+        });
+    } else if (req.body.order === "update") {
+        careerModel.update(req.body.data, req.body.new, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "select") {
+        careerModel.find(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        })
+    } else {
+        console.log("receive false");
+    }
+    
 });
 
 app.listen(3333, function () {

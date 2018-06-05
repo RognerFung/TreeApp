@@ -69,4 +69,10 @@ export class CommonService {
             withCredentials: true
         }).map((response: Response) => response.json());
     }
+
+    modifyCareer(data) {
+        return this.http.post('http://localhost:3333/api/modifyCareer/', data, {
+            withCredentials: true
+        }).map((response: Response) => response.json());
+    }
 }  
