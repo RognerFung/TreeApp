@@ -2,72 +2,88 @@
     {
         "No": "1",
         "Name": "Managers",
+        "CName": "管理人员",
         "Sub": [
             {
                 "No": "11",
                 "Name": "Chief executives, senior officials and legislators",
+                "CName": "首席执行官, 高级官员与议员",
                 "Sub": [
                     {
                         "No": "111",
-                        "Name": "Legislators and senior officials"
+                        "Name": "Legislators and senior officials",
+                        "CName": "议员或高官"
                     },
                     {
                         "No": "112",
-                        "Name": "Managing directors and chief executives"
+                        "Name": "Managing directors and chief executives",
+                        "CName": "常务董事或首度执行官"
                     }
                 ]
             },
             {
                 "No": 12,
                 "Name": "Administrative and commercial managers",
+                "CName": "行政或商业经理",
                 "Sub": [
                     {
                         "No": 121,
-                        "Name": "Business services and administration managers"
+                        "Name": "Business services and administration managers",
+                        "CName": "商业或行政经理"
                     },
                     {
                         "No": 122,
-                        "Name": "Sales, marketing and development managers"
+                        "Name": "Sales, marketing and development managers",
+                        "CName": "销售, 营销或开发经理"
                     }
                 ]
             },
             {
                 "No": 13,
                 "Name": "Production and specialized services managers",
+                "CName": "产品或专业服务经理",
                 "Sub": [
                     {
                         "No": 131,
-                        "Name": "Production managers in agriculture, forestry and fisheries"
+                        "Name": "Production managers in agriculture, forestry and fisheries",
+                        "CName": "农林渔业产品经理"
                     },
                     {
                         "No": 132,
-                        "Name": "Manufacturing, mining, construction, and distribution managers"
+                        "Name": "Manufacturing, mining, construction, and distribution managers",
+                        "CName": "制造, 采矿, 建筑或分销经理"
                     },
                     {
                         "No": 133,
-                        "Name": "Information and communications technology service managers"
+                        "Name": "Information and communications technology service managers",
+                        "CName": "信息和通信技术服务经理"
                     },
                     {
                         "No": 134,
-                        "Name": "Professional services managers"
+                        "Name": "Professional services managers",
+                        "CName": "专业服务经理"
                     }
                 ]
             },
             {
                 "No": 14,
                 "Name": "Hospitality, retail and other services managers",
+                "CName": "招待, 零售或其它服务经理",
                 "Sub": [
                     {
                         "No": 141,
-                        "Name": "Hotel and restaurant managers"
+                        "Name": "Hotel and restaurant managers",
+                        "CName": "酒店或餐厅经理"
                     },
                     {
                         "No": 142,
-                        "Name": "Retail and wholesale trade managers"
+                        "Name": "Retail and wholesale trade managers",
+                        "CName": "零售或批发贸易经理"
                     },
                     {
                         "No": 143,
-                        "Name": "Other services managers"
+                        "Name": "Other services managers",
+                        "CName": "其它服务业经理"
                     }
                 ]
             }
@@ -76,152 +92,187 @@
     {
         "No": 2,
         "Name": "Professionals",
+        "CName": "行业专家",
         "Sub": [
             {
                 "No": 21,
                 "Name": "Science and engineering professionals",
+                "CName": "科学或工程专家",
                 "Sub": [
                     {
                         "No": 211,
-                        "Name": "Physical and earth science professionals"
+                        "Name": "Physical and earth science professionals",
+                        "CName": "物理或地球科学专家"
                     },
                     {
                         "No": 212,
-                        "Name": "Mathematicians, actuaries and statisticians"
+                        "Name": "Mathematicians, actuaries and statisticians",
+                        "CName": "数学家, 精算师或统计学家"
                     },
                     {
                         "No": 213,
-                        "Name": "Life science professionals"
+                        "Name": "Life science professionals",
+                        "CName": "生命科学专家"
                     },
                     {
                         "No": 214,
-                        "Name": "Engineering professionals (excluding electrotechnology)"
+                        "Name": "Engineering professionals (excluding electrotechnology)",
+                        "CName": "工程专家(不包括电气电子工程)"
                     },
                     {
                         "No": 215,
-                        "Name": "Electrotechnology engineers"
+                        "Name": "Electrotechnology engineers",
+                        "CName": "电气电子工程师"
                     },
                     {
                         "No": 216,
-                        "Name": "Architects, planners, surveyors and designers"
+                        "Name": "Architects, planners, surveyors and designers",
+                        "CName": "建筑师, 规划师, 测量师或设计师"
                     }
                 ]
             },
             {    
                 "No": 22,
                 "Name": "Health professionals",
+                "CName": "医疗专家",
                 "Sub": [
                     {
-                    "No": 221,
-                    "Name": "Medical doctors"
+                        "No": 221,
+                        "Name": "Medical doctors",
+                        "CName": "医生"
                     },
                     {
-                    "No": 222,
-                    "Name": "Nursing and midwifery professionals"
+                        "No": 222,
+                        "Name": "Nursing and midwifery professionals",
+                        "CName": "护士和助产专家"
                     },
                     {
-                    "No": 223,
-                    "Name": "Traditional and complementary medicine professionals"
+                        "No": 223,
+                        "Name": "Traditional and complementary medicine professionals",
+                        "CName": "传统和补充医学专家"
                     },
                     {
-                    "No": 224,
-                    "Name": "Paramedical practitioners"
+                        "No": 224,
+                        "Name": "Paramedical practitioners",
+                        "CName": "辅助医生"
                     },
                     {
-                    "No": 225,
-                    "Name": "Veterinarians"
+                        "No": 225,
+                        "Name": "Veterinarians",
+                        "CName": "兽医"
                     },
                     {
-                    "No": 226,
-                    "Name": "Other health professionals"
+                        "No": 226,
+                        "Name": "Other health professionals",
+                        "CName": "其它医疗专家"
                     },
                     {
                         "No": 227,
-                        "Name": "Medical Assistant professionals"
+                        "Name": "Medical Assistant professionals",
+                        "CName": "医疗助理人员"
                     }
                 ]
             },
             {
                 "No": 23,
                 "Name": "Teaching professionals",
+                "CName": "教育专家",
                 "Sub": [
                     {
-                    "No": 231,
-                    "Name": "University and higher education teachers"
+                        "No": 231,
+                        "Name": "University and higher education teachers",
+                        "CName": "大学及高等教育教师"
                     },
                     {
-                    "No": 232,
-                    "Name": "Vocational education teachers"
+                        "No": 232,
+                        "Name": "Vocational education teachers",
+                        "CName": "职业教育教师"
                     },
                     {
-                    "No": 233,
-                    "Name": "Secondary education teachers"
+                        "No": 233,
+                        "Name": "Secondary education teachers",
+                        "CName": "中学教育教师"
                     },
                     {
-                    "No": 234,
-                    "Name": "Primary school and early childhood teachers"
+                        "No": 234,
+                        "Name": "Primary school and early childhood teachers",
+                        "CName": "小学及学前教育教师"
                     },
                     {
                         "No": 235,
-                        "Name": "Other teaching professionals"
+                        "Name": "Other teaching professionals",
+                        "CName": "其它教学专家"
                     }
                 ]
             },
             {
                 "No": 24,
                 "Name": "Business and administration professionals",
+                "CName": "商业或行政专家",
                 "Sub": [
                     {
                         "No": 241,
-                        "Name": "Finance professionals"
+                        "Name": "Finance professionals",
+                        "CName": "金融专家"
                     },
                     {
                         "No": 242,
-                        "Name": "Administration professionals"
+                        "Name": "Administration professionals",
+                        "CName": "行政专家"
                     },
                     {
                         "No": 243,
-                        "Name": "Sales, marketing and public relations professionals"
+                        "Name": "Sales, marketing and public relations professionals",
+                        "CName": "销售, 营销及公关专家"
                     }
                 ]
             },
             {
                 "No": 25,
                 "Name": "Information and communications technology professionals",
+                "CName": "信息或通信技术专家",
                 "Sub": [
                     {
                         "No": 251,
-                        "Name": "Software and applications developers and analysts"
+                        "Name": "Software and applications developers and analysts",
+                        "CName": "软件应用开发者和分析师"
                     },
                     {
                         "No": 252,
-                        "Name": "Database and network professionals"
+                        "Name": "Database and network professionals",
+                        "CName": "数据库和网络专家"
                     }
                 ]
             },
             {
                 "No": 26,
                 "Name": "Legal, social and cultural professionals",
+                "CName": "法律, 社会或文化专家",
                 "Sub": [
                     {
                         "No": 261,
-                        "Name": "Legal professionals"
+                        "Name": "Legal professionals",
+                        "CName": "法律专家"
                     },
                     {
                         "No": 262,
-                        "Name": "Librarians, archivists and curators"
+                        "Name": "Librarians, archivists and curators",
+                        "CName": "图书管理员, 档案管理员和馆长"
                     },
                     {
                         "No": 263,
-                        "Name": "Social and religious professionals"
+                        "Name": "Social and religious professionals",
+                        "CName": "社会和宗教专家"
                     },
                     {
                         "No": 264,
-                        "Name": "Authors, journalists and linguists"
+                        "Name": "Authors, journalists and linguists",
+                        "CName": "作家, 记者或语言学家"
                     },
                     {
                         "No": 265,
-                        "Name": "Creative and performing artists"
+                        "Name": "Creative and performing artists",
+                        "CName": "创意和表演艺术家"
                     }
                 ]
             }
@@ -230,114 +281,140 @@
     {
         "No": 3,
         "Name": "Technicians and associate professionals",
+        "CName": "专业技术人员",
         "Sub": [
             {
                 "No": 31,
                 "Name": "Science and engineering associate professionals",
+                "CName": "科学或工程专业人员",
                 "Sub": [
                     {
                         "No": 311,
-                        "Name": "Physical and engineering science technicians"
+                        "Name": "Physical and engineering science technicians",
+                        "CName": "物理或工程科学专业人员"
                     },
                     {
                         "No": 312,
-                        "Name": "Mining, manufacturing and construction supervisors"
+                        "Name": "Mining, manufacturing and construction supervisors",
+                        "CName": "采矿, 制造或建筑业监事"
                     },
                     {
                         "No": 313,
-                        "Name": "Process control technicians"
+                        "Name": "Process control technicians",
+                        "CName": "过程控制专业人员"
                     },
                     {
                         "No": 314,
-                        "Name": "Life science technicians and related associate professionals"
+                        "Name": "Life science technicians and related associate professionals",
+                        "CName": "生命科学及相关专业人员"
                     },
                     {
                         "No": 315,
-                        "Name": "Ship and aircraft controllers and technicians"
+                        "Name": "Ship and aircraft controllers and technicians",
+                        "CName": "船舶, 飞机驾驶员及专业人员"
                     }
                 ]
             },
             {
                 "No": 32,
                 "Name": "Health associate professionals",
+                "CName": "医疗专业人员",
                 "Sub": [
                     {
                         "No": 321,
-                        "Name": "Medical and pharmaceutical technicians"
+                        "Name": "Medical and pharmaceutical technicians",
+                        "CName": "医药专业人员"
                     },
                     {
                         "No": 322,
-                        "Name": "Nursing and midwifery associate professionals"
+                        "Name": "Nursing and midwifery associate professionals",
+                        "CName": "护理或助产专业人员"
                     },
                     {
                         "No": 323,
-                        "Name": "Traditional and complementary medicine associate professionals"
+                        "Name": "Traditional and complementary medicine associate professionals",
+                        "CName": "传统或补充医学专业人员"
                     },
                     {
                         "No": 324,
-                        "Name": "Veterinary technicians and assistants"
+                        "Name": "Veterinary technicians and assistants",
+                        "CName": "兽医技术人员或助手"
                     },
                     {
                         "No": 325,
-                        "Name": "Other health associate professionals"
+                        "Name": "Other health associate professionals",
+                        "CName": "其它医疗专业人员"
                     }
                 ]
             },
             {
                 "No": 33,
                 "Name": "Business and administration associate professionals",
+                "CName": "商业或行政专业人员",
                 "Sub": [
                     {
                         "No": 331,
-                        "Name": "Financial and mathematical associate professionals"
+                        "Name": "Financial and mathematical associate professionals",
+                        "CName": "金融或数学专业人员"
                     },
                     {
                         "No": 332,
-                        "Name": "Sales and purchasing agents and brokers"
+                        "Name": "Sales and purchasing agents and brokers",
+                        "CName": "销售和采购代理商和经纪商"
                     },
                     {
                         "No": 333,
-                        "Name": "Business services agents"
+                        "Name": "Business services agents",
+                        "CName": "业务服务代理"
                     },
                     {
                         "No": 334,
-                        "Name": "Administrative and specialized secretaries"
+                        "Name": "Administrative and specialized secretaries",
+                        "CName": "行政和专业秘书"
                     },
                     {
                         "No": 335,
-                        "Name": "Regulatory government associate professionals"
+                        "Name": "Regulatory government associate professionals",
+                        "CName": "监管机构专业人员"
                     }
                 ]
             },
             {
                 "No": 34,
                 "Name": "Legal, social, cultural and related associate professionals",
+                "CName": "法律, 社会, 文化及相关专业人员",
                 "Sub": [
                     {
                         "No": 341,
-                        "Name": "Legal, social and religious associate professionals"
+                        "Name": "Legal, social and religious associate professionals",
+                        "CName": "法律, 社会和宗教专业人员"
                     },
                     {
                         "No": 342,
-                        "Name": "Sports and fitness workers"
+                        "Name": "Sports and fitness workers",
+                        "CName": "体育和健身工作者"
                     },
                     {
                         "No": 343,
-                        "Name": "Artistic, cultural and culinary associate professionals"
+                        "Name": "Artistic, cultural and culinary associate professionals",
+                        "CName": "艺术, 文化和烹饪专业人员"
                     }
                 ]
             },
             {
                 "No": 35,
                 "Name": "Information and communications technicians",
+                "CName": "信息通信专业人员",
                 "Sub": [
                     {
                         "No": 351,
-                        "Name": "Information and communications technology operations and user support technicians"
+                        "Name": "Information and communications technology operations and user support technicians",
+                        "CName": "信息通信技术操作者和客服技术人员"
                     },
                     {
                         "No": 352,
-                        "Name": "Telecommunications and broadcasting technicians"
+                        "Name": "Telecommunications and broadcasting technicians",
+                        "CName": "电信和广播技术人员"
                     }
                 ]
             }
@@ -346,60 +423,73 @@
     {
         "No": 4,
         "Name": "Clerical support workers",
+        "CName": "文职与助理人员",
         "Sub": [
             {
                 "No": 41,
                 "Name": "General and keyboard clerks",
+                "CName": "普通文员",
                 "Sub": [
                     {
                         "No": 411,
-                        "Name": "General office clerks"
+                        "Name": "General office clerks",
+                        "CName": "普通办公文员"
                     },
                     {
                         "No": 412,
-                        "Name": "Secretaries (general)"
+                        "Name": "Secretaries (general)",
+                        "CName": "普通秘书"
                     },
                     {
                         "No": 413,
-                        "Name": "Keyboard operators"
+                        "Name": "Keyboard operators",
+                        "CName": "打字员"
                     }
                 ]
             },
             {
                 "No": 42,
                 "Name": "Customer services clerks",
+                "CName": "客户服务",
                 "Sub": [
                     {
                         "No": 421,
-                        "Name": "Tellers, money collectors and related clerks"
+                        "Name": "Tellers, money collectors and related clerks",
+                        "CName": "出纳, 收债员等相关职员"
                     },
                     {
                         "No": 422,
-                        "Name": "Client information workers"
+                        "Name": "Client information workers",
+                        "CName": "客户信息职员"
                     }
                 ]
             },
             {
                 "No": 43,
                 "Name": "Numerical and material recording clerks",
+                "CName": "数字或材料录入员",
                 "Sub": [
                     {
                         "No": 431,
-                        "Name": "Numerical clerks"
+                        "Name": "Numerical clerks",
+                        "CName": "数字职员"
                     },
                     {
                         "No": 432,
-                        "Name": "Material-recording and transport clerks"
+                        "Name": "Material-recording and transport clerks",
+                        "CName": "材料记录和运输办事员"
                     }
                 ]
             },
             {
                 "No": 44,
                 "Name": "Other clerical support workers",
+                "CName": "其它文职人员",
                 "Sub": [
                     {
                         "No": 441,
-                        "Name": "Other clerical support workers"
+                        "Name": "Other clerical support workers",
+                        "CName": "其它文职人员"
                     }
                 ]
             }
@@ -408,80 +498,98 @@
     { 
         "No": 5,
         "Name": "Service and sales workers",
+        "CName": "服务与销售人员",
         "Sub": [
             {
                 "No": 51,
                 "Name": "Personal service workers",
+                "CName": "个人服务",
                 "Sub": [
                     {
                         "No": 511,
-                        "Name": "Travel attendants, conductors and guides"
+                        "Name": "Travel attendants, conductors and guides",
+                        "CName": "旅行服务员，讲解员和导游"
                     },
                     {
                         "No": 512,
-                        "Name": "Cooks"
+                        "Name": "Cooks",
+                        "CName": "厨师"
                     },
                     {
                         "No": 513,
-                        "Name": "Waiters and bartenders"
+                        "Name": "Waiters and bartenders",
+                        "CName": "待者或酒保"
                     },
                     {
                         "No": 514,
-                        "Name": "Hairdressers, beauticians and related workers"
+                        "Name": "Hairdressers, beauticians and related workers",
+                        "CName": "理发师, 美容师及相关从业者"
                     },
                     {
                         "No": 515,
-                        "Name": "Building and housekeeping supervisors"
+                        "Name": "Building and housekeeping supervisors",
+                        "CName": "建筑或家政管理员"
                     },
                     {
                         "No": 516,
-                        "Name": "Other personal services workers"
+                        "Name": "Other personal services workers",
+                        "CName": "其它个人服务人员"
                     }
                 ]
             },
             {
                 "No": 52,
                 "Name": "Sales workers",
+                "CName": "销售",
                 "Sub": [
                     {
                         "No": 521,
-                        "Name": "Street and market salespersons"
+                        "Name": "Street and market salespersons",
+                        "CName": "街头营销人员"
                     },
                     {
                         "No": 522,
-                        "Name": "Shop salespersons"
+                        "Name": "Shop salespersons",
+                        "CName": "店铺销售人员"
                     },
                     {
                         "No": 523,
-                        "Name": "Cashiers and ticket clerks"
+                        "Name": "Cashiers and ticket clerks",
+                        "CName": "收银员或售票员"
                     },
                     {
                         "No": 524,
-                        "Name": "Other sales workers"
+                        "Name": "Other sales workers",
+                        "CName": "其它销售人员"
                     }
                 ]
             },
             {
                 "No": 53,
                 "Name": "Personal care workers",
+                "CName": "护工",
                 "Sub": [
                     {
                         "No": 531,
-                        "Name": "Child care workers and teachers' aides"
+                        "Name": "Child care workers and teachers' aides",
+                        "CName": "幼儿护理或助理教师"
                     },
                     {
                         "No": 532,
-                        "Name": "Personal care workers in health services"
+                        "Name": "Personal care workers in health services",
+                        "CName": "个人医疗护工"
                     }
                 ]
             },
             {
                 "No": 54,
                 "Name": "Protective services workers",
+                "CName": "保卫人员",
                 "Sub": [
                     {
                         "No": 541,
-                        "Name": "Protective services workers"
+                        "Name": "Protective services workers",
+                        "CName": "保卫人员"
                     }
                 ]
             }
@@ -490,58 +598,71 @@
     {
         "No": 6,
         "Name": "Skilled agricultural, forestry and fishery workers",
+        "CName": "农林渔从业人员",
         "Sub": [
             {
                 "No": 61,
                 "Name": "Market-oriented skilled agricultural workers",
+                "CName": "市场导向的农业从业人员",
                 "Sub": [
                     {
                         "No": 611,
-                        "Name": "Market gardeners and crop growers"
+                        "Name": "Market gardeners and crop growers",
+                        "CName": "市场化园丁和作物种植者"
                     },
                     {
                         "No": 612,
-                        "Name": "Animal producers"
+                        "Name": "Animal producers",
+                        "CName": "动物饲养员"
                     },
                     {
                         "No": 613,
-                        "Name": "Mixed crop and animal producers"
+                        "Name": "Mixed crop and animal producers",
+                        "CName": "混合经营作物种植和动物饲养人员"
                     }
                 ]
             },
             {
                 "No": 62,
                 "Name": "Market-oriented skilled forestry, fishery and hunting workers",
+                "CName": "市场导向的林业, 渔业或狩猎从业人员",
                 "Sub": [
                     {
                         "No": 621,
-                        "Name": "Forestry and related workers"
+                        "Name": "Forestry and related workers",
+                        "CName": "林业从业人员"
                     },
                     {
                         "No": 622,
-                        "Name": "Fishery workers, hunters and trappers"
+                        "Name": "Fishery workers, hunters and trappers",
+                        "CName": "渔民, 猎人和捕猎者"
                     }
                 ]
             },
             {
                 "No": 63,
                 "Name": "Subsistence farmers, fishers, hunters and gatherers",
+                "CName": "自给自足的农民, 渔民, 猎人或采集者",
                 "Sub": [
                     {
                         "No": 631,
-                        "Name": "Subsistence crop farmers"
+                        "Name": "Subsistence crop farmers",
+                        "CName": "自给自足的农民"
                     },
                     {
                         "No": 632,
-                        "Name": "Subsistence livestock farmers"
+                        "Name": "Subsistence livestock farmers",
+                        "CName": "自给自足的牧民"
                     },
                     {
                         "No": 633,
-                        "Name": "Subsistence mixed crop and livestock farmers"
+                        "Name": "Subsistence mixed crop and livestock farmers",
+                        "CName": "自给自足的混合农牧民"
                     },
                     {
                         "No": 634,
-                        "Name": "Subsistence fishers, hunters, trappers and gatherers"
+                        "Name": "Subsistence fishers, hunters, trappers and gatherers",
+                        "CName": "自给自足的渔民, 猎人, 捕错者或采集者"
                     }
                 ]
             }
@@ -550,90 +671,110 @@
     {
         "No": 7,
         "Name": "Craft and related trades workers",
+        "CName": "手工及相关贸易人员",
         "Sub": [
             {
                 "No": 71,
                 "Name": "Building and related trades workers, excluding electricians",
+                "CName": "建筑及相关贸易人员, 不包括电工",
                 "Sub": [
                     {
                         "No": 711,
-                        "Name": "Building frame and related trades workers"
+                        "Name": "Building frame and related trades workers",
+                        "CName": "建筑框架及相关贸易人员"
                     },
                     {
                         "No": 712,
-                        "Name": "Building finishers and related trades workers"
+                        "Name": "Building finishers and related trades workers",
+                        "CName": "建筑装修及相关贸易人员"
                     },
                     {
                         "No": 713,
-                        "Name": "Painters, building structure cleaners and related trades workers"
+                        "Name": "Painters, building structure cleaners and related trades workers",
+                        "CName": "油漆工, 建筑结构清洁及相关贸易人员"
                     }
                 ]
             },
             {
                 "No": 72,
                 "Name": "Metal, machinery and related trades workers",
+                "CName": "金属, 机械及相关贸易人员",
                 "Sub": [
                     {
                         "No": 721,
-                        "Name": "Sheet and structural metal workers, moulders and welders, and related workers"
+                        "Name": "Sheet and structural metal workers, moulders and welders, and related workers",
+                        "CName": "板材和结构金属工, 铸工和焊工及相关贸易人员"
                     },
                     {
                         "No": 722,
-                        "Name": "Blacksmiths, toolmakers and related trades workers"
+                        "Name": "Blacksmiths, toolmakers and related trades workers",
+                        "CName": "铁匠, 模具制造者及相关贸易人员"
                     },
                     {
                         "No": 723,
-                        "Name": "Machinery mechanics and repairers"
+                        "Name": "Machinery mechanics and repairers",
+                        "CName": "机器机械维修工"
                     }
                 ]
             },
             {
                 "No": 73,
                 "Name": "Handicraft and printing workers",
+                "CName": "手工艺者或印刷人员",
                 "Sub": [
                     {
                         "No": 731,
-                        "Name": "Handicraft workers"
+                        "Name": "Handicraft workers",
+                        "CName": "手工艺者"
                     },
                     {
                         "No": 732,
-                        "Name": "Printing trades workers"
+                        "Name": "Printing trades workers",
+                        "CName": "印刷贸易人员"
                     }
                 ]
             },
             {
                 "No": 74,
                 "Name": "Electrical and electronic trades workers",
+                "CName": "电气, 电子及相关贸易人员",
                 "Sub": [
                     {
                         "No": 741,
-                        "Name": "Electrical equipment installers and repairers"
+                        "Name": "Electrical equipment installers and repairers",
+                        "CName": "电气设备安装维护工人"
                     },
                     {
                         "No": 742,
-                        "Name": "Electronics and telecommunications installers and repairers"
+                        "Name": "Electronics and telecommunications installers and repairers",
+                        "CName": "电子通信安装维护工人"
                     }
                 ]
             },
             {
                 "No": 75,
                 "Name": "Food processing, wood working, garment and other craft and related trades workers",
+                "CName": "食品加工, 木工, 制衣等及相关贸易人员",
                 "Sub": [
                     {
                         "No": 751,
-                        "Name": "Food processing and related trades workers"
+                        "Name": "Food processing and related trades workers",
+                        "CName": "食品加工及相关贸易人员"
                     },
                     {
                         "No": 752,
-                        "Name": "Wood treaters, cabinet-makers and related trades workers"
+                        "Name": "Wood treaters, cabinet-makers and related trades workers",
+                        "CName": "木材加工, 橱柜制造及相关贸易人员"
                     },
                     {
                         "No": 753,
-                        "Name": "Garment and related trades workers"
+                        "Name": "Garment and related trades workers",
+                        "CName": "制衣及相关贸易人员"
                     },
                     {
                         "No": 754,
-                        "Name": "Other craft and related workers"
+                        "Name": "Other craft and related workers",
+                        "CName": "其它手工业者及相关人员"
                     }
                 ]
             }
@@ -642,78 +783,96 @@
     {
         "No": 8,
         "Name": "Plant and machine operators and assemblers",
+        "CName": "工厂或机器操作安装人员",
         "Sub": [
             {
                 "No": 81,
                 "Name": "Stationary plant and machine operators",
+                "CName": "工厂或机器固定操作人员",
                 "Sub": [
                     {
                         "No": 811,
-                        "Name": "Mining and mineral processing plant operators"
+                        "Name": "Mining and mineral processing plant operators",
+                        "CName": "采矿和矿物加工工厂操作人员"
                     },
                     {
                         "No": 812,
-                        "Name": "Metal processing and finishing plant operators"
+                        "Name": "Metal processing and finishing plant operators",
+                        "CName": "金属处理和精加工工厂操作人员"
                     },
                     {
                         "No": 813,
-                        "Name": "Chemical and photographic products plant and machine operators"
+                        "Name": "Chemical and photographic products plant and machine operators",
+                        "CName": "化学和照相产品工厂及机器操作人员"
                     },
                     {
                         "No": 814,
-                        "Name": "Rubber, plastic and paper products machine operators"
+                        "Name": "Rubber, plastic and paper products machine operators",
+                        "CName": "橡胶, 塑料和纸制品机器操作人员"
                     },
                     {
                         "No": 815,
-                        "Name": "Textile, fur and leather products machine operators"
+                        "Name": "Textile, fur and leather products machine operators",
+                        "CName": "纺织, 毛皮和皮革制品机器操作人员"
                     },
                     {
                         "No": 816,
-                        "Name": "Food and related products machine operators"
+                        "Name": "Food and related products machine operators",
+                        "CName": "食品及相关制品机器操作人员"
                     },
                     {
                         "No": 817,
-                        "Name": "Wood processing and papermaking plant operators"
+                        "Name": "Wood processing and papermaking plant operators",
+                        "CName": "木材加工和造纸厂操作人员"
                     },
                     {
                         "No": 818,
-                        "Name": "Other stationary plant and machine operators"
+                        "Name": "Other stationary plant and machine operators",
+                        "CName": "其它工厂或机器固定操作人员"
                     }
                 ]
             },
             {
                 "No": 82,
                 "Name": "Assemblers",
+                "CName": "安装工",
                 "Sub": [
                     {
                         "No": 821,
-                        "Name": "Assemblers"
+                        "Name": "Assemblers",
+                        "CName": "安装工"
                     }
                 ]
             },
             {
                 "No": 83,
                 "Name": "Drivers and mobile plant operators",
+                "CName": "司机或工厂移动操作人员",
                 "Sub": [
                     {
                         "No": 831,
-                        "Name": "Locomotive engine drivers and related workers"
+                        "Name": "Locomotive engine drivers and related workers",
+                        "CName": "机车发动机司机和相关工人"
                     },
                     {
                         "No": 832,
-                        "Name": "Car, van and motorcycle drivers"
+                        "Name": "Car, van and motorcycle drivers",
+                        "CName": "汽车, 货车和摩托车司机"
                     },
                     {
                         "No": 833,
-                        "Name": "Heavy truck and bus drivers"
+                        "Name": "Heavy truck and bus drivers",
+                        "CName": "重型卡车或公交车司机"
                     },
                     {
                         "No": 834,
-                        "Name": "Mobile plant operators"
+                        "Name": "Mobile plant operators",
+                        "CName": "工厂移动操作人员"
                     },
                     {
                         "No": 835,
-                        "Name": "Ships' deck crews and related workers"
+                        "Name": "Ships' deck crews and related workers",
+                        "CName": "船员及相关工人"
                     }
                 ]
             }
@@ -722,84 +881,102 @@
     {
         "No": 9,
         "Name": "Elementary occupations",
+        "CName": "初级劳务人员",
         "Sub": [
             {
                 "No": 91,
                 "Name": "Cleaners and helpers",
+                "CName": "清洁工或帮工",
                 "Sub": [
                     {
                         "No": 911,
-                        "Name": "Domestic, hotel and office cleaners and helpers"
+                        "Name": "Domestic, hotel and office cleaners and helpers",
+                        "CName": "家政, 酒店和办公室清洁工和帮工"
                     },
                     {
                         "No": 912,
-                        "Name": "Vehicle, window, laundry and other hand cleaning workers"
+                        "Name": "Vehicle, window, laundry and other hand cleaning workers",
+                        "CName": "车辆, 窗户, 洗衣等其它手工清洁工"
                     }
                 ]
             },
             {
                 "No": 92,
                 "Name": "Agricultural, forestry and fishery labourers",
+                "CName": "农林渔业劳工",
                 "Sub": [
                     {
                         "No": 921,
-                        "Name": "Agricultural, forestry and fishery labourers"
+                        "Name": "Agricultural, forestry and fishery labourers",
+                        "CName": "农林渔业劳工"
                     }
                 ]
             },
             {
                 "No": 93,
                 "Name": "Labourers in mining, construction, manufacturing and transport",
+                "CName": "采矿, 建筑, 制造或运输劳工",
                 "Sub": [
                     {
                         "No": 931,
-                        "Name": "Mining and construction labourers"
+                        "Name": "Mining and construction labourers",
+                        "CName": "采矿和建筑劳工"
                     },
                     {
                         "No": 932,
-                        "Name": "Manufacturing labourers"
+                        "Name": "Manufacturing labourers",
+                        "CName": "制造业劳工"
                     },
                     {
                         "No": 933,
-                        "Name": "Transport and storage labourers"
+                        "Name": "Transport and storage labourers",
+                        "CName": "运输和仓储劳工"
                     }
                 ]
             },
             {
                 "No": 94,
                 "Name": "Food preparation assistants",
+                "CName": "帮厨",
                 "Sub": [
                     {
                         "No": 941,
-                        "Name": "Food preparation assistants"
+                        "Name": "Food preparation assistants",
+                        "CName": "帮厨"
                     }
                 ]
             },
             {
                 "No": 95,
                 "Name": "Street and related sales and service workers",
+                "CName": "街头销售或服务人员",
                 "Sub": [
                     {
                         "No": 951,
-                        "Name": "Street and related service workers"
+                        "Name": "Street and related service workers",
+                        "CName": "街头服务人员"
                     },
                     {
                         "No": 952,
-                        "Name": "Street vendors (excluding food)"
+                        "Name": "Street vendors (excluding food)",
+                        "CName": "街头小贩(食品除外)"
                     }
                 ]
             },
             {
                 "No": 96,
                 "Name": "Refuse workers and other elementary workers",
+                "CName": "垃圾处理工及其它",
                 "Sub": [
                     {
                         "No": 961,
-                        "Name": "Refuse workers"
+                        "Name": "Refuse workers",
+                        "CName": "垃圾处理工"
                     },
                     {
                         "No": 962,
-                        "Name": "Other elementary workers"
+                        "Name": "Other elementary workers",
+                        "CName": "其它初级劳务人员"
                     }
                 ]
             }
@@ -808,34 +985,41 @@
     {
         "No": "0",
         "Name": "Armed forces occupations",
+        "CName": "武装人员",
         "Sub": [
             {
                 "No": "01",
                 "Name": "Commissioned armed forces officers",
+                "CName": "高级军官",
                 "Sub": [
                     {
                         "No": "011",
-                        "Name": "Commissioned armed forces officers"
+                        "Name": "Commissioned armed forces officers",
+                        "CName": "高级军官"
                     }
                 ]
             },
             {
                 "No": "02",
                 "Name": "Non-commissioned armed forces officers",
+                "CName": "中级士官",
                 "Sub": [
                     {
                         "No": "021",
-                        "Name": "Non-commissioned armed forces officers"
+                        "Name": "Non-commissioned armed forces officers",
+                        "CName": "中级士官"
                     }
                 ]
             },
             {
                 "No": "03",
                 "Name": "Armed forces occupations, other ranks",
+                "CName": "其它武装人员",
                 "Sub": [
                     {
                         "No": "031",
-                        "Name": "Armed forces occupations, other ranks"
+                        "Name": "Armed forces occupations, other ranks",
+                        "CName": "其它武装人员"
                     } 
                 ]
             }

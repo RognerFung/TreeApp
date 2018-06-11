@@ -8,24 +8,45 @@ import { CommonService } from '../common.service';
 })
 export class MapComponent implements OnInit {
 
-    career: any = "none";
+    jobs: any[];
+    careers: any[];
 
     constructor(
         private commonService: CommonService
     ) {}
 
     ngOnInit() {
+        this.loadAllCareers();
     }
 
-    modifyCareer = function () {
+    loadAllCareers = function () {
         console.log("yes");
-        this.commonService.modifyCareer({order: "update", data: {"No": "121"}, new: {"Name": "Managers", "No": "1"}}).subscribe(
+        this.commonService.modifyCareer(
+            {
+                order: "select",
+                data: {}
+            }).subscribe(
             data => {
-                this.career = data;
+                this.careers = data;
                 console.log(data);
             }, 
             error => this.errorMessage = error
         );
-    }
+    };
+
+    //condition: {"No": "111"}
+    loadJobs = function (condition) {
+        this.commonService.modifyJob(
+            {
+                order: "select",
+                data: condition
+            }).subscribe(
+            data => {
+                this.jobs = data;
+                console.log(data);
+            }, 
+            error => this.errorMessage = error
+        );
+    };
     
 }

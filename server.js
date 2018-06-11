@@ -70,7 +70,19 @@ var BranchesSchema = new Schema({
 var CareersSchema = new Schema({
     No: String,
     Name: String,
+    CName: String,
     Sub: Array
+}, {
+    versionKey: false
+});
+
+var JobsSchema = new Schema({
+    No: String,
+    Name: String,
+    ClassNo: String,
+    ClassName: String,
+    GradeNo: String,
+    GradeName: String
 }, {
     versionKey: false
 });
@@ -78,6 +90,7 @@ var CareersSchema = new Schema({
 var model = mongo.model('users', UsersSchema, 'users');
 var branchModel = mongo.model('branches', BranchesSchema, 'branches');
 var careerModel = mongo.model('careers', CareersSchema, 'careers');
+var jobModel = mongo.model('jobs', JobsSchema, 'jobs');
 
 //Register user, save username and password (in hash) in database
 app.post("/api/regUser", function(req, res) {
@@ -280,6 +293,46 @@ app.post("/api/modifyCareer", function(req, res) {
         });
     } else if (req.body.order === "select") {
         careerModel.find(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        })
+    } else {
+        console.log("receive false");
+    }
+    
+});
+
+//Insert, delete, update and select jobs in database
+app.post("/api/modifyJob", function(req, res) {
+    if (req.body.order === "insert") {
+        jobModel.insertMany(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "delete") {
+        jobModel.deleteMany(req.body.data, function(error) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send("deleted");
+            }
+        });
+    } else if (req.body.order === "update") {
+        jobModel.update(req.body.data, req.body.new, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "select") {
+        jobModel.find(req.body.data, function(error, doc) {
             if (error) {
                 res.send(error);
             } else {

@@ -1,0 +1,1050 @@
+[
+    {
+        "No": "111",
+        "Name": "Legislators and senior officials",
+        "ClassNo": "11",
+        "ClassName": "Chief executives, senior officials and legislators",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "112",
+        "Name": "Managing directors and chief executives",
+        "ClassNo": "11",
+        "ClassName": "Chief executives, senior officials and legislators",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "121",
+        "Name": "Business services and administration managers",
+        "ClassNo": "12",
+        "ClassName": "Administrative and commercial managers",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "122",
+        "Name": "Sales, marketing and development managers",
+        "ClassNo": "12",
+        "ClassName": "Administrative and commercial managers",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "131",
+        "Name": "Production managers in agriculture, forestry and fisheries",
+        "ClassNo": "13",
+        "ClassName": "Production managers in agriculture, forestry and fisheries",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "132",
+        "Name": "Manufacturing, mining, construction, and distribution managers",
+        "ClassNo": "13",
+        "ClassName": "Production managers in agriculture, forestry and fisheries",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "133",
+        "Name": "Information and communications technology service managers",
+        "ClassNo": "13",
+        "ClassName": "Production managers in agriculture, forestry and fisheries",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "134",
+        "Name": "Professional services managers",
+        "ClassNo": "13",
+        "ClassName": "Production managers in agriculture, forestry and fisheries",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "141",
+        "Name": "Hotel and restaurant managers",
+        "ClassNo": "14",
+        "ClassName": "Hospitality, retail and other services managers",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "142",
+        "Name": "Retail and wholesale trade managers",
+        "ClassNo": "14",
+        "ClassName": "Hospitality, retail and other services managers",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "143",
+        "Name": "Other services managers",
+        "ClassNo": "14",
+        "ClassName": "Hospitality, retail and other services managers",
+        "GradeNo": "1",
+        "GradeName": "Managers"
+    },
+    {
+        "No": "211",
+        "Name": "Physical and earth science professionals",
+        "ClassNo": "21",
+        "ClassName": "Science and engineering professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "212",
+        "Name": "Mathematicians, actuaries and statisticians",
+        "ClassNo": "21",
+        "ClassName": "Science and engineering professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "213",
+        "Name": "Life science professionals",
+        "ClassNo": "21",
+        "ClassName": "Science and engineering professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "214",
+        "Name": "Engineering professionals (excluding electrotechnology)",
+        "ClassNo": "21",
+        "ClassName": "Science and engineering professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "215",
+        "Name": "Electrotechnology engineers",
+        "ClassNo": "21",
+        "ClassName": "Science and engineering professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "216",
+        "Name": "Architects, planners, surveyors and designers",
+        "ClassNo": "21",
+        "ClassName": "Science and engineering professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "221",
+        "Name": "Medical doctors",
+        "ClassNo": "22",
+        "ClassName": "Health professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "222",
+        "Name": "Nursing and midwifery professionals",
+        "ClassNo": "22",
+        "ClassName": "Health professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "223",
+        "Name": "Traditional and complementary medicine professionals",
+        "ClassNo": "22",
+        "ClassName": "Health professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "224",
+        "Name": "Paramedical practitioners",
+        "ClassNo": "22",
+        "ClassName": "Health professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "225",
+        "Name": "Veterinarians",
+        "ClassNo": "22",
+        "ClassName": "Health professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "226",
+        "Name": "Other health professionals",
+        "ClassNo": "22",
+        "ClassName": "Health professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "227",
+        "Name": "Medical Assistant professionals",
+        "ClassNo": "22",
+        "ClassName": "Health professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "231",
+        "Name": "University and higher education teachers",
+        "ClassNo": "23",
+        "ClassName": "Teaching professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "232",
+        "Name": "Vocational education teachers",
+        "ClassNo": "23",
+        "ClassName": "Teaching professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "233",
+        "Name": "Secondary education teachers",
+        "ClassNo": "23",
+        "ClassName": "Teaching professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "234",
+        "Name": "Primary school and early childhood teachers",
+        "ClassNo": "23",
+        "ClassName": "Teaching professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "235",
+        "Name": "Other teaching professionals",
+        "ClassNo": "23",
+        "ClassName": "Teaching professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "241",
+        "Name": "Finance professionals",
+        "ClassNo": "24",
+        "ClassName": "Business and administration professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "242",
+        "Name": "Administration professionals",
+        "ClassNo": "24",
+        "ClassName": "Business and administration professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "243",
+        "Name": "Sales, marketing and public relations professionals",
+        "ClassNo": "24",
+        "ClassName": "Business and administration professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "251",
+        "Name": "Software and applications developers and analysts",
+        "ClassNo": "25",
+        "ClassName": "Information and communications technology professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "252",
+        "Name": "Database and network professionals",
+        "ClassNo": "25",
+        "ClassName": "Information and communications technology professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "261",
+        "Name": "Legal professionals",
+        "ClassNo": "26",
+        "ClassName": "Legal, social and cultural professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "262",
+        "Name": "Librarians, archivists and curators",
+        "ClassNo": "26",
+        "ClassName": "Legal, social and cultural professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "263",
+        "Name": "Social and religious professionals",
+        "ClassNo": "26",
+        "ClassName": "Legal, social and cultural professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "264",
+        "Name": "Authors, journalists and linguists",
+        "ClassNo": "26",
+        "ClassName": "Legal, social and cultural professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "265",
+        "Name": "Creative and performing artists",
+        "ClassNo": "26",
+        "ClassName": "Legal, social and cultural professionals",
+        "GradeNo": "2",
+        "GradeName": "Professionals"
+    },
+    {
+        "No": "311",
+        "Name": "Physical and engineering science technicians",
+        "ClassNo": "31",
+        "ClassName": "Science and engineering associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "312",
+        "Name": "Mining, manufacturing and construction supervisors",
+        "ClassNo": "31",
+        "ClassName": "Science and engineering associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "313",
+        "Name": "Process control technicians",
+        "ClassNo": "31",
+        "ClassName": "Science and engineering associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "314",
+        "Name": "Life science technicians and related associate professionals",
+        "ClassNo": "31",
+        "ClassName": "Science and engineering associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "315",
+        "Name": "Ship and aircraft controllers and technicians",
+        "ClassNo": "31",
+        "ClassName": "Science and engineering associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "321",
+        "Name": "Medical and pharmaceutical technicians",
+        "ClassNo": "32",
+        "ClassName": "Health associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "322",
+        "Name": "Nursing and midwifery associate professionals",
+        "ClassNo": "32",
+        "ClassName": "Health associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "323",
+        "Name": "Traditional and complementary medicine associate professionals",
+        "ClassNo": "32",
+        "ClassName": "Health associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "324",
+        "Name": "Veterinary technicians and assistants",
+        "ClassNo": "32",
+        "ClassName": "Health associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "325",
+        "Name": "Other health associate professionals",
+        "ClassNo": "32",
+        "ClassName": "Health associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "331",
+        "Name": "Financial and mathematical associate professionals",
+        "ClassNo": "33",
+        "ClassName": "Business and administration associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "332",
+        "Name": "Sales and purchasing agents and brokers",
+        "ClassNo": "33",
+        "ClassName": "Business and administration associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "333",
+        "Name": "Business services agents",
+        "ClassNo": "33",
+        "ClassName": "Business and administration associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "334",
+        "Name": "Administrative and specialized secretaries",
+        "ClassNo": "33",
+        "ClassName": "Business and administration associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "335",
+        "Name": "Regulatory government associate professionals",
+        "ClassNo": "33",
+        "ClassName": "Business and administration associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "341",
+        "Name": "Legal, social and religious associate professionals",
+        "ClassNo": "34",
+        "ClassName": "Legal, social, cultural and related associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "342",
+        "Name": "Sports and fitness workers",
+        "ClassNo": "34",
+        "ClassName": "Legal, social, cultural and related associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "343",
+        "Name": "Artistic, cultural and culinary associate professionals",
+        "ClassNo": "34",
+        "ClassName": "Legal, social, cultural and related associate professionals",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "351",
+        "Name": "Information and communications technology operations and user support technicians",
+        "ClassNo": "35",
+        "ClassName": "Information and communications technicians",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "352",
+        "Name": "Telecommunications and broadcasting technicians",
+        "ClassNo": "35",
+        "ClassName": "Information and communications technicians",
+        "GradeNo": "3",
+        "GradeName": "Technicians and associate professionals"
+    },
+    {
+        "No": "411",
+        "Name": "General office clerks",
+        "ClassNo": "41",
+        "ClassName": "General and keyboard clerks",
+        "GradeNo": "4",
+        "GradeName": "Clerical support workers"
+    },
+    {
+        "No": "412",
+        "Name": "Secretaries (general)",
+        "ClassNo": "41",
+        "ClassName": "General and keyboard clerks",
+        "GradeNo": "4",
+        "GradeName": "Clerical support workers"
+    },
+    {
+        "No": "413",
+        "Name": "Keyboard operators",
+        "ClassNo": "41",
+        "ClassName": "General and keyboard clerks",
+        "GradeNo": "4",
+        "GradeName": "Clerical support workers"
+    },
+    {
+        "No": "421",
+        "Name": "Tellers, money collectors and related clerks",
+        "ClassNo": "42",
+        "ClassName": "Customer services clerks",
+        "GradeNo": "4",
+        "GradeName": "Clerical support workers"
+    },
+    {
+        "No": "422",
+        "Name": "Client information workers",
+        "ClassNo": "42",
+        "ClassName": "Customer services clerks",
+        "GradeNo": "4",
+        "GradeName": "Clerical support workers"
+    },
+    {
+        "No": "431",
+        "Name": "Numerical clerks",
+        "ClassNo": "43",
+        "ClassName": "Numerical and material recording clerks",
+        "GradeNo": "4",
+        "GradeName": "Clerical support workers"
+    },
+    {
+        "No": "432",
+        "Name": "Material-recording and transport clerks",
+        "ClassNo": "43",
+        "ClassName": "Numerical and material recording clerks",
+        "GradeNo": "4",
+        "GradeName": "Clerical support workers"
+    },
+    {
+        "No": "441",
+        "Name": "Other clerical support workers",
+        "ClassNo": "44",
+        "ClassName": "Other clerical support workers",
+        "GradeNo": "4",
+        "GradeName": "Clerical support workers"
+    },
+    {
+        "No": "511",
+        "Name": "Travel attendants, conductors and guides",
+        "ClassNo": "51",
+        "ClassName": "Personal service workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "512",
+        "Name": "Cooks",
+        "ClassNo": "51",
+        "ClassName": "Personal service workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "513",
+        "Name": "Waiters and bartenders",
+        "ClassNo": "51",
+        "ClassName": "Personal service workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "514",
+        "Name": "Hairdressers, beauticians and related workers",
+        "ClassNo": "51",
+        "ClassName": "Personal service workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "515",
+        "Name": "Building and housekeeping supervisors",
+        "ClassNo": "51",
+        "ClassName": "Personal service workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "516",
+        "Name": "Other personal services workers",
+        "ClassNo": "51",
+        "ClassName": "Personal service workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "521",
+        "Name": "Street and market salespersons",
+        "ClassNo": "52",
+        "ClassName": "Sales workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "522",
+        "Name": "Shop salespersons",
+        "ClassNo": "52",
+        "ClassName": "Sales workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "523",
+        "Name": "Cashiers and ticket clerks",
+        "ClassNo": "52",
+        "ClassName": "Sales workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "524",
+        "Name": "Other sales workers",
+        "ClassNo": "52",
+        "ClassName": "Sales workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "531",
+        "Name": "Child care workers and teachers' aides",
+        "ClassNo": "53",
+        "ClassName": "Personal care workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "532",
+        "Name": "Personal care workers in health services",
+        "ClassNo": "53",
+        "ClassName": "Personal care workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "541",
+        "Name": "Protective services workers",
+        "ClassNo": "54",
+        "ClassName": "Protective services workers",
+        "GradeNo": "5",
+        "GradeName": "Service and sales workers"
+    },
+    {
+        "No": "611",
+        "Name": "Market gardeners and crop growers",
+        "ClassNo": "61",
+        "ClassName": "Market-oriented skilled agricultural workers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "612",
+        "Name": "Animal producers",
+        "ClassNo": "61",
+        "ClassName": "Market-oriented skilled agricultural workers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "613",
+        "Name": "Mixed crop and animal producers",
+        "ClassNo": "61",
+        "ClassName": "Market-oriented skilled agricultural workers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "621",
+        "Name": "Forestry and related workers",
+        "ClassNo": "62",
+        "ClassName": "Market-oriented skilled forestry, fishery and hunting workers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "622",
+        "Name": "Fishery workers, hunters and trappers",
+        "ClassNo": "62",
+        "ClassName": "Market-oriented skilled forestry, fishery and hunting workers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "631",
+        "Name": "Subsistence crop farmers",
+        "ClassNo": "63",
+        "ClassName": "Subsistence farmers, fishers, hunters and gatherers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "632",
+        "Name": "Subsistence livestock farmers",
+        "ClassNo": "63",
+        "ClassName": "Subsistence farmers, fishers, hunters and gatherers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "633",
+        "Name": "Subsistence mixed crop and livestock farmers",
+        "ClassNo": "63",
+        "ClassName": "Subsistence farmers, fishers, hunters and gatherers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "634",
+        "Name": "Subsistence fishers, hunters, trappers and gatherers",
+        "ClassNo": "63",
+        "ClassName": "Subsistence farmers, fishers, hunters and gatherers",
+        "GradeNo": "6",
+        "GradeName": "Skilled agricultural, forestry and fishery workers"
+    },
+    {
+        "No": "711",
+        "Name": "Building frame and related trades workers",
+        "ClassNo": "71",
+        "ClassName": "Building and related trades workers, excluding electricians",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "712",
+        "Name": "Building finishers and related trades workers",
+        "ClassNo": "71",
+        "ClassName": "Building and related trades workers, excluding electricians",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "713",
+        "Name": "Painters, building structure cleaners and related trades workers",
+        "ClassNo": "71",
+        "ClassName": "Building and related trades workers, excluding electricians",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "721",
+        "Name": "Sheet and structural metal workers, moulders and welders, and related workers",
+        "ClassNo": "72",
+        "ClassName": "Metal, machinery and related trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "722",
+        "Name": "Blacksmiths, toolmakers and related trades workers",
+        "ClassNo": "72",
+        "ClassName": "Metal, machinery and related trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "723",
+        "Name": "Machinery mechanics and repairers",
+        "ClassNo": "72",
+        "ClassName": "Metal, machinery and related trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "731",
+        "Name": "Handicraft workers",
+        "ClassNo": "73",
+        "ClassName": "Handicraft and printing workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "732",
+        "Name": "Printing trades workers",
+        "ClassNo": "73",
+        "ClassName": "Handicraft and printing workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "741",
+        "Name": "Electrical equipment installers and repairers",
+        "ClassNo": "74",
+        "ClassName": "Electrical and electronic trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "742",
+        "Name": "Electronics and telecommunications installers and repairers",
+        "ClassNo": "74",
+        "ClassName": "Electrical and electronic trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "751",
+        "Name": "Food processing and related trades workers",
+        "ClassNo": "75",
+        "ClassName": "Food processing, wood working, garment and other craft and related trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "752",
+        "Name": "Wood treaters, cabinet-makers and related trades workers",
+        "ClassNo": "75",
+        "ClassName": "Food processing, wood working, garment and other craft and related trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "753",
+        "Name": "Garment and related trades workers",
+        "ClassNo": "75",
+        "ClassName": "Food processing, wood working, garment and other craft and related trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "754",
+        "Name": "Other craft and related workers",
+        "ClassNo": "75",
+        "ClassName": "Food processing, wood working, garment and other craft and related trades workers",
+        "GradeNo": "7",
+        "GradeName": "Craft and related trades workers"
+    },
+    {
+        "No": "811",
+        "Name": "Mining and mineral processing plant operators",
+        "ClassNo": "81",
+        "ClassName": "Stationary plant and machine operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "812",
+        "Name": "Metal processing and finishing plant operators",
+        "ClassNo": "81",
+        "ClassName": "Stationary plant and machine operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "813",
+        "Name": "Chemical and photographic products plant and machine operators",
+        "ClassNo": "81",
+        "ClassName": "Stationary plant and machine operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "814",
+        "Name": "Rubber, plastic and paper products machine operators",
+        "ClassNo": "81",
+        "ClassName": "Stationary plant and machine operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "815",
+        "Name": "Textile, fur and leather products machine operators",
+        "ClassNo": "81",
+        "ClassName": "Stationary plant and machine operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "816",
+        "Name": "Food and related products machine operators",
+        "ClassNo": "81",
+        "ClassName": "Stationary plant and machine operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "817",
+        "Name": "Wood processing and papermaking plant operators",
+        "ClassNo": "81",
+        "ClassName": "Stationary plant and machine operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "818",
+        "Name": "Other stationary plant and machine operators",
+        "ClassNo": "81",
+        "ClassName": "Stationary plant and machine operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "821",
+        "Name": "Assemblers",
+        "ClassNo": "82",
+        "ClassName": "Assemblers",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "831",
+        "Name": "Locomotive engine drivers and related workers",
+        "ClassNo": "83",
+        "ClassName": "Drivers and mobile plant operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "832",
+        "Name": "Car, van and motorcycle drivers",
+        "ClassNo": "83",
+        "ClassName": "Drivers and mobile plant operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "833",
+        "Name": "Heavy truck and bus drivers",
+        "ClassNo": "83",
+        "ClassName": "Drivers and mobile plant operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "834",
+        "Name": "Mobile plant operators",
+        "ClassNo": "83",
+        "ClassName": "Drivers and mobile plant operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "835",
+        "Name": "Ships' deck crews and related workers",
+        "ClassNo": "83",
+        "ClassName": "Drivers and mobile plant operators",
+        "GradeNo": "8",
+        "GradeName": "Plant and machine operators and assemblers"
+    },
+    {
+        "No": "911",
+        "Name": "Domestic, hotel and office cleaners and helpers",
+        "ClassNo": "91",
+        "ClassName": "Cleaners and helpers",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "912",
+        "Name": "Vehicle, window, laundry and other hand cleaning workers",
+        "ClassNo": "91",
+        "ClassName": "Cleaners and helpers",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "921",
+        "Name": "Agricultural, forestry and fishery labourers",
+        "ClassNo": "92",
+        "ClassName": "Agricultural, forestry and fishery labourers",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "931",
+        "Name": "Mining and construction labourers",
+        "ClassNo": "93",
+        "ClassName": "Labourers in mining, construction, manufacturing and transport",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "932",
+        "Name": "Manufacturing labourers",
+        "ClassNo": "93",
+        "ClassName": "Labourers in mining, construction, manufacturing and transport",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "933",
+        "Name": "Transport and storage labourers",
+        "ClassNo": "93",
+        "ClassName": "Labourers in mining, construction, manufacturing and transport",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "941",
+        "Name": "Food preparation assistants",
+        "ClassNo": "94",
+        "ClassName": "Food preparation assistants",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "951",
+        "Name": "Street and related service workers",
+        "ClassNo": "95",
+        "ClassName": "Street and related sales and service workers",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "952",
+        "Name": "Street vendors (excluding food)",
+        "ClassNo": "95",
+        "ClassName": "Street and related sales and service workers",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "961",
+        "Name": "Refuse workers",
+        "ClassNo": "96",
+        "ClassName": "Refuse workers and other elementary workers",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "962",
+        "Name": "Other elementary workers",
+        "ClassNo": "96",
+        "ClassName": "Refuse workers and other elementary workers",
+        "GradeNo": "9",
+        "GradeName": "Elementary occupations"
+    },
+    {
+        "No": "011",
+        "Name": "Commissioned armed forces officers",
+        "ClassNo": "01",
+        "ClassName": "Commissioned armed forces officers",
+        "GradeNo": "0",
+        "GradeName": "Armed forces occupations"
+    },
+    {
+        "No": "021",
+        "Name": "Non-commissioned armed forces officers",
+        "ClassNo": "02",
+        "ClassName": "Non-commissioned armed forces officers",
+        "GradeNo": "0",
+        "GradeName": "Armed forces occupations"
+    },
+    {
+        "No": "031",
+        "Name": "Armed forces occupations, other ranks",
+        "ClassNo": "03",
+        "ClassName": "Armed forces occupations, other ranks",
+        "GradeNo": "0",
+        "GradeName": "Armed forces occupations"
+    } 
+]
