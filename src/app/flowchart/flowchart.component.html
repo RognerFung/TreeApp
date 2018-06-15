@@ -1,0 +1,25 @@
+<div class="container">
+    <svg *ngFor="let career of careers" [attr.viewBox]=career.viewbox>
+        <rect [attr.x]=career.x [attr.y]=career.y [attr.rx]=career.rx [attr.ry]=career.ry [attr.width]=career.width [attr.height]=career.height style="fill:rgb(192, 240, 228);" />
+        <line [attr.x1]=career.startA.x [attr.y1]=career.startA.y [attr.x2]=career.endA.x [attr.y2]=career.endA.y style="stroke:rgba(255, 115, 0, 0.616);stroke-width:5" />
+        <text [attr.x]=career.tx1 [attr.y]=career.ty1 [attr.textLength]=career.textLength1 style="fill:rgb(190, 36, 165);">{{career.text1}}</text>
+        <text [attr.x]=career.tx2 [attr.y]=career.ty2 [attr.textLength]=career.textLength2 style="fill:rgb(190, 36, 165);">{{career.text2}}</text>
+        <text [attr.x]=career.tx3 [attr.y]=career.ty3 [attr.textLength]=career.textLength3 style="fill:rgb(190, 36, 165);">{{career.text3}}</text>
+        <ng-container *ngFor="let sub of career.Sub">
+            <rect *ngIf="sub.in === career.out" [attr.x]=sub.x [attr.y]=sub.y [attr.rx]=sub.rx [attr.ry]=sub.ry [attr.width]=sub.width [attr.height]=sub.height style="fill:rgb(192, 240, 228);" />
+            <line [attr.x1]=sub.startA.x [attr.y1]=sub.startA.y [attr.x2]=sub.endA.x [attr.y2]=sub.endA.y style="stroke:rgba(255, 115, 0, 0.616);stroke-width:5" />
+            <line [attr.x1]=sub.startB.x [attr.y1]=sub.startB.y [attr.x2]=sub.endB.x [attr.y2]=sub.endB.y style="stroke:rgba(255, 115, 0, 0.616);stroke-width:5" />
+            <text [attr.x]=sub.tx1 [attr.y]=sub.ty1 [attr.textLength]=sub.textLength1 style="fill:rgb(190, 36, 165);">{{sub.text1}}</text>
+            <text [attr.x]=sub.tx2 [attr.y]=sub.ty2 [attr.textLength]=sub.textLength2 style="fill:rgb(190, 36, 165);">{{sub.text2}}</text>
+            <text [attr.x]=sub.tx3 [attr.y]=sub.ty3 [attr.textLength]=sub.textLength3 style="fill:rgb(190, 36, 165);">{{sub.text3}}</text>
+            <ng-container *ngFor="let s of sub.Sub">
+                <rect *ngIf="s.in === sub.out" [attr.x]=s.x [attr.y]=s.y [attr.rx]=s.rx [attr.ry]=s.ry [attr.width]=s.width [attr.height]=s.height style="fill:rgb(192, 240, 228);" />
+                <line [attr.x1]=s.startA.x [attr.y1]=s.startA.y [attr.x2]=s.endA.x [attr.y2]=s.endA.y style="stroke:rgba(255, 115, 0, 0.616);stroke-width:5" />
+                <text [attr.x]=s.tx1 [attr.y]=s.ty1 [attr.textLength]=s.textLength1 style="fill:rgb(190, 36, 165);">{{s.text1}}</text>
+                <text [attr.x]=s.tx2 [attr.y]=s.ty2 [attr.textLength]=s.textLength2 style="fill:rgb(190, 36, 165);">{{s.text2}}</text>
+                <text [attr.x]=s.tx3 [attr.y]=s.ty3 [attr.textLength]=s.textLength3 style="fill:rgb(190, 36, 165);">{{s.text3}}</text>
+            </ng-container>
+        </ng-container>
+        
+    </svg>
+</div>

@@ -25,6 +25,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { MessageService } from './message.service';
 import { MapComponent } from './map/map.component';
 import { DrivingTestComponent } from './driving-test/driving-test.component';
+import { FlowchartComponent } from './flowchart/flowchart.component';
 
 @NgModule({
     declarations: [
@@ -43,7 +44,8 @@ import { DrivingTestComponent } from './driving-test/driving-test.component';
         IndexComponent,
         ProfileComponent,
         MapComponent,
-        DrivingTestComponent
+        DrivingTestComponent,
+        FlowchartComponent
     ],
     imports: [
         BrowserModule,
