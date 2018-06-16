@@ -21,7 +21,6 @@ export class MapComponent implements OnInit {
     }
 
     loadAllCareers = function () {
-        console.log("yes");
         this.commonService.modifyCareer(
             {
                 order: "select",
@@ -29,25 +28,8 @@ export class MapComponent implements OnInit {
             }).subscribe(
             data => {
                 this.careers = data;
-                console.log(data);
             }, 
             error => this.errorMessage = error
         );
     };
-
-    // //condition: {"No": "111"}
-    // loadJobs = function (condition) {
-    //     this.commonService.modifyJob(
-    //         {
-    //             order: "select",
-    //             data: condition
-    //         }).subscribe(
-    //         data => {
-    //             this.jobs = data;
-    //             console.log(data);
-    //         }, 
-    //         error => this.errorMessage = error
-    //     );
-    // };
-    
 }

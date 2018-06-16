@@ -1,24 +1,10 @@
 <div class="container">
-    <p>Here's all the careers</p>
-    <!--<p *ngFor="let job of jobs">{{ job.Name }}</p>-->
+    <h3 class="text-center my-5">职业分类</h3>
     <ngb-accordion [closeOthers]="true">
         <ngb-panel *ngFor="let career of careers" id="career-{{career.No}}" title="{{career.CName}}">
             <ng-template ngbPanelContent>
-                <ngb-accordion [closeOthers]="true">
-                    <ngb-panel *ngFor="let sub of career.Sub" id="career-{{career.No}}-{{sub.No}}" title="{{sub.CName}}">
-                        <ng-template ngbPanelContent>
-                            <ngb-accordion [closeOthers]="true">
-                                <ngb-panel *ngFor="let s of sub.Sub" id="career-{{career.No}}-{{sub.No}}-{{s.No}}" title="{{s.CName}}">
-                                    <ng-template ngbPanelContent>
-                                        content
-                                    </ng-template>
-                                </ngb-panel>
-                            </ngb-accordion>
-                        </ng-template>
-                    </ngb-panel>
-                </ngb-accordion>
+                <app-flowchart [careerNo]=career.No></app-flowchart>
             </ng-template>
         </ngb-panel>
     </ngb-accordion>
 </div>
-<app-flowchart></app-flowchart>

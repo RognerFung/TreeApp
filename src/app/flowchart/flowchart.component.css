@@ -1,0 +1,13 @@
+rect {
+    fill: #33b5e5;
+}
+
+text {
+    fill: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+line {
+    stroke: #ffc107;
+    stroke-width: 5;
+}
