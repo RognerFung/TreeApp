@@ -1,0 +1,13 @@
+<div class="container my-5 row">
+    <div class="nav flex-column nav-pills col-3" role="tablist" aria-orientation="vertical">
+        <a *ngFor="let testType of testTypes" class="nav-link" id="{{ testType.name + 'tab' }}" data-toggle="pill" href="{{ '#' + testType.name + 'pane' }}" role="tab" aria-selected="true">
+            <h6>{{ testType.name }}<i class="fa fa-angle-right fa-lg float-right"></i></h6>
+        </a>
+    </div>
+    <div class="tab-content col-9">
+        <div *ngFor="let testType of testTypes" class="tab-pane fade" id="{{ testType.name + 'pane' }}" role="tabpanel">
+            <app-test [testType]="testType"></app-test>
+        </div>
+    </div>
+</div>
+        

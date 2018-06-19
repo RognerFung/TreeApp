@@ -26,6 +26,11 @@ import { MessageService } from './message.service';
 import { MapComponent } from './map/map.component';
 import { DrivingTestComponent } from './driving-test/driving-test.component';
 import { FlowchartComponent } from './flowchart/flowchart.component';
+import { TestComponent } from './test/test.component';
+import { FocusDirective } from './focus.directive';
+import { AutofocusDirective } from './autofocus.directive';
+import { PracticeComponent } from './practice/practice.component';
+import { OperatorPipe } from './operator.pipe';
 
 @NgModule({
     declarations: [
@@ -45,7 +50,12 @@ import { FlowchartComponent } from './flowchart/flowchart.component';
         ProfileComponent,
         MapComponent,
         DrivingTestComponent,
-        FlowchartComponent
+        FlowchartComponent,
+        TestComponent,
+        FocusDirective,
+        AutofocusDirective,
+        PracticeComponent,
+        OperatorPipe
     ],
     imports: [
         BrowserModule,

@@ -9,6 +9,8 @@ import { RegisterComponent } from './register/register.component';
 import { IndexComponent } from './index/index.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MapComponent } from './map/map.component';
+import { TestComponent } from './test/test.component';
+import { PracticeComponent } from './practice/practice.component';
 import { DrivingTestComponent } from './driving-test/driving-test.component';
 
 const routes: Routes = [
@@ -18,6 +20,7 @@ const routes: Routes = [
     { path: 'login', component: LoginComponent },
     { path: 'profile', component: ProfileComponent },
     { path: 'map', component: MapComponent },
+    { path: 'practice', component: PracticeComponent },
     { path: 'driving-test', component: DrivingTestComponent },
     { path: 'tree', component: TreeComponent },
     { path: 'tree/:branchId', component: BranchComponent },

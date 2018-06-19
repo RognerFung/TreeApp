@@ -1,0 +1,362 @@
+[
+    {
+        "No": "1",
+        "Name": "Math",
+        "CName": "数学",
+        "Sub": [
+            {
+                "No": "11",
+                "Name": "Arithmetic",
+                "CName": "算术",
+                "Sub": [
+                    {
+                        "No": "111",
+                        "Name": "Number",
+                        "CName": "数字",
+                        "Sub": [
+                            {
+                                "No": "1111",
+                                "Name": "Natural number",
+                                "CName": "自然数",
+                                "Sub": [
+                                    {
+                                        "No": "11111",
+                                        "Name": "Natural number less than 10",
+                                        "CName": "小于十的自然数",
+                                        "Generation": "Math.floor(Math.random() * 10"
+                                    },
+                                    {
+                                        "No": "11112",
+                                        "Name": "Natural number less than 100",
+                                        "CName": "小于一百的自然数",
+                                        "Generation": "Math.floor(Math.random() * 100"
+                                    },
+                                    {
+                                        "No": "11113",
+                                        "Name": "Natural number less than 10000",
+                                        "CName": "小于一万的自然数",
+                                        "Generation": "Math.floor(Math.random() * 10000"
+                                    },
+                                    {
+                                        "No": "11114",
+                                        "Name": "Natural number less than 100 million",
+                                        "CName": "小于一亿的自然数",
+                                        "Generation": "Math.floor(Math.random() * 100000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "No": "1112",
+                                "Name": "Integer",
+                                "CName": "整数",
+                                "Sub": [
+                                    {
+                                        "No": "11121",
+                                        "Name": "Integer abslute value less than 100",
+                                        "CName": "绝对值小于一百的整数",
+                                        "Generation": "(Math.random() < 0.5 ? -1 : 1) * Math.floor(Math.random() * 100"
+                                    },
+                                    {
+                                        "No": "11122",
+                                        "Name": "Integer abslute value less than 10000",
+                                        "CName": "绝对值小于一万的整数",
+                                        "Generation": "(Math.random() < 0.5 ? -1 : 1) * Math.floor(Math.random() * 10000"
+                                    },
+                                    {
+                                        "No": "11123",
+                                        "Name": "Integer abslute value less than 100 million",
+                                        "CName": "绝对值小于一亿的整数",
+                                        "Generation": "(Math.random() < 0.5 ? -1 : 1) * Math.floor(Math.random() * 100000000"
+                                    }
+                                ]
+                            },
+                            {
+                                "No": "1113",
+                                "Name": "Fraction",
+                                "CName": "分数",
+                                "Sub": [
+                                    {
+                                        "No": "11131",
+                                        "Name": "Simple fraction",
+                                        "CName": "简单分数",
+                                        "Generation": {
+                                            "numerator": "Math.floor(Math.random() * 10",
+                                            "denominator": "(Math.floor(Math.random() * 10 + 1)"
+                                        }
+                                    },
+                                    {
+                                        "No": "11132",
+                                        "Name": "Common fraction",
+                                        "CName": "一般分数",
+                                        "Generation": {
+                                            "numerator": "(Math.random() < 0.5 ? -1 : 1) * Math.floor(Math.random() * 100",
+                                            "denominator": "(Math.floor(Math.random() * 100 + 1)"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "No": "1114",
+                                "Name": "Rational number",
+                                "CName": "有理数",
+                                "Sub": [
+                                    {
+                                        "No": "11141",
+                                        "Name": "Simple positive rational number",
+                                        "CName": "简单正有理数",
+                                        "Generation": "Math.floor(Math.random() * 10 / (Math.floor(Math.random() * 10 + 1)"
+                                    },
+                                    {
+                                        "No": "11142",
+                                        "Name": "Common rational number",
+                                        "CName": "一般有理数",
+                                        "Generation": "(Math.random() < 0.5 ? -1 : 1) * Math.floor(Math.random() * 100 / (Math.floor(Math.random() * 100 + 1)"
+                                    }
+                                ]
+                            },
+                            {
+                                "No": "1115",
+                                "Name": "Real number",
+                                "CName": "实数",
+                                "Sub": [
+                                    {
+                                        "No": "11151",
+                                        "Name": "Positive real number",
+                                        "CName": "正实数",
+                                        "Generation": "Math.random() * 100"
+                                    },
+                                    {
+                                        "No": "11151",
+                                        "Name": "Common real number",
+                                        "CName": "一般实数",
+                                        "Generation": "(Math.random() < 0.5 ? -1 : 1) *  Math.random() * 100"
+                                    }
+                                ]
+                            },
+                            {
+                                "No": "1116",
+                                "Name": "Complex number",
+                                "CName": "复数",
+                                "Sub": [
+                                    {
+                                        "No": "11161",
+                                        "Name": "Simple complex number",
+                                        "CName": "简单复数",
+                                        "Generation": {
+                                            "Real": "Math.floor(Math.random() * 10",
+                                            "Imaginary": "Math.floor(Math.random() * 10"
+                                        }
+                                    },
+                                    {
+                                        "No": "11161",
+                                        "Name": "Common complex number",
+                                        "CName": "一般复数",
+                                        "Generation": {
+                                            "Real": "(Math.random() < 0.5 ? -1 : 1) *  Math.random() * 100",
+                                            "Imaginary": "(Math.random() < 0.5 ? -1 : 1) *  Math.random() * 100"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "No": "112",
+                        "Name": "Operation",
+                        "CName": "运算",
+                        "Sub": [
+                            {
+                                "No": "1121",
+                                "Name": "Order of operation",
+                                "CName": "运算顺序",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1122",
+                                "Name": "Addition & Subtraction",
+                                "CName": "加减法",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1123",
+                                "Name": "Multiplication & Division",
+                                "CName": "乘除法",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1124",
+                                "Name": "Exponentiation & Logarithm",
+                                "CName": "指数对数",
+                                "Sub": [
+
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "No": "12",
+                "Name": "Geometry",
+                "CName": "几何",
+                "Sub": [
+                    {
+                        "No": "121",
+                        "Name": "Shape",
+                        "CName": "图形",
+                        "Sub": [
+                            {
+                                "No": "1211",
+                                "Name": "Line",
+                                "CName": "直线",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1212",
+                                "Name": "Square",
+                                "CName": "正方形",
+                                "Sub": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "No": "122",
+                        "Name": "Measure",
+                        "CName": "测量计算",
+                        "Sub": [
+                            {
+                                "No": "1221",
+                                "Name": "Length, area, volume",
+                                "CName": "长度，面积，体积",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1222",
+                                "Name": "Degree",
+                                "CName": "角度",
+                                "Sub": [
+
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "No": "13",
+                "Name": "Algebra",
+                "CName": "代数",
+                "Sub": [
+                    {
+                        "No": "131",
+                        "Name": "Expression",
+                        "CName": "表达式",
+                        "Sub": [
+                            {
+                                "No": "1311",
+                                "Name": "Variable",
+                                "CName": "变量",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1312",
+                                "Name": "Expression",
+                                "CName": "表达式",
+                                "Sub": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "No": "132",
+                        "Name": "Equation",
+                        "CName": "方程",
+                        "Sub": [
+                            {
+                                "No": "1321",
+                                "Name": "Linear equations with one variable",
+                                "CName": "一元一次方程",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1322",
+                                "Name": "Linear equations with two variables",
+                                "CName": "二元一次方程组",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1323",
+                                "Name": "Quadratic equations",
+                                "CName": "一元二次方程组",
+                                "Sub": [
+
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "No": "133",
+                        "Name": "Function",
+                        "CName": "函数",
+                        "Sub": [
+                            {
+                                "No": "1331",
+                                "Name": "Constant, variable and function",
+                                "CName": "常数，变量和函数",
+                                "Sub": [
+
+                                ]
+                            },
+                            {
+                                "No": "1332",
+                                "Name": "Linear function",
+                                "CName": "线性函数",
+                                "Sub": [
+
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "No": "2",
+        "Name": "Chinese",
+        "CName": "中文",
+        "Sub": [
+            {
+                "No": "21",
+                "Name": "Literacy",
+                "CName": "识字",
+                "Sub": [
+                    {
+                        "No": "211",
+                        "Name": "Literacy",
+                        "CName": "识字"
+                    }
+                ]
+            }
+        ]
+    }
+]

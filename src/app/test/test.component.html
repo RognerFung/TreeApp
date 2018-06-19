@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="card text-center text-info">
+        <div class="card-header">
+            <h6 class="row">
+                <span class="col-2">第{{ index }}题</span>
+                <span class="col-4 offset-2">{{ testType.name }}</span>
+                <span class="col-3 offset-1" *ngIf="index > 1">正确率: {{ points / (index - 1) * 100 | number: "1.0-1" }} %</span>
+            </h6>
+        </div>
+            <div class="card-body row text-danger mt-4">
+                <div class="card-text col-5">
+                    <h3>{{ question | operator }}</h3>
+                </div>
+                <div class="card-text col-2">
+                    <h3>=</h3>
+                </div>
+                <div class="card-text col-2">
+                    <h3>
+                        <input class="rounded border-primary text-danger" type="text" name="answer" [(ngModel)]="answer" autofocus [focus]="inputFocus" />
+                    </h3>
+                </div>
+                <div class="col-12 mt-4">
+                    <button *ngIf="!answered" class="btn btn-primary" (click)="checkAnswer(answer)">提交</button>
+                    <button *ngIf="answered" class="btn btn-primary" (click)="raiseQuestion()"[focus]="buttonFocus" >下一题</button>
+                </div>
+            </div>
+        <div class="card-footer">
+            <h6 *ngIf="!answered">请输入答案</h6>
+            <h6 *ngIf="answered && checkAnswer(answer)"><span class="fa fa-check fa-lg"></span></h6>
+            <h6 *ngIf="answered && !checkAnswer(answer)"><span class="fa fa-remove fa-lg"></span></h6>
+        </div>
+    </div>
+</div>
