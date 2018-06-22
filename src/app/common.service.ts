@@ -76,8 +76,8 @@ export class CommonService {
         }).map((response: Response) => response.json());
     }
 
-    modifyJob(data) {
-        return this.http.post('http://localhost:3333/api/modifyJob/', data, {
+    modifyEarlyedu(data) {
+        return this.http.post('http://localhost:3333/api/modifyEarlyedu/', data, {
             withCredentials: true
         }).map((response: Response) => response.json());
     }

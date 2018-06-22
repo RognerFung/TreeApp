@@ -1,0 +1,25 @@
+<div class="container text-center">
+    <svg [attr.viewBox]="viewBox">
+        <defs>
+            <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                <stop offset="0%" style="stop-color: white; stop-opacity: 0" />
+                <stop offset="100%" style="stop-color: #00C851; stop-opacity: 1" />
+            </radialGradient>
+            <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                <stop offset="0%" style="stop-color: #fff3e0; stop-opacity: 0" />
+                <stop offset="100%" style="stop-color: red; stop-opacity: 1" />
+            </radialGradient>
+            <radialGradient id="grad3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                <stop offset="0%" style="stop-color: white; stop-opacity: 0" />
+                <stop offset="100%" style="stop-color: #9933CC; stop-opacity: 1" />
+            </radialGradient>
+        </defs>
+        <polygon [attr.points]="drawM" fill="url(#grad1)" />
+        <path [attr.d]="drawP" stroke="red" stroke-width="3" fill="url(#grad2)" />
+        <ng-container *ngFor="let dat of data">
+            <text [attr.x]="dat.t.x" [attr.y]="dat.t.y" [attr.textLength]="textLength">{{dat.content}}</text>
+            <circle [attr.cx]="dat.m.x" [attr.cy]="dat.m.y" [attr.r]="r" stroke="black" stroke-width="1" fill="url(#grad3)"></circle>
+        </ng-container>
+        <circle [attr.cx]="c.x" [attr.cy]="c.y" [attr.r]="r" stroke="black" stroke-width="1" fill="url(#grad3)"></circle>
+    </svg>
+</div>

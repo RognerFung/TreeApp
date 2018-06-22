@@ -31,6 +31,9 @@ import { FocusDirective } from './focus.directive';
 import { AutofocusDirective } from './autofocus.directive';
 import { PracticeComponent } from './practice/practice.component';
 import { OperatorPipe } from './operator.pipe';
+import { PowerComponent } from './power/power.component';
+import { SkillchartComponent } from './skillchart/skillchart.component';
+import { EarlyEducationComponent } from './early-education/early-education.component';
 
 @NgModule({
     declarations: [
@@ -55,7 +58,10 @@ import { OperatorPipe } from './operator.pipe';
         FocusDirective,
         AutofocusDirective,
         PracticeComponent,
-        OperatorPipe
+        OperatorPipe,
+        PowerComponent,
+        SkillchartComponent,
+        EarlyEducationComponent
     ],
     imports: [
         BrowserModule,

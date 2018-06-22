@@ -8,10 +8,8 @@ import { CommonService } from '../common.service';
 })
 export class MapComponent implements OnInit {
 
-    jobs: any[];
     careers: any[];
     
-
     constructor(
         private commonService: CommonService
     ) {}

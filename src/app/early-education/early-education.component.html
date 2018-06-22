@@ -1,0 +1,43 @@
+<div class="container my-5">
+    <div class="row">
+        <div class="col-2 mt-3">
+            <img *ngIf="earlyEdu.img" [src]="earlyEdu.img" class="img-thumbnail" width="200px" height="200px">
+            <h5 class="text-center">{{ earlyEdu.age }}</h5>
+            <button type="button" class="btn btn-primary dropdown-toggle w-100" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">选择年龄段</button>
+            <div class="dropdown-menu">
+                <a *ngFor="let age of ages" class="dropdown-item" (click)="loadEdu(age)">{{ age }}</a>
+            </div>
+        </div>
+        <div *ngIf="earlyEdu.help" class="col-10">
+            <div *ngFor="let content of earlyEdu.content">
+                <div class="card my-3">
+                    <h5 class="card-header text-light" [style.background-color]="fourColor(content.field)">{{ content.Cfield }}</h5>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <button *ngFor="let con of content.content" (click)="check(content.Cfield, con.cn)" 
+                                class="list-group-item d-flex justify-content-between align-items-center my-1 border-0" 
+                                [style.color]="fourColor(content.field)" >
+                                <h6>{{ con.cn }}</h6>
+                                <span *ngIf="con.score === 1" class="fa fa-check fa-lg text-primary"></span>
+                                <span *ngIf="con.score === 0" class="fa fa-square-o fa-lg"></span>
+                            </button>
+                        <!--
+                            <div class="input-group">
+                                <input type="text" class="form-control border-0 bg-light" disabled="true" [placeholder]="con.cn"/>
+                                <div class="input-group-append">
+                                    <div class="input-group-text border-0 bg-light">
+                                        <input type="checkbox">
+                                    </div>
+                                </div>
+                            </div>
+                        -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <p>{{ earlyEdu.help.cn }}</p>
+            <p>{{ earlyEdu.alert.cn }}</p>
+        </div>
+    </div>
+</div>

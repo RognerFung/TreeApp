@@ -9,9 +9,10 @@ import { RegisterComponent } from './register/register.component';
 import { IndexComponent } from './index/index.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MapComponent } from './map/map.component';
-import { TestComponent } from './test/test.component';
+import { PowerComponent } from './power/power.component';
 import { PracticeComponent } from './practice/practice.component';
 import { DrivingTestComponent } from './driving-test/driving-test.component';
+import { EarlyEducationComponent } from './early-education/early-education.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'index', pathMatch: 'full' },
@@ -19,9 +20,11 @@ const routes: Routes = [
     { path: 'register', component: RegisterComponent },
     { path: 'login', component: LoginComponent },
     { path: 'profile', component: ProfileComponent },
+    { path: 'power', component: PowerComponent },
     { path: 'map', component: MapComponent },
     { path: 'practice', component: PracticeComponent },
     { path: 'driving-test', component: DrivingTestComponent },
+    { path: 'early-education', component: EarlyEducationComponent },
     { path: 'tree', component: TreeComponent },
     { path: 'tree/:branchId', component: BranchComponent },
     { path: 'tree/:branchId/:fruitId', component: FruitComponent },

@@ -76,13 +76,11 @@ var CareersSchema = new Schema({
     versionKey: false
 });
 
-var JobsSchema = new Schema({
-    No: String,
-    Name: String,
-    ClassNo: String,
-    ClassName: String,
-    GradeNo: String,
-    GradeName: String
+var EarlyedusSchema = new Schema({
+    age: String,
+    content: Array,
+    help: Object,
+    alert: Object
 }, {
     versionKey: false
 });
@@ -90,7 +88,7 @@ var JobsSchema = new Schema({
 var model = mongo.model('users', UsersSchema, 'users');
 var branchModel = mongo.model('branches', BranchesSchema, 'branches');
 var careerModel = mongo.model('careers', CareersSchema, 'careers');
-var jobModel = mongo.model('jobs', JobsSchema, 'jobs');
+var eduModel = mongo.model('earlyedus', EarlyedusSchema, 'earlyedus');
 
 //Register user, save username and password (in hash) in database
 app.post("/api/regUser", function(req, res) {
@@ -298,17 +296,17 @@ app.post("/api/modifyCareer", function(req, res) {
             } else {
                 res.send(doc);
             }
-        })
+        });
     } else {
         console.log("receive false");
     }
     
 });
 
-//Insert, delete, update and select jobs in database
-app.post("/api/modifyJob", function(req, res) {
+//Insert, delete, update and select earlyedu in database
+app.post("/api/modifyEarlyedu", function(req, res) {
     if (req.body.order === "insert") {
-        jobModel.insertMany(req.body.data, function(error, doc) {
+        eduModel.insertMany(req.body.data, function(error, doc) {
             if (error) {
                 res.send(error);
             } else {
@@ -316,7 +314,7 @@ app.post("/api/modifyJob", function(req, res) {
             }
         });
     } else if (req.body.order === "delete") {
-        jobModel.deleteMany(req.body.data, function(error) {
+        eduModel.deleteMany(req.body.data, function(error) {
             if (error) {
                 res.send(error);
             } else {
@@ -324,7 +322,7 @@ app.post("/api/modifyJob", function(req, res) {
             }
         });
     } else if (req.body.order === "update") {
-        jobModel.update(req.body.data, req.body.new, function(error, doc) {
+        eduModel.update(req.body.data, req.body.new, function(error, doc) {
             if (error) {
                 res.send(error);
             } else {
@@ -332,13 +330,13 @@ app.post("/api/modifyJob", function(req, res) {
             }
         });
     } else if (req.body.order === "select") {
-        jobModel.find(req.body.data, function(error, doc) {
+        eduModel.find(req.body.data, function(error, doc) {
             if (error) {
                 res.send(error);
             } else {
                 res.send(doc);
             }
-        })
+        });
     } else {
         console.log("receive false");
     }

@@ -1,0 +1,1927 @@
+[
+    {
+        "age": "2 Months",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Begins to smile at people",
+                        "cn": "对人微笑",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can briefly calm himself(may bring hands to mouth and suck on hand)",
+                        "cn": "可以暂时地让自己平静下来(可能将手放在嘴里并吮吸手)",
+                        "score": 0
+                    },
+                    {
+                        "en": "Tries to look at parent",
+                        "cn": "试着朝父母看",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Coos, makes gurgling sounds",
+                        "cn": "嘤嘤低语，发出咕噜声",
+                        "score": 0
+                    },
+                    {
+                        "en": "Turns head toward sounds",
+                        "cn": "朝着声音转头",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Pays attention to faces",
+                        "cn": "注意面部表情",
+                        "score": 0
+                    },
+                    {
+                        "en": "Begins to follow things with eyes and recognize people at a distance",
+                        "cn": "开始用眼睛跟随事物，并能在稍远一些的距离认出人",
+                        "score": 0
+                    },
+                    {
+                        "en": "Begins to act bored (cries, fussy) if activity doesn’t change",
+                        "cn": "如果活动没有变化，会开始觉得厌烦(哭、生气)",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Can hold head up and begins to push up when lying on tummy",
+                        "cn": "宝宝俯卧时，会抬起头并开始俯身撑起",
+                        "score": 0
+                    },
+                    {
+                        "en": "Makes smoother movements with arms and legs",
+                        "cn": "用手臂和腿做出更流畅的动作",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Cuddle, talk, and play with your baby during feeding, dressing, and bathing",
+                "Help your baby learn to calm herself. It’s okay for her to suck on her fingers",
+                "Begin to help your baby get into a routine, such as sleeping at night more than in the day, and have regular schedules",
+                "Getting in tune with your baby’s likes and dislikes can help you feel more comfortable and con dent",
+                "Act excited and smile when your baby makes sounds",
+                "Copy your baby’s sounds sometimes, but also use clear language",
+                "Pay attention to your baby’s different cries so that you learn to know what he wants",
+                "Talk, read, and sing to your baby",
+                "Play peek-a-boo. Help your baby play peek-a-boo, too",
+                "Place a baby-safe mirror in your baby’s crib so she can look at herself",
+                "Look at pictures with your baby and talk about them",
+                "Lay your baby on his tummy when he is awake and put toys near him",
+                "Encourageyourbabytolifthisheadbyholdingtoysateyelevelinfrontofhim",
+                "Holdatoyorrattleaboveyourbaby’sheadandencouragehertoreachforit",
+                "Hold your baby upright with his feet on the  oor. Sing or talk to your baby as he is upright"
+            ],
+            "cn": [
+                "喂养、穿衣和洗澡时，拥抱、说话，并与您的宝宝玩耍",
+                "帮助您的宝宝学习如何让自己平静下来。可以让她吸允自己的手指",
+                "开始帮助您的宝宝养成好习惯，例如在晚上而不是白天睡觉， 并有规律作息",
+                "知道宝宝喜欢什么与不喜欢什么，有助于您感觉更舒适和自信",
+                "当宝宝发出声音时，表现兴奋并对宝宝笑",
+                "偶尔模仿宝宝的声音，但同时使用明确的语言",
+                "注意宝宝不同的哭声，以便您知道他想要什么",
+                "与宝宝说话，给他读书和唱歌",
+                "玩躲猫猫。同时帮助宝宝玩躲猫猫游戏",
+                "在宝宝的婴儿床上放上一面对婴儿安全的镜子，以便她可以看到自己",
+                "和您的宝宝一起看图并谈论它们",
+                "宝宝醒来时，让他俯卧躺在床上，并把玩具放在他旁边",
+                "将玩具置于宝宝前面的眼睛视线高度，鼓励宝宝抬起头",
+                "将玩具或摇响器置于宝宝的头部上方，鼓励她伸手拿它",
+                "让宝宝在地板上站直。当他站直时，给他唱歌或跟他说话。"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Doesn’t respond to loud sounds",
+                "Doesn’t watch things as they move q Doesn’t smile at people",
+                "Doesn’t bring hands to mouth",
+                "Can’t hold head up when pushing up when on tummy"
+            ],
+            "cn": [
+                "对很响的声音没有反应",
+                "不会将手放在嘴巴里",
+                "物体移动时没有看它们",
+                "俯卧时，不会俯身撑起并抬起头",
+                "不会对人笑"
+            ]
+        }
+    },
+    {
+        "age": "4 Months",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Smiles spontaneously, especially at people",
+                        "cn": "自发地笑，尤其会对人笑",
+                        "score": 0
+                    },
+                    {
+                        "en": "Likes to play with people and might cry when playing stops",
+                        "cn": "喜欢和别人玩，停止玩耍时可能哭",
+                        "score": 0
+                    },
+                    {
+                        "en": "Copies some movements and facial expressions, like smiling or frowning",
+                        "cn": "模仿某些动作和面部表情，例如笑或皱眉头",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Begins to babble",
+                        "cn": "开始呀呀学语",
+                        "score": 0
+                    },
+                    {
+                        "en": "Babbles with expression and copies sounds he hears",
+                        "cn": "呀呀学语时带有表情并会模仿他听到的声音",
+                        "score": 0
+                    },
+                    {
+                        "en": "Cries in different ways to show hunger, pain, or being tired",
+                        "cn": "以不同的方式哭，以表达饥饿、疼痛或疲劳",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Lets you know if she is happy or sad",
+                        "cn": "让您知道她快乐或难过",
+                        "score": 0
+                    },
+                    {
+                        "en": "Responds to affection",
+                        "cn": "对情感作出回应",
+                        "score": 0
+                    },
+                    {
+                        "en": "Reaches for toy with one hand",
+                        "cn": "用一只手拿玩具",
+                        "score": 0
+                    },
+                    {
+                        "en": "Uses hands and eyes together, such as seeing a toy and reaching for it",
+                        "cn": "同时使用手和眼睛，例如看到一个玩具并伸手拿它",
+                        "score": 0
+                    },
+                    {
+                        "en": "Follows moving things with eyes from side to side",
+                        "cn": "目光跟随移动物体从一边转到另一边",
+                        "score": 0
+                    },
+                    {
+                        "en": "Watches faces closely",
+                        "cn": "注意观察面部表情",
+                        "score": 0
+                    },
+                    {
+                        "en": "Recognizes familiar people and things at a distance",
+                        "cn": "可以从稍远的距离认出熟悉的人和物",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Holds head steady, unsupported",
+                        "cn": "不用支撑保持头部稳定",
+                        "score": 0
+                    },
+                    {
+                        "en": "Pushes down on legs when feet are on a hard surface",
+                        "cn": "双脚置于硬表面时下压腿",
+                        "score": 0
+                    },
+                    {
+                        "en": "May be able to roll over from tummy to back",
+                        "cn": "可以从肚子翻到背部",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can hold a toy and shake it and swing at dangling toys",
+                        "cn": "可以拿着玩具并摇晃它，以及摇晃悬挂着的玩具",
+                        "score": 0
+                    },
+                    {
+                        "en": "Brings hands to mouth",
+                        "cn": "将手放在嘴巴里",
+                        "score": 0
+                    },
+                    {
+                        "en": "When lying on stomach, pushes up to elbows",
+                        "cn": "俯卧时会俯身撑起",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Hold and talk to your baby; smile and be cheerful while you do",
+                "Set steady routines for sleeping and feeding",
+                "Pay close attention to what your baby likes and doesn’t like; you will know how best to meet his needs and what you can do to make your baby happy",
+                "Copy your baby’s sounds",
+                "Act excited and smile when your baby makes sounds",
+                "Have quiet play times when you read or sing to your baby",
+                "Give age-appropriate toys to play with, such as rattles or colorful pictures",
+                "Play games such as peek-a-boo",
+                "Provide safe opportunities for your baby to reach for toys and explore his surroundings",
+                "Put toys near your baby so that she can reach for them or kick her feet",
+                "Put toys or rattles in your baby’s hand and help him to hold them",
+                "Hold your baby upright with feet on the  oor, and sing or talk to your baby as she “stands” with support"
+            ],
+            "cn": [
+                "抱着宝宝并和他说话;这样做时对宝宝微笑并表现得很愉快",
+                "制定睡觉和喂养的常规方式",
+                "注意观察您的宝宝喜欢和不喜欢什么;您将知道如何最有效地满 足他的需求，以及如何让您的宝宝快乐",
+                "模仿您的宝宝的声音",
+                "当宝宝发出声音时，表现兴奋并对宝宝笑",
+                "应在安静的游戏时间给宝宝读书或唱歌",
+                "让宝宝玩适合其年龄的玩具，例如摇响器或彩色图片",
+                "玩游戏，例如躲猫猫",
+                "为宝宝自己拿玩具并探索周围环境提供安全机会",
+                "将玩具放在宝宝附近，以便她可以拿到它们并用脚踢",
+                "将玩具或摇响器放在宝宝手中，并帮助他拿着",
+                "将宝宝的双脚放在地上，让宝宝保持直立，帮助她“站立”时， 给她唱歌或对她说话"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Doesn’t watch things as they move q Doesn’t smile at people",
+                "Can’t hold head steady",
+                "Doesn’t coo or make sounds",
+                "Doesn’tbringthingstomouth",
+                "Doesn’t push down with legs when feet are placed on a hard surface",
+                "Has trouble moving one or both eyes in all directions"
+            ],
+            "cn": [
+                "物体移动时没有看它们",
+                "不会对人笑",
+                "不能稳定地保持头部",
+                "不会嘤嘤低语或发出声音",
+                "不会将东西放到嘴巴里",
+                "双脚置于硬表面时不会下压腿",
+                "将一只或两只眼睛向各个方向转动时有困难"
+            ]
+        }
+    },
+    {
+        "age": "6 Months",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Pushes down on legs when feet are on a hard surface",
+                        "cn": "认识熟悉的面孔并开始知道谁是陌生人",
+                        "score": 0
+                    },
+                    {
+                        "en": "Responds to other people’s emotions and often seems happy",
+                        "cn": "对其他人的情绪作出反应，并经常看起来很开心",
+                        "score": 0
+                    },
+                    {
+                        "en": "Likes to play with others, especially parents",
+                        "cn": "想要和别人玩耍，特别是父母",
+                        "score": 0
+                    },
+                    {
+                        "en": "Likes to look at self in a mirror",
+                        "cn": "喜欢照镜子看自己",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Responds to sounds by making sounds",
+                        "cn": "通过发出声音对声音作出回应",
+                        "score": 0
+                    },
+                    {
+                        "en": "Strings vowels together when babbling (“ah,” “eh,” “oh”) and likes taking turns with parent while making sounds",
+                        "cn": "发出的咿哑声(“啊”、“嗯”、“哦”)时将元音串在一起，并喜欢和父母轮流发出声音",
+                        "score": 0
+                    },
+                    {
+                        "en": "Responds to own name",
+                        "cn": "对自己的名字作出反应",
+                        "score": 0
+                    },
+                    {
+                        "en": "Makes sounds to show joy and displeasure",
+                        "cn": "发出声音以表达愉快和不愉快的情绪",
+                        "score": 0
+                    },
+                    {
+                        "en": "Begins to say consonant sounds (jabbering with “m,” “b”)",
+                        "cn": "开始说辅音(快而含糊地说出“m”、“b”)",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Looks around at things nearby",
+                        "cn": "观察周围的事物",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows curiosity about things and tries to get things that are out of reach",
+                        "cn": "对事物表现出好奇心，并试着拿自己拿不到的东西",
+                        "score": 0
+                    },
+                    {
+                        "en": "Brings things to mouth",
+                        "cn": "将东西放到嘴巴里",
+                        "score": 0
+                    },
+                    {
+                        "en": "Begins to pass things from one hand to the other",
+                        "cn": "开始将东西从一只手传到另一只手",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Rolls over in both directions (front to back, back to front)",
+                        "cn": "朝不同方向翻身(从前往后， 从后往前)",
+                        "score": 0
+                    },
+                    {
+                        "en": "When standing, supports weight on legs and might bounce",
+                        "cn": "站立时，用脚支撑体重并会跳起来",
+                        "score": 0
+                    },
+                    {
+                        "en": "Begins to sit without support",
+                        "cn": "开始不用支撑坐着",
+                        "score": 0
+                    },
+                    {
+                        "en": "Rocks back and forth, sometimes crawling backward before moving forward",
+                        "cn": "前后摇摆，有时在向前移动前会向后爬",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Play on the  oor with your baby every day",
+                "Learn to read your baby’s moods. If he’s happy, keep doing what you are doing. If he’s upset, take a break and comfort your baby",
+                "Show your baby how to comfort herself when she’s upset. She may suck on her  ngers to self soothe",
+                "Use “reciprocal” play—when he smiles, you smile; when he makes sounds, you copy them",
+                "Repeat your child’s sounds and say simple words with those sounds. For example, if your child says “bah,” say “bottle” or “book.”",
+                "Read books to your child every day. Praise her when she babbles and “reads” too",
+                "When your baby looks at something, point to it and talk about it",
+                "When he drops a toy on the  oor, pick it up and give it back. This game helps him learn cause and effect",
+                "Read colorful picture books to your baby",
+                "Point out new things to your baby and name them",
+                "Show your baby bright pictures in a magazine and name them",
+                "Hold your baby up while she sits or support her with pillows. Let her look around and give her toys to look at while she balances",
+                "Put your baby on his tummy or back and put toys just out of reach. Encourage him to roll over to reach the toys"
+            ],
+            "cn": [
+                "每天在地板上和宝宝玩",
+                "学会判断宝宝的心情。如果他快乐，继续做您正在做的事。如果他不高兴，休息一下并安慰宝宝",
+                "当她不高兴时，教宝宝如何安慰自己。她可能吸允手指以自我 安慰",
+                "玩“交互”游戏 - 当他笑时，您也笑;当他发出声音时， 您模仿这些声音",
+                "重复小孩的声音，并用这些声音说简单的词。例如，如果您的小 孩说“bah”，您可以说 “bottle”或“book”",
+                "每天给您的小孩读书。当她呀呀学语并“阅读”时，给她鼓励",
+                "当宝宝看某件东西时，指着它并谈论它",
+                "当他的玩具掉在地上时，捡起来并还给他。这个游戏可以帮助他 了解原因和结果",
+                "给宝宝读有彩图的书",
+                "向宝宝指出新的物品并说出它们的名称",
+                "给宝宝看杂志中明亮的图片并说出它们的名称",
+                "宝宝坐着时举起她或用枕头提供支撑。让她观察四周并在她保持 平衡时给她玩具看",
+                "让宝宝俯卧或仰卧，并将玩具放在他拿不到的地方。 鼓励他翻身去拿玩具"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Doesn’t try to get things that are in reach",
+                "Shows no affection for caregivers",
+                "Doesn’t respond to sounds around him",
+                "Has difficulty getting things to mouth",
+                "Seems very floppy, like a rag doll",
+                "Doesn’t make vowel sounds (“ah”, “eh”, “oh”)",
+                "Doesn’t roll over in either direction",
+                "Doesn’t laugh or make squealing sounds",
+                "Seems very stiff, with tight muscles"
+            ],
+            "cn": [
+                "不会试着拿可以拿到的东西",
+                "对照顾者没有感情",
+                "对他周围的声音没有反应",
+                "难以把东西放到嘴巴里",
+                "看上去懒懒的像个布娃娃",
+                "不会发出元音声(“啊”、  “嗯”、“哦”)",
+                "不会朝不同方向翻身",
+                "不会笑或发出尖叫声",
+                "看上去十分坚硬，肌肉紧绷"
+            ]
+        }
+    },
+    {
+        "age": "9 Months",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "May be afraid of strangers",
+                        "cn": "可能怕陌生人",
+                        "score": 0
+                    },
+                    {
+                        "en": "Has favorite toys",
+                        "cn": "有喜欢的玩具",
+                        "score": 0
+                    },
+                    {
+                        "en": "May be clingy with familiar adults",
+                        "cn": "可能缠着熟悉的成年人",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Understands “no”",
+                        "cn": "理解“不”",
+                        "score": 0
+                    },
+                    {
+                        "en": "Makes a lot of different sounds like “mamamama” and “bababababa”",
+                        "cn": "发出许多不同的声音，例如“mamamama”和“bababababa”",
+                        "score": 0
+                    },
+                    {
+                        "en": "Copies sounds and gestures of others",
+                        "cn": "模仿其他人的声音和动作",
+                        "score": 0
+                    },
+                    {
+                        "en": "Uses fingers to point at things",
+                        "cn": "用手指指着东西",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Watches the path of something as it falls",
+                        "cn": "某件东西掉落时会观察它的路径",
+                        "score": 0
+                    },
+                    {
+                        "en": "Looks for things he sees you hide",
+                        "cn": "找出他看到您藏起来的东西",
+                        "score": 0
+                    },
+                    {
+                        "en": "Plays peek-a-boo",
+                        "cn": "玩躲猫猫游戏",
+                        "score": 0
+                    },
+                    {
+                        "en": "Puts things in her mouth",
+                        "cn": "将东西放在嘴巴里",
+                        "score": 0
+                    },
+                    {
+                        "en": "Moves things smoothly from one hand to the other",
+                        "cn": "平稳地将东西从一只手换到另一只手",
+                        "score": 0
+                    },
+                    {
+                        "en": "Picks up things like cereal o’s between thumb and index finger",
+                        "cn": "用拇指和食指捡起谷物等东西",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Stands, holding on",
+                        "cn": "站立，保持姿势",
+                        "score": 0
+                    },
+                    {
+                        "en": "Sits without support",
+                        "cn": "不用支撑坐好",
+                        "score": 0
+                    },
+                    {
+                        "en": "Crawls",
+                        "cn": "爬行",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can get into sitting position",
+                        "cn": "可以进入坐姿",
+                        "score": 0
+                    },
+                    {
+                        "en": "Pulls to stand",
+                        "cn": "爬着站起来",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Pay attention to the way he reacts to new situations and people; try to continue to do things that make your baby happy and comfortable",
+                "As she moves around more, stay close so she knows that you are near",
+                "Continue with routines; they are especially important now",
+                "Play games with “my turn, your turn.”",
+                "Say what you think your baby is feeling. For example, say, “You are so sad, let’s see if we can make you feel better.”",
+                "Describe what your baby is looking at; for example, “red, round ball.”",
+                "Talk about what your baby wants when he points at something",
+                "Copy your baby’s sounds and words",
+                "Ask for behaviors that you want. For example, instead of saying “don’t stand,” say “time to sit.”",
+                "Teach cause-and-effect by rolling balls back and forth, pushing toy cars and trucks, and putting blocks in and out of a container.",
+                "Play peek-a-boo and hide-and-seek",
+                "Read and talk to your baby",
+                "Provide lots of room for your baby to move and explore in a safe area",
+                "Put your baby close to things that she can pull up on safely"
+            ],
+            "cn": [
+                "注意他对新情况和人的反应方式;试着继续做让宝宝高兴和舒服的事情",
+                "当她更经常地四处走动时，一直跟在她身旁，让她知道您就在身边",
+                "继续遵循惯例;它们现在尤其重要",
+                "玩“轮到我，轮到你”的游戏",
+                "说出您认为宝宝感觉怎样。例如，您可以说:“你很难过，让我们来看 看能否让你感觉好点”",
+                "描述宝宝正在看的东西;例如，“红色圆球”",
+                "当宝宝指着某件东西时，谈论他想要的是什么",
+                "模仿宝宝的声音和词语",
+                "要求宝宝做出您想要的行为。例如，与其说“别站着”，您可以说 “现在可以坐下了”",
+                "通过向前和向后滚球，推玩具汽车和卡车，并将积木放入容器和取出， 教宝宝了解因果关系",
+                "玩躲猫猫和捉迷藏游戏",
+                "给宝宝读书并和她/他说话",
+                "给宝宝提供足够的空间，让她/他在安全的区域内活动和探索",
+                "将宝宝放在她可以安全地往上拉的物体旁边"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Doesn’t bear weight on legs with support",
+                "Doesn’t sit with help",
+                "Doesn’t babble (“mama”,“baba”,“dada”)",
+                "Doesn’t play any games involving back-and-forth play",
+                "Doesn’t respond to own name q Doesn’t seem to recognize familiar people",
+                "Doesn’t look where you point",
+                "Doesn’ttransfertoysfromone hand to the other"
+            ],
+            "cn": [
+                "有支撑时腿部无法承重",
+                "无法在别人的帮助下坐好",
+                "不会呀呀学语(“妈妈”、  “巴巴”、“爸爸”)",
+                "不会玩反复玩的游戏",
+                "对自己的名字没有反应",
+                "似乎认不出熟悉的人",
+                "不会朝您手指的方向看",
+                "不会将玩具从一只手换到  另一只手"
+            ]
+        }
+    },
+    {
+        "age": "1 Year",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Is shy or nervous with strangers",
+                        "cn": "对陌生人感到害羞或紧张",
+                        "score": 0
+                    },
+                    {
+                        "en": "Repeats sounds or actions to get attention",
+                        "cn": "重复声音或动作以吸引别人的注意力",
+                        "score": 0
+                    },
+                    {
+                        "en": "Cries when mom or dad leaves",
+                        "cn": "妈妈或爸爸离开时会哭",
+                        "score": 0
+                    },{
+                        "en": "Has favorite things and people",
+                        "cn": "有喜欢的事物和人",
+                        "score": 0
+                    },
+                    {
+                        "en": "Puts out arm or leg to help with dressing",
+                        "cn": "大人给他穿衣时会伸出手臂或腿",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows fear in some situations",
+                        "cn": "在某些情况下会害怕",
+                        "score": 0
+                    },
+                    {
+                        "en": "Hands you a book when he wants to hear a story",
+                        "cn": "当他想要听故事时，会拿一本书给您",
+                        "score": 0
+                    },
+                    {
+                        "en": "Plays games such as “peek-a-boo” and “pat-a-cake”",
+                        "cn": "会玩游戏，例如“躲猫猫”和“拍手游戏”",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Responds to simple spoken requests",
+                        "cn": "对简单的口头要求作出回应",
+                        "score": 0
+                    },
+                    {
+                        "en": "Uses simple gestures, like shaking head “no” or waving “bye-bye”",
+                        "cn": "使用简单的身体姿势，例如摇头表示“不”，或摆手表示“再见”",
+                        "score": 0
+                    },
+                    {
+                        "en": "Makes sounds with changes in tone (sounds more like speech)",
+                        "cn": "发出音调有变化的声音(声音更像讲话)",
+                        "score": 0
+                    },
+                    {
+                        "en": "Says “mama” and “dada” and exclamations like “uh-oh!”",
+                        "cn": "说“妈妈”和“爸爸”并会发出“噢喔!”那样的惊叹",
+                        "score": 0
+                    },
+                    {
+                        "en": "Tries to say words you say",
+                        "cn": "试着向您说话",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Explores things in different ways, like shaking, banging, throwing",
+                        "cn": "以不同的方式探索事物，例如摇动、敲击、投掷",
+                        "score": 0
+                    },
+                    {
+                        "en": "Finds hidden things easily",
+                        "cn": "轻松找到藏起来的东西",
+                        "score": 0
+                    },
+                    {
+                        "en": "Looks at the right picture or thing when it’s named",
+                        "cn": "说出名称时，看着正确的图片或物品",
+                        "score": 0
+                    },
+                    {
+                        "en": "Copies gestures",
+                        "cn": "模仿姿态",
+                        "score": 0
+                    },
+                    {
+                        "en": "Puts things in a container, takes things out of a container",
+                        "cn": "将东西放入容器内，从容器内取出东西",
+                        "score": 0
+                    },
+                    {
+                        "en": "Bangs two things together",
+                        "cn": "用两件东西相互敲击",
+                        "score": 0
+                    },
+                    {
+                        "en": "Starts to use things correctly; for example, drinks from a cup, brushes hair",
+                        "cn": "开始正确使用物品;例如，用杯子喝水，梳头",
+                        "score": 0
+                    },
+                    {
+                        "en": "Lets things go without help",
+                        "cn": "在没有帮助的情况下自己做好事情",
+                        "score": 0
+                    },
+                    {
+                        "en": "Pokes with index (pointer) finger",
+                        "cn": "用食指戳(指点)",
+                        "score": 0
+                    },
+                    {
+                        "en": "Follows simple directions like “pick up the toy”",
+                        "cn": "遵循简单指示，例如“捡起玩具”",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Gets to a sitting position without help",
+                        "cn": "不用帮助进入坐姿",
+                        "score": 0
+                    },
+                    {
+                        "en": "Pulls up to stand, walks holding on to furniture (“cruising”)",
+                        "cn": "拉起站立，扶着家具走路(“流畅地”)",
+                        "score": 0
+                    },
+                    {
+                        "en": "May take a few steps without holding on",
+                        "cn": "不用扶可以自己走几步",
+                        "score": 0
+                    },
+                    {
+                        "en": "May stand alone",
+                        "cn": "可以单独站立",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Give your child time to get to know a new caregiver. Bring a favorite toy, stuffed animal, or blanket to help comfort your child",
+                "In response to unwanted behaviors, say “no”  rmly. Do not yell, spank, or give long explanations. A time out for 30 seconds to 1 minute might help redirect your child",
+                "Give your child lots of hugs, kisses, and praise for good behavior",
+                "Spend a lot more time encouraging wanted behaviors than punishing unwanted behaviors (4 times as much encouragement for wanted behaviors as redirection for unwanted behaviors)",
+                "Talk to your child about what you’re doing. For example, “Mommy is washing your hands with a washcloth.”",
+                "Read with your child every day. Have your child turn the pages. Take turns labeling pictures with your child",
+                "Build on what your child says or tries to say, or what he points to. If he points to a truck and says “t” or “truck,” say, “Yes, that’s a big, blue truck.”",
+                "Give your child crayons and paper, and let your child draw freely. Show your child how to draw lines up and down and across the page. Praise your child when she tries to copy them",
+                "Play with blocks, shape sorters, and other toys that encourage your child to use his hands",
+                "Hide small toys and other things and have your child  nd them",
+                "Ask your child to label body parts or things you see while driving in the car",
+                "Sing songs with actions, like “The Itsy Bitsy Spider” and “Wheels on the Bus.” Help your child do the actions with you",
+                "Give your child pots and pans or a small musical instrument like a drum or cymbals. Encourage your child to make noise",
+                "Provide lots of safe places for your toddler to explore. (Toddler-proof your home. Lock away products for cleaning, laundry, lawn care, and car care. Use a safety gate and lock doors to the outside and the basement)",
+                "Give your child push toys like a wagon or “kiddie push car”"
+            ],
+            "cn": [
+                "给您的小孩时间认识新的照顾者。带上喜欢的玩具、 填充动物玩偶或毛毯以帮助安慰您的小孩",
+                "对不正当的行为作出反应，坚决说“不”。不要吼叫、打屁股或长篇大论地解释。暂停 30 秒到 1 分钟可能有助于纠正小孩的行为",
+                "给您的小孩很多拥抱、亲吻，并表扬他的良好行为",
+                "花更多时间鼓励好的行为而非惩罚不好的行为(与纠正不好的行为相比，用4倍的时间鼓励好的行为)",
+                "与您的小孩谈论您正在做什么。例如，“妈妈正在用毛巾给你洗手”",
+                "每天给您的小孩读书。让您的小孩翻页。与您的小孩轮流标记图画",
+                "以您的小孩所说或试图说的话或他指的东西为基础。如果他指着卡车并说“卡”或“卡车”，您可以说“是的，那是一辆大的、蓝色的卡车”",
+                "给您的小孩蜡笔和纸，让他随意画画。向您的小孩演示如何向上 和向下划线并穿过整个页面。当她试图这样做时，给予表扬",
+                "玩积木和形色乐，以及能够鼓励您的孩子使用双手的其它玩具",
+                "藏起小玩具和其它东西，并让您的小孩找出它们",
+                "让您的小孩标记身体部位，或在开车时让他记住看到的东西",
+                "唱配合动作的歌，如如“可爱小蜘蛛”和“公车上的轮子”。 帮助您的小孩和您一起做动作",
+                "给您的小孩坛坛罐罐或小乐器，例如鼓或铙。鼓励您的小孩弄出声音",
+                "提供充足的空间让初学走路的孩子四处探索。(防止小孩受伤。 锁好清洁、洗衣、草坪护理和汽车护理产品。使用安全门并锁住 通往室外和地下室的门)",
+                "给您的小孩推车玩具，例如婴儿车或“儿童手推车”"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Doesn’t crawl",
+                "Can’t stand when supported",
+                "Doesn’t search for things that she sees you hide",
+                "Doesn’tpointtothings",
+                "Doesn’t learn gestures like waving or shaking head",
+                "Doesn’t say single words like “mama” or “dada”",
+                "Losesskillsheoncehad"
+            ],
+            "cn": [
+                "不会爬",
+                "提供支撑仍无法站立",
+                "不会找出她看到您藏起来的东西",
+                "不会用手指东西",
+                "不会学习姿势，例如摆手或摇头",
+                "不会说简单的词，例如“妈妈”或“爸爸”",
+                "失去以前掌握的技能"
+            ]
+        }
+    },
+    {
+        "age": "18 Months",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Likes to hand things to others as play",
+                        "cn": "玩耍时喜欢将东西拿给别人",
+                        "score": 0
+                    },
+                    {
+                        "en": "May cling to caregivers in new situations",
+                        "cn": "在新的环境中会依赖照顾者",
+                        "score": 0
+                    },
+                    {
+                        "en": "May have temper tantrums",
+                        "cn": "可能会乱发脾气",
+                        "score": 0
+                    },
+                    {
+                        "en": "Points to show others something interesting",
+                        "cn": "将感兴趣的东西指给别人看",
+                        "score": 0
+                    },
+                    {
+                        "en": "May be afraid of strangers",
+                        "cn": "可能怕陌生人",
+                        "score": 0
+                    },
+                    {
+                        "en": "Explores alone but with parent close by",
+                        "cn": "父母在近旁时独自探索",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows affection to familiar people",
+                        "cn": "会对熟悉的人表达感情",
+                        "score": 0
+                    },
+                    {
+                        "en": "Plays simple pretend, such as feeding a doll",
+                        "cn": "玩简单的假扮游戏，例如喂洋娃娃",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Says several single words",
+                        "cn": "说出几个单词",
+                        "score": 0
+                    },
+                    {
+                        "en": "Says and shakes head “no”",
+                        "cn": "摇头并说“不”",
+                        "score": 0
+                    },
+                    {
+                        "en": "Points to show someone what he wants",
+                        "cn": "向别人指出他想要的东西",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Knows what ordinary things are for; for example, telephone, brush, spoon",
+                        "cn": "知道普通物品的用途，例如电话、梳子、汤匙",
+                        "score": 0
+                    },
+                    {
+                        "en": "Points to one body part",
+                        "cn": "指向身体部位",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows interest in a doll or stuffed animal by pretending to feed",
+                        "cn": "对洋娃娃或填充动物玩偶感兴趣，并会假装喂养它们",
+                        "score": 0
+                    },
+                    {
+                        "en": "Points to get the attention of others",
+                        "cn": "用手指以引起其他人的注意",
+                        "score": 0
+                    },
+                    {
+                        "en": "Scribbles on his own",
+                        "cn": "自己乱写乱画",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can follow 1-step verbal commands without any gestures; for example, sits when you say “sit down”",
+                        "cn": "可以遵循1个步骤的口头命令，无需任何手势。例如，当您说“坐下”时会坐下",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Walks alone",
+                        "cn": "独自走路",
+                        "score": 0
+                    },
+                    {
+                        "en": "May walk up steps and run",
+                        "cn": "会爬楼梯和跑步",
+                        "score": 0
+                    },
+                    {
+                        "en": "Pulls toys while walking",
+                        "cn": "走路时拖拉玩具",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can help undress herself",
+                        "cn": "会帮助自己脱衣服",
+                        "score": 0
+                    },
+                    {
+                        "en": "Drinks from a cup",
+                        "cn": "用杯子喝水",
+                        "score": 0
+                    },
+                    {
+                        "en": "Eats with a spoon",
+                        "cn": "用汤匙吃东西",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Provide a safe, loving environment. It’s important to be consistent and predictable",
+                "Praise good behaviors more than you punish bad behaviors (use only very brief time outs)",
+                "Describe her emotions. For example, say, “You are happy when we read this book”",
+                "Encourage pretend play",
+                "Encourage empathy. For example, when he sees a child who is sad, encourage him to hug or pat the other child",
+                "Read books and talk about the pictures using simple words. ➔ Copy your child’s words",
+                "Use words that describe feelings and emotions",
+                "Use simple, clear phrases",
+                "Ask simple questions",
+                "Hide things under blankets and pillows and encourage him to  nd them",
+                "Play with blocks, balls, puzzles, books, and toys that teach cause and effect and problem solving",
+                "Name pictures in books and body parts",
+                "Provide toys that encourage pretend play; for example, dolls, play telephones",
+                "Provide safe areas for your child to walk and move around in",
+                "Provide toys that she can push or pull safely",
+                "Provide balls for her to kick, roll, and throw",
+                "Encourage him to drink from his cup and use a spoon, no matter how messy",
+                "Blow bubbles and let your child pop them"
+            ],
+            "cn": [
+                "提供安全、关爱的环境。始终一致和可预测是很重要的",
+                "表扬好的行为多于惩罚不好的行为(仅使用极短的暂停时间)",
+                "描述她的情绪。例如，说:“当我们读这本书时你很高兴”",
+                "鼓励玩假扮游戏",
+                "鼓励情感移入。例如，当他看到一个伤心的小孩，鼓励他去拥抱或轻拍这个小孩",
+                "读书并使用简单的词谈论图片",
+                "模仿小孩使用的词汇",
+                "使用描述情感和情绪的词",
+                "使用简单、清楚的短语",
+                "提出简单的问题",
+                "将东西藏在毯子和枕头下，并鼓励他找出来",
+                "通过玩积木、球、拼图、书和玩具，教孩子原因和结果以及如何解决问题",
+                "说出书中图画和身体部位的名称",
+                "提供鼓励假装游戏的玩具;例如玩偶，打电话",
+                "提供安全的场所让小孩四处走动",
+                "提供她可以安全地推拉的玩具",
+                "提供她可以踢、滚和扔的球",
+                "鼓励他用自己的杯子喝水并使用汤匙，无论会导致怎样混乱的局面",
+                "吹泡泡并让您的小孩刺破它们"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Doesn’t point to show things to others",
+                "Can’t walk",
+                "Doesn’t know what familiar things are for",
+                "Doesn’t copy others",
+                "Doesn’t gain new words",
+                "Doesn’t have at least 6 words",
+                "Doesn’t notice or mind when a caregiver leaves or returns",
+                "Losesskillsheoncehad"
+            ],
+            "cn": [
+                "不会用手指东西给别人看",
+                "不会走路",
+                "不知道熟悉用品的用途",
+                "不会模仿别人",
+                "不会学习新的词汇",
+                "未掌握至少6个单词",
+                "当照顾者离开或回来时不注意或不在意",
+                "失去以前掌握的技能"
+            ]
+        }
+    },
+    {
+        "age": "2 Years",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Copies others, especially adults and older children",
+                        "cn": "模仿其他人，特别是成年人和年龄较大的儿童",
+                        "score": 0
+                    },
+                    {
+                        "en": "Gets excited when with other children",
+                        "cn": "和其他小孩在一起时表现兴奋",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows more and more independence",
+                        "cn": "表现得越来越独立",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows defiant behavior (doing what he has been told not to)",
+                        "cn": "作出叛逆行为(做别人告诉他不能做的事)",
+                        "score": 0
+                    },
+                    {
+                        "en": "Plays mainly beside other children, but is beginning to include other children, such as in chase games",
+                        "cn": "基本上不跟其他小孩玩耍，但开始接纳其他小孩，例如玩追逐游戏",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Points to things or pictures when they are named",
+                        "cn": "别人说出物品或图画的名称时，会指着它们",
+                        "score": 0
+                    },
+                    {
+                        "en": "Knows names of familiar people and body parts",
+                        "cn": "知道熟悉的人的姓名和身体部位名称",
+                        "score": 0
+                    },
+                    {
+                        "en": "Says sentences with 2 to 4 words",
+                        "cn": "会说含有2到4个单词的句子",
+                        "score": 0
+                    },
+                    {
+                        "en": "Follows simple instructions",
+                        "cn": "遵循简单的指示",
+                        "score": 0
+                    },
+                    {
+                        "en": "Repeats words overheard in conversation",
+                        "cn": "交谈时重复听到的单词",
+                        "score": 0
+                    },
+                    {
+                        "en": "Points to things in a book",
+                        "cn": "指着书中的东西",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Finds things even when hidden under two or three covers",
+                        "cn": "找出藏在两层或三层覆盖物下面的物体",
+                        "score": 0
+                    },
+                    {
+                        "en": "Begins to sort shapes and colors",
+                        "cn": "开始分类形状和颜色",
+                        "score": 0
+                    },
+                    {
+                        "en": "Completes sentences and rhymes in familiar books",
+                        "cn": "完成熟悉的书中的句子和儿歌",
+                        "score": 0
+                    },
+                    {
+                        "en": "Plays simple make-believe games",
+                        "cn": "玩简单的假扮游戏",
+                        "score": 0
+                    },
+                    {
+                        "en": "Builds towers of 4 or more blocks",
+                        "cn": "搭有4块或更多块积木",
+                        "score": 0
+                    },
+                    {
+                        "en": "Might use one hand more than the other",
+                        "cn": "可能使用一只手多于另一只手",
+                        "score": 0
+                    },
+                    {
+                        "en": "Follows two-step instructions such as “Pick up your shoes and put them in the closet”",
+                        "cn": "遵循两步指示，例如“拿起你的鞋子，并将它们放入鞋柜。”",
+                        "score": 0
+                    },
+                    {
+                        "en": "Names items in a picture book such as a cat, bird, or dog",
+                        "cn": "说出图画书中的物体的名称，例如猫、鸟或狗",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Stands on tiptoe",
+                        "cn": "足尖站立",
+                        "score": 0
+                    },
+                    {
+                        "en": "Kicks a ball",
+                        "cn": "踢球",
+                        "score": 0
+                    },
+                    {
+                        "en": "Begins to run",
+                        "cn": "开始跑",
+                        "score": 0
+                    },
+                    {
+                        "en": "Walks up and down stairs holding on",
+                        "cn": "手扶扶手上下楼梯",
+                        "score": 0
+                    },
+                    {
+                        "en": "Climbs onto and down from furniture without help",
+                        "cn": "在没有帮助的情况下爬上并爬下家具",
+                        "score": 0
+                    },
+                    {
+                        "en": "Throws ball overhand",
+                        "cn": "举手过肩扔球",
+                        "score": 0
+                    },
+                    {
+                        "en": "Makes or copies straight lines and circles",
+                        "cn": "画或仿画直线和圆圈",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Encourage your child to help with simple chores at home, like sweeping and making dinner. Praise your child for being a good helper",
+                "At this age, children still play next to (not with) each other and don’t share well. For play dates, give the children lots of toys to play with. Watch the children closely and step in if they  ght or argue",
+                "Give your child attention and praise when he follows instructions. Limit attention for defiant behavior. Spend a lot more time praising good behaviors than punishing bad ones",
+                "Teach your child to identify and say body parts, animals, and other common things",
+                "Do not correct your child when he says words incorrectly. Rather, say it correctly. For example, “That is a ball”",
+                "Encourage your child to say a word instead of pointing. If your child can’t say the whole word (“milk”), give her the  rst sound (“m”) to help. Over time, you can prompt your child to say the whole sentence — “I want milk”",
+                "Hide your child’s toys around the room and let him find them",
+                "Help your child do puzzles with shapes, colors, or farm animals. Name each piece when your child puts it in place",
+                "Encourage your child to play with blocks. Take turns building towers and knocking them down",
+                "Do art projects with your child using crayons, paint, and paper. Describe what your child makes and hang it on the wall or refrigerator",
+                "Ask your child to help you open doors and drawers and turn pages in a book or magazine",
+                "Once your child walks well, ask her to carry small things for you",
+                "Kick a ball back and forth with your child. When your child is good at that encourage him to run and kick",
+                "Take your child to the park to run and climb on equipment or walk on nature trails. Watch your child closely"
+            ],
+            "cn": [
+                "鼓励您的小孩在家里帮忙做简单的家务，例如扫地和做晚餐。 赞扬小孩是一个家务好帮手",
+                "在这个年龄段，儿童仍然会相互挨着玩(不是一起玩)，并且不愿意分享。在游戏日，给孩子很多玩具玩。密切注意小孩，如果他们打架或争吵应进行制止",
+                "注意您的小孩，当他遵循指示时予以表扬。不必过多关注叛逆行为。花更多的时间表扬好的行为而非惩罚坏的行为",
+                "教您的小孩识别并说出身体部位、动物和其它平常事物",
+                "当您的小孩说话时用词不当，不要纠正他。相反，您应正确地说出那些话。例如，“那是一粒球”",
+                "鼓励您的小孩说出来而不是用手指。如果您的小孩不能说出整个 单词(“牛奶”)，您可以发出单词的第一个音(“牛”)给她提示。一段时间后，您可以提示您的小孩说出完整句子 - “我想 要牛奶”",
+                "将您的小孩的玩具藏在房间里，并让他找出来",
+                "帮助您的小孩玩有形状、颜色或农场动物的拼图游戏。当您的小孩将拼图放在正确位置时，说出每块拼图的名称",
+                "鼓励您的小孩玩积木。轮流搭积木塔并将它们推倒",
+                "使用蜡笔、颜料和纸张，和您的小孩一起做手工。描述您的小孩做的手工，并将它挂在墙上或冰箱上",
+                "让您的小孩帮您开门和抽屉，并在您看书或杂志时帮您翻页",
+                "您的小孩学会走路后，让她帮您拿小件东西",
+                "和您的小孩玩踢球游戏。如果您的小孩喜欢踢球，鼓励他边跑边踢",
+                "带您的小孩去公园跑步，攀爬游乐设施或在通往自然景观的小径上散步。密切注意您的小孩"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Doesn’tknowwhattodowith common things, like a brush, phone,fork,spoon",
+                "Doesn’t copy actions and words",
+                "Doesn’t follow simple instructions",
+                "Doesn’t use 2-word phrases (for example, “drink milk”)",
+                "Doesn’t walk steadily",
+                "Loses skills she once had"
+            ],
+            "cn": [
+                "不知道如何做平常做的事情，例如刷牙、打电话、用叉子、汤匙",
+                "不会模仿动作和词语",
+                "不会遵循简单的指示",
+                "不会使用2个字的短语(例如“喝奶”)",
+                "走路不稳",
+                "失去以前掌握的技能"
+            ]
+        }
+    },
+    {
+        "age": "3 Years",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Copies adults and friends",
+                        "cn": "模仿成年人和朋友",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows affection for friends without prompting",
+                        "cn": "没有提示也会向朋友表达感情",
+                        "score": 0
+                    },
+                    {
+                        "en": "Takes turns in games",
+                        "cn": "轮流玩游戏",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows concern for a crying friend",
+                        "cn": "向哭泣的朋友表示关心",
+                        "score": 0
+                    },
+                    {
+                        "en": "Dresses and undresses self",
+                        "cn": "自己穿衣和脱衣",
+                        "score": 0
+                    },
+                    {
+                        "en": "Understands the idea of “mine” and “his” or “hers”",
+                        "cn": "理解“我的”和“他的”或“她的”的概念",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows a wide range of emotions",
+                        "cn": "表达不同的情绪",
+                        "score": 0
+                    },
+                    {
+                        "en": "Separates easily from mom and dad",
+                        "cn": "较容易离开妈妈和爸爸",
+                        "score": 0
+                    },
+                    {
+                        "en": "May get upset with major changes in routine",
+                        "cn": "日常活动出现较大变化时会感到不高兴",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Follows instructions with 2 or 3 steps",
+                        "cn": "遵循有2个或3个步骤的指示",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can name most familiar things",
+                        "cn": "可以说出多数熟悉物品的名称",
+                        "score": 0
+                    },
+                    {
+                        "en": "Understandswordslike“in,” “on,” and “under”",
+                        "cn": "理解“在...之内”、“在...之上”和“在...之下”等词的意思",
+                        "score": 0
+                    },
+                    {
+                        "en": "Says first name, age and sex",
+                        "cn": "说出名字、年龄和性别",
+                        "score": 0
+                    },
+                    {
+                        "en": "Names a friend",
+                        "cn": "说出朋友的姓名",
+                        "score": 0
+                    },
+                    {
+                        "en": "Talks well enough for strangers to understand most of the time",
+                        "cn": "和陌生人很好地交谈，大多能令人明白",
+                        "score": 0
+                    },
+                    {
+                        "en": "Says words like “I,” “me,” “we,” and “you” and some plurals (cars, dogs, cats)",
+                        "cn": "会说“我”、“自己”、“我们”和“你”等词以及某些复数(汽车、狗和猫)",
+                        "score": 0
+                    },
+                    {
+                        "en": "Carries on a conversation using 2 to 3 sentences",
+                        "cn": "会使用2到3个句子进行交谈",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Can work toys with buttons, levers, and moving parts",
+                        "cn": "会玩有按钮、杠杆和移动部件的玩具",
+                        "score": 0
+                    },
+                    {
+                        "en": "Plays make-believe with dolls, animals, and people",
+                        "cn": "会与玩偶、动物和人玩假扮游戏",
+                        "score": 0
+                    },
+                    {
+                        "en": "Does puzzles with 3 or 4 pieces",
+                        "cn": "会拼出3块或4块游戏拼图",
+                        "score": 0
+                    },
+                    {
+                        "en": "Understands what “two” means",
+                        "cn": "理解“两个”是什么意思",
+                        "score": 0
+                    },
+                    {
+                        "en": "Copies a circle with pencil or crayon",
+                        "cn": "用铅笔或蜡笔画圆圈",
+                        "score": 0
+                    },
+                    {
+                        "en": "Turns book pages one at a time",
+                        "cn": "一次一页翻书",
+                        "score": 0
+                    },
+                    {
+                        "en": "Buildstowersofmorethan 6 blocks",
+                        "cn": "搭有6块以上积木的塔",
+                        "score": 0
+                    },
+                    {
+                        "en": "Screws and unscrews jar lids or turns door handle",
+                        "cn": "旋上和旋下广口瓶盖或转动门把手",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Climbs well",
+                        "cn": "很会爬",
+                        "score": 0
+                    },
+                    {
+                        "en": "Runs easily",
+                        "cn": "跑起来很轻松",
+                        "score": 0
+                    },
+                    {
+                        "en": "Pedals a tricycle (3-wheel bike)",
+                        "cn": "会骑三轮脚踏车",
+                        "score": 0
+                    },
+                    {
+                        "en": "Walks up and down stairs, one foot on each step",
+                        "cn": "会一脚一个台阶上下楼梯",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Go to play groups with your child or other places where there are other children, to encourage getting along with others",
+                "Work with your child to solve the problem when he is upset",
+                "Talk about your child’s emotions. For example, say, “I can tell you feel mad because you threw the puzzle piece.” Encourage your child to identify feelings in books",
+                "Set rules and limits for your child, and stick to them. If your child breaks a rule, give him a time out for 30 seconds to 1 minute in a chair or in his room. Praise your child for following the rules",
+                "Give your child instructions with 2 or 3 steps. For example, “Go to your room and get your shoes and coat”",
+                "Read to your child every day. Ask your child to point to things in the pictures and repeat words after you",
+                "Give your child an “activity box” with paper, crayons, and coloring books. Color and draw lines and shapes with your child",
+                "Play matching games. Ask your child to  nd objects in books or around the house that are the same",
+                "Play counting games. Count body parts, stairs, and other things you use or see every day",
+                "Hold your child’s hand going up and down stairs. When she can go up and down easily, encourage her to use the railing",
+                "Play outside with your child. Go to the park or hiking trail. Allow your child to play freely and without structured activities"
+            ],
+            "cn": [
+                "与您的小孩玩团体游戏，或到其它地方和其他小孩玩，并鼓励您 的小孩与他们相处",
+                "当您的小孩不高兴时，帮助他解决问题",
+                "与您的小孩谈论情绪问题。例如，您可以说:“我看得出你很 生气，因为你乱扔拼图碎片” 鼓励您的小孩认同书中所述的情绪",
+                "为您的小孩制定规则和限制，并遵守它们。如果您的小孩违反规则，让他坐在椅子上或在他的房间呆30秒到1分钟。小孩遵守规定时予以表扬",
+                "给您的小孩有 2 个或 3 个步骤的指示。例如，“到你的房间， 拿上你的鞋子和外衣”",
+                "每天给您的小孩读书。让您的小孩指着图片中的物品，并跟着 您念单词",
+                "给您的小孩装有纸张、蜡笔和彩色图书的“活动箱”。 和您的小孩一起涂上颜色、画上线条和形状",
+                "玩配对游戏。让您的小孩在书中或房子周围找到相同的物品",
+                "玩数数游戏。数身体部位、楼梯和您每天使用或看到的东西",
+                "抓着小孩的手上下楼梯。当她可以轻易地上下楼梯时，鼓励她使用扶手",
+                "和您的小孩外出游玩。到公园游玩或徒步旅行。允许您的小孩自己玩，自由活动"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Falls down a lot or has trouble q with stairs",
+                "Drools or has very unclear speech",
+                "Can’t work simple toys (such as peg boards, simple puzzles, turning a handle)",
+                "Doesn’t speak in sentences",
+                "Doesn’t make eye contact",
+                "Doesn’t play pretend or make-believe",
+                "Doesn’t want to play with other children or with toys",
+                "Doesn’t understand simple instructions",
+                "Loses skills he once had"
+            ],
+            "cn": [
+                "经常摔倒，或爬楼梯有困难",
+                "流口水或讲话很不清楚",
+                "不会玩简单的玩具(例如洞洞板、简单的游戏拼图、转动把手)",
+                "不理解简单的指示",
+                "不会说出完整的句子",
+                "不会进行眼神交流",
+                "不会玩虚构游戏或假扮游戏",
+                "不想和其他小孩玩或玩其它玩具",
+                "失去以前掌握的技能"
+            ]
+        }
+    },
+    {
+        "age": "4 Years",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Enjoys doing new things",
+                        "cn": "享受做新鲜的事情",
+                        "score": 0
+                    },
+                    {
+                        "en": "Is more and more creative with make-believe play",
+                        "cn": "玩装扮游戏时越来越有创意",
+                        "score": 0
+                    },
+                    {
+                        "en": "Would rather play with other children than by himself",
+                        "cn": "更喜欢和别的小孩玩，而不是自己玩",
+                        "score": 0
+                    },
+                    {
+                        "en": "Cooperates with other children",
+                        "cn": "和其他小孩合作",
+                        "score": 0
+                    },
+                    {
+                        "en": "Plays “Mom” or “Dad”",
+                        "cn": "玩“妈妈”或“爸爸”的游戏",
+                        "score": 0
+                    },
+                    {
+                        "en": "Often can’t tell what’s real and what’s make-believe",
+                        "cn": "经常不会区别什么是真的与什么是假扮的",
+                        "score": 0
+                    },
+                    {
+                        "en": "Talks about what she likes and what she is interested in",
+                        "cn": "谈论她喜欢和她感兴趣的事情",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Tells stories",
+                        "cn": "讲故事",
+                        "score": 0
+                    },
+                    {
+                        "en": "Sings a song or says a poem from memory such as the “Itsy Bitsy Spider” or the “Wheels on the Bus”",
+                        "cn": "凭记忆唱一首歌或念一首诗，例如“可爱小蜘蛛”或“公车的轮子”",
+                        "score": 0
+                    },
+                    {
+                        "en": "Knows some basic rules of grammar, such as correctly using “he” and “she”",
+                        "cn": "知道语法的某些基本规则，例如正确使用“他”和“她”",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can say first and last name",
+                        "cn": "可以说出姓氏和名字",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Names some colors and some numbers",
+                        "cn": "说出某些颜色和某些数字",
+                        "score": 0
+                    },
+                    {
+                        "en": "Understands the idea of counting",
+                        "cn": "了解数数的概念",
+                        "score": 0
+                    },
+                    {
+                        "en": "Starts to understand time",
+                        "cn": "开始了解时间",
+                        "score": 0
+                    },
+                    {
+                        "en": "Remembers parts of a story",
+                        "cn": "记住故事的部分内容",
+                        "score": 0
+                    },
+                    {
+                        "en": "Understands the idea of “same” and “different”",
+                        "cn": "了解“相同”和“不同”的概念",
+                        "score": 0
+                    },
+                    {
+                        "en": "Draws a person with 2 to 4 body parts",
+                        "cn": "画一个有2到4个身体部位的人",
+                        "score": 0
+                    },
+                    {
+                        "en": "Uses scissors",
+                        "cn": "使用剪刀",
+                        "score": 0
+                    },
+                    {
+                        "en": "Starts to copy some capital letters",
+                        "cn": "开始复写某些大写字母",
+                        "score": 0
+                    },
+                    {
+                        "en": "Plays board or card games",
+                        "cn": "玩棋盘或纸牌游戏",
+                        "score": 0
+                    },
+                    {
+                        "en": "Tells you what he thinks is going to happen next in a book",
+                        "cn": "告诉您书中接下来将要发生的事情",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Hops and stands on one foot up to 2 seconds",
+                        "cn": "单脚跳并用一只脚站立最长2秒",
+                        "score": 0
+                    },
+                    {
+                        "en": "Pours, cuts with supervision, and mashes own food",
+                        "cn": "倒水，在监督下使用餐刀，并自己捣碎食物",
+                        "score": 0
+                    },
+                    {
+                        "en": "Catches a bounced ball most of the time",
+                        "cn": "多数时间可以抓住弹跳的球",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Play make-believe with your child. Let her be the leader and copy what she is doing",
+                "Suggest your child pretend play an upcoming event that might make him nervous, like going to preschool or staying overnight at a grandparent’s house",
+                "Give your child simple choices whenever you can. Let your child choose what to wear, play, or eat for a snack. Limit choices to 2 or 3",
+                "During play dates, let your child solve her own problems with friends, but be nearby to help out if needed",
+                "Encourageyourchildtousewords,sharetoys,andtaketurnsplayinggames of one another’s choice",
+                "Give your child toys to build imagination, like dress-up clothes, kitchen sets, and blocks",
+                "Use good grammar when speaking to your child. Instead of “Mommy wants you to come here,” say, “I want you to come here”",
+                "Use words like “ rst,” “second,” and “ nally” when talking about everyday activities. This will help your child learn about sequence of events",
+                "Taketimetoansweryourchild’s“why”questions.Ifyoudon’tknowthe answer, say “I don’t know,” or help your child  nd the answer in a book, on the Internet, or from another adult",
+                "When you read with your child, ask him to tell you what happened in the story as you go",
+                "Say colors in books, pictures, and things at home. Count common items, like the number of snack crackers, stairs, or toy trains",
+                "Teach your child to play outdoor games like tag, follow the leader, and duck, duck, goose",
+                "Play your child’s favorite music and dance with your child. Take turns copying each other’s moves"
+            ],
+            "cn": [
+                "与您的小孩玩假扮游戏。让她做首领并模仿她的动作",
+                "让您的小孩假装做可能让他紧张的即将发生的事，例如上幼儿园或在祖父母家中过夜",
+                "可能时，给您的小孩简单的选择。让您的小孩选择穿什么、玩什么或吃什么点心。将选择限制为2个或3个",
+                "在游戏日，让您的小孩与朋友自己解决问题，但您应在附近，以便需要时提供帮助",
+                "鼓励您的小孩使用词语、分享玩具，并轮流玩彼此选择的游戏",
+                "给您的小孩用于构建想像力的玩具，例如装扮服装、厨房套件 和积木",
+                "使用正确的语法和您的小孩交谈。您应说“我要你到这边来”， 而不是“妈咪要你到这边来”",
+                "谈论日常活动时，使用“首先”、“其次”和“最后”等词汇。 这将帮助您的小孩了解事件的顺序",
+                "花时间回答您的小孩的“为什么”问题。如果您不知道答案，您应说“我不知道”，或帮助您的小孩在书中或互联网上或从其他成年人那里找到答案",
+                "当您给小孩读书时，让他告诉您故事里发生了什么事",
+                "说出书中、图片中和家中的物品的颜色。数常见物品的数量，例如饼干、楼梯或玩具火车的数量",
+                "教您的小孩玩户外游戏，例如追人游戏、追随领导者、 鸭子、鹅",
+                "播放您的小孩最喜欢的音乐，并和他一起跳舞。轮流模仿彼此 的动作"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Can’t jump in place",
+                "Has trouble scribbling",
+                "Shows no interest in interactive games or make-believe",
+                "Ignores other children or doesn’t respond to people outside the family",
+                "Resists dressing, sleeping, and using the toilet",
+                "Doesn’t understand “same” and “different”",
+                "Doesn’t use “me” and “you” correctly",
+                "Doesn’t follow 3-part commands",
+                "Can’t retell a favorite story",
+                "Loses skills he once had",
+                "Speaks unclearly"
+            ],
+            "cn": [
+                "不会原地跳",
+                "涂写有困难",
+                "对互动游戏或假扮游戏不感兴趣",
+                "忽略其他小孩或对家庭以外的人未作出反应",
+                "拒绝穿衣、睡觉和使用厕所",
+                "不理解“相同”和“不同”",
+                "未正确使用“我”和“你”",
+                "不遵循3部指令",
+                "不能复述喜欢的故事",
+                "失去以前掌握的技能",
+                "讲话不清楚"
+            ]
+        }
+    },
+    {
+        "age": "5 Years",
+        "content" : [
+            {
+                "field": "Social/Emotion",
+                "Cfield" : "社交情感",
+                "content": [
+                    {
+                        "en": "Wants to please friends",
+                        "cn": "想要取悦朋友",
+                        "score": 0
+                    },
+                    {
+                        "en": "Wants to be like friends",
+                        "cn": "想要和朋友一样",
+                        "score": 0
+                    },
+                    {
+                        "en": "More likely to agree with rules",
+                        "cn": "更有可能遵守规则",
+                        "score": 0
+                    },
+                    {
+                        "en": "Likes to sing, dance, and act",
+                        "cn": "喜欢唱歌、跳舞和表演",
+                        "score": 0
+                    },
+                    {
+                        "en": "Is aware of gender",
+                        "cn": "意识到性别差异",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can tell what’s real and what’s make-believe",
+                        "cn": "会区别什么是真的及什么是假扮的",
+                        "score": 0
+                    },
+                    {
+                        "en": "Shows more independence (for example, may visit a next-door neighbor by himself [adult supervision is still needed])",
+                        "cn": "表现得更独立(例如，可能造访邻居[仍需大人陪伴])",
+                        "score": 0
+                    },
+                    {
+                        "en": "Is sometimes demanding and sometimes very cooperative",
+                        "cn": "有时非常苛求，有时很合作",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Language/Communication",
+                "Cfield" : "语言交流",
+                "content": [
+                    {
+                        "en": "Speaks very clearly",
+                        "cn": "清楚地说话",
+                        "score": 0
+                    },
+                    {
+                        "en": "Tell a simple story using full sentences",
+                        "cn": "使用完整的句子讲述简单的故事",
+                        "score": 0
+                    },
+                    {
+                        "en": "Uses future tense; for example, “Grandma will be here.”",
+                        "cn": "使用将来时态;例如，“奶奶将要来这里。”",
+                        "score": 0
+                    },
+                    {
+                        "en": "Says name and address",
+                        "cn": "说出名字和住址",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Cognitive/Learning",
+                "Cfield" : "认知学习",
+                "content": [
+                    {
+                        "en": "Counts 10 or more things",
+                        "cn": "数10个或更多个物体",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can draw a person with at least 6 body parts",
+                        "cn": "可以画一个至少有6个身体部位的人",
+                        "score": 0
+                    },
+                    {
+                        "en": "Copies a triangle and other shapes",
+                        "cn": "仿画三角形和其它形状",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can print some letters or numbers",
+                        "cn": "会端正地写出某些字母或数字",
+                        "score": 0
+                    },
+                    {
+                        "en": "Knows about things used every day, like money and food",
+                        "cn": "知道每天使用的物品，例如钱和食物",
+                        "score": 0
+                    }
+                ]
+            },
+            {
+                "field": "Physical/Movement",
+                "Cfield" : "身体运动",
+                "content": [
+                    {
+                        "en": "Stands on one foot for 10 seconds or longer",
+                        "cn": "单脚站立10秒钟或更长时间",
+                        "score": 0
+                    },
+                    {
+                        "en": "Hops, may be able to skip",
+                        "cn": "单脚跳，也可以跳绳",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can do a somersault",
+                        "cn": "会翻跟斗",
+                        "score": 0
+                    },
+                    {
+                        "en": "Uses a fork and spoon and sometimes a table knife",
+                        "cn": "使用叉子和勺子，并偶尔使用餐刀",
+                        "score": 0
+                    },
+                    {
+                        "en": "Can use the toilet on her own",
+                        "cn": "会自己使用厕所",
+                        "score": 0
+                    },
+                    {
+                        "en": "Swings and climbs",
+                        "cn": "荡秋千和攀爬",
+                        "score": 0
+                    }
+                ]
+            }
+        ],
+        "help": {
+            "en": [
+                "Continue to arrange play dates, trips to the park, or play groups. Give your child more freedom to choose activities to play with friends, and let your child work out problems on her own",
+                "Your child might start to talk back or use profanity (swear words) as a way to feel independent. Do not give a lot of attention to this talk, other than a brief time out. Instead, praise your child when he asks for things nicely and calmly takes “no” for an answer",
+                "This is a good time to talk to your child about safe touch. No one should touch “private parts” except doctors or nurses during an exam or parents when they are trying to keep the child clean",
+                "Teach your child her address and phone number",
+                "When reading to your child, ask him to predict what will happen next in the story",
+                "Encourage your child to “read” by looking at the pictures and telling the story",
+                "Teach your child time concepts like morning, afternoon, evening, today, tomorrow, and yesterday. Start teaching the days of the week",
+                "Explore your child’s interests in your community. For example, if your child loves animals, visit the zoo or petting farm. Go to the library or look on the Internet to learn about these topics",
+                "Keep a handy box of crayons, paper, paint, child scissors, and paste. Encourage your child to draw and make art projects with different supplies",
+                "Play with toys that encourage your child to put things together",
+                "Teach your child how to pump her legs back and forth on a swing",
+                "Help your child climb on the monkey bars",
+                "Go on walks with your child, do a scavenger hunt in your neighborhood or park, help him ride a bike with training wheels (wearing a helmet)"
+            ],
+            "cn": [
+                "继续安排游戏日，去公园游玩或进行团体游戏。给小孩更多自由 以选择活动并和朋友玩耍，鼓励小孩自己解决问题",
+                "您的小孩可能开始顶嘴或说脏话(骂人的话)作为感到独立的一种方式。不要对此太过在意，但可以暂停交谈一会儿。相反，如果您的小孩有礼貌地索要东西，并在遭到拒绝时平静对待，应予以表扬",
+                "这是与您的小孩讨论安全触摸的好时机。没有人应触摸“隐私部位”，除非医生或护士正在进行身体检查，或父母为小孩洗澡",
+                "教您的小孩记住住址和电话号码",
+                "给您的小孩读书时，让他想像故事接下来会发生什么",
+                "鼓励您的小孩通过看图讲故事来“读书”",
+                "教您的小孩时间概念，例如早晨、下午、晚上、今天、明天和昨天。开始教一周的每一天",
+                "在社区探索您的小孩的兴趣。例如，如果您的小孩喜欢动物，您可以带他去动物园或宠物饲养场。去图书馆或浏览互联网以了解这些主题",
+                "准备一个装有蜡笔、纸张、颜料、儿童剪刀和浆糊的方便使用的盒子。鼓励您的小孩画画，并用不同的材料制作手工",
+                "给孩子玩玩具，鼓励他将东西组装起来",
+                "教您的小孩如何在荡秋千时向后和向前摆动腿",
+                "帮助您的小孩在猴架上攀爬",
+                "与您的小孩一起散步，在社区或公园玩寻宝游戏，帮助他用辅助轮骑自行车(戴上头盔)"
+            ]
+        },
+        "alert": {
+            "en": [
+                "Doesn’t show a wide range of emotions",
+                "Shows extreme behavior (unusually fearful, aggressive, shy, or sad)",
+                "Unusually withdrawn and not active",
+                "Is easily distracted, has trouble focusing on one activity for more than 5 minutes",
+                "Doesn’t respond to people, or responds only super cially",
+                "Can’t tell what’s real and what’s make-believe",
+                "Doesn’t play a variety of games and activities",
+                "Can’t give  rst and last name",
+                "Doesn’t draw pictures",
+                "Doesn’t talk about daily activities or experiences",
+                "Doesn’t use plurals or past tense properly",
+                "Can’t brush teeth, wash and dry hands, or get undressed without help",
+                "Loses skills he once had"
+            ],
+            "cn": [
+                "不会表达各种情绪",
+                "出现偏激行为(极度恐惧、好斗、害羞或难过)",
+                "孤僻且不活泼",
+                "容易分心，难以专注于一种活动超过5分钟",
+                "对人不会作出反应，或仅作出表面反应",
+                "不会区别什么是真的及什么是假扮的",
+                "不会玩各种游戏和进行各种活动",
+                "不会说出名字和姓氏",
+                "不会画图"
+            ]
+        }
+    }
+]
