@@ -2,42 +2,75 @@
     <div class="row">
         <div class="col-2 mt-3">
             <img *ngIf="earlyEdu.img" [src]="earlyEdu.img" class="img-thumbnail" width="200px" height="200px">
-            <h5 class="text-center">{{ earlyEdu.age }}</h5>
+            <h5 class="text-center">{{ earlyEdu.age | age}}</h5>
             <button type="button" class="btn btn-primary dropdown-toggle w-100" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">选择年龄段</button>
             <div class="dropdown-menu">
-                <a *ngFor="let age of ages" class="dropdown-item" (click)="loadEdu(age)">{{ age }}</a>
+                <a *ngFor="let age of ages" class="dropdown-item" (click)="loadEdu(age)">{{ age | age}}</a>
             </div>
         </div>
         <div *ngIf="earlyEdu.help" class="col-10">
-            <div *ngFor="let content of earlyEdu.content">
-                <div class="card my-3">
-                    <h5 class="card-header text-light" [style.background-color]="fourColor(content.field)">{{ content.Cfield }}</h5>
-                    <div class="card-body">
-                        <div class="list-group">
-                            <button *ngFor="let con of content.content" (click)="check(content.Cfield, con.cn)" 
-                                class="list-group-item d-flex justify-content-between align-items-center my-1 border-0" 
-                                [style.color]="fourColor(content.field)" >
-                                <h6>{{ con.cn }}</h6>
-                                <span *ngIf="con.score === 1" class="fa fa-check fa-lg text-primary"></span>
-                                <span *ngIf="con.score === 0" class="fa fa-square-o fa-lg"></span>
-                            </button>
-                        <!--
-                            <div class="input-group">
-                                <input type="text" class="form-control border-0 bg-light" disabled="true" [placeholder]="con.cn"/>
-                                <div class="input-group-append">
-                                    <div class="input-group-text border-0 bg-light">
-                                        <input type="checkbox">
-                                    </div>
+            <ngb-tabset justify="justified">
+                <ngb-tab *ngFor="let content of earlyEdu.content">
+                    <ng-template ngbTabTitle>
+                        <h5 [style.color]="fourColor(content.field)">{{ content.Cfield }}</h5>
+                    </ng-template>
+                    <ng-template ngbTabContent>
+                        <div class="card my-3">
+                            <h5 class="card-header text-light" [style.background-color]="fourColor(content.field)">{{ content.Cfield }}</h5>
+                            <div class="card-body">
+                                <div class="list-group">
+                                    <button *ngFor="let con of content.content" (click)="check(content.Cfield, con.cn)" 
+                                        class="list-group-item d-flex justify-content-between align-items-center my-1 border-0" 
+                                        [style.color]="fourColor(content.field)" >
+                                        <h6>{{ con.cn }}</h6>
+                                        <span *ngIf="con.score === 1" class="fa fa-check fa-lg text-primary"></span>
+                                        <span *ngIf="con.score === 0" class="fa fa-square-o fa-lg"></span>
+                                    </button>
                                 </div>
                             </div>
-                        -->
                         </div>
-                    </div>
-                </div>
-                
-            </div>
-            <p>{{ earlyEdu.help.cn }}</p>
-            <p>{{ earlyEdu.alert.cn }}</p>
+                    </ng-template>
+                </ngb-tab>
+            </ngb-tabset>
+            <hr />
+            <button class="btn btn-lg btn-outline-primary" (click)="open(contentHelp, earlyEdu.help.cn)">如何帮助这个阶段的宝宝</button>
+            <button class="btn btn-lg btn-outline-primary" (click)="open(contentAlert, earlyEdu.alert.cn)">出现以下状况请尽快就医</button>
         </div>
     </div>
 </div>
+
+<ng-template #contentHelp let-c="close">
+    <div class="modal-header bg-success text-light">
+        <h4 class="modal-title">如何帮助这个阶段的宝宝</h4>
+        <button type="button" class="close" aria-label="Close" (click)="c()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <ul class="list-group-flush">
+            <li *ngFor="let help of earlyEdu.help.cn" class="list-group-item text-success"><h6>{{ help }}</h6></li>   
+        </ul>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="c()">关闭</button>
+    </div>
+</ng-template>
+
+<ng-template #contentAlert let-c="close" let-d="dismiss">
+    <div class="modal-header bg-danger text-light">
+        <h4 class="modal-title">出现以下状况请尽快就医</h4>
+        <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <ul class="list-group list-group-flush">
+            <li *ngFor="let alert of earlyEdu.alert.cn" class="list-group-item text-danger"><h6>{{ alert }}</h6></li>
+        </ul>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">关闭</button>
+    </div>
+</ng-template>
+
+<pre>{{closeResult}}</pre>

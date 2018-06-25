@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Drive } from '../drive';
-import { DRIVES } from '../mock.drive';
+import { Drive } from '../_statics/drive';
+import { DRIVES } from '../_statics/mock.drive';
 
 @Component({
     selector: 'app-driving-test',

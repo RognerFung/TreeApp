@@ -1,0 +1,16 @@
+user
+    user_id
+    username
+    password
+    profile
+        education
+        gender
+        birthday
+        country
+        state
+        city
+        aboutme
+        address
+        firstname
+        lastname
+        email

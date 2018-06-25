@@ -1,75 +1,83 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { TreeComponent } from './tree/tree.component';
 import { BranchComponent } from './branch/branch.component';
-import { AppRoutingModule } from './/app-routing.module';
-import { FruitComponent } from './fruit/fruit.component';
-import { BranchService } from './branch.service';
-import { RouterModule } from '@angular/router';
-import { ExampleComponent } from './example/example.component';
-import { IdToNamePipe } from './idToName.pipe';
-import { LocalStorageModule } from 'angular-2-local-storage';
-import { LoginComponent } from './login/login.component';
-import { CommonService } from './common.service';
-import { HttpModule } from '@angular/http';
-import { FormsModule } from '@angular/forms';
-import { RegisterComponent } from './register/register.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
-import { JumbotronComponent } from './jumbotron/jumbotron.component';
-import { FooterComponent } from './footer/footer.component';
-import { IndexComponent } from './index/index.component';
-import { ProfileComponent } from './profile/profile.component';
-import { MessageService } from './message.service';
-import { MapComponent } from './map/map.component';
 import { DrivingTestComponent } from './driving-test/driving-test.component';
-import { FlowchartComponent } from './flowchart/flowchart.component';
-import { TestComponent } from './test/test.component';
-import { FocusDirective } from './focus.directive';
-import { AutofocusDirective } from './autofocus.directive';
-import { PracticeComponent } from './practice/practice.component';
-import { OperatorPipe } from './operator.pipe';
-import { PowerComponent } from './power/power.component';
-import { SkillchartComponent } from './skillchart/skillchart.component';
 import { EarlyEducationComponent } from './early-education/early-education.component';
+import { ExampleComponent } from './example/example.component';
+import { FlowchartComponent } from './flowchart/flowchart.component';
+import { FooterComponent } from './footer/footer.component';
+import { FruitComponent } from './fruit/fruit.component';
+import { IndexComponent } from './index/index.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { LoginComponent } from './login/login.component';
+import { MapComponent } from './map/map.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { PowerComponent } from './power/power.component';
+import { PracticeComponent } from './practice/practice.component';
+import { ProfileComponent } from './profile/profile.component';
+import { RegisterComponent } from './register/register.component';
+import { SkillchartComponent } from './skillchart/skillchart.component';
+import { TestComponent } from './test/test.component';
+import { TreeComponent } from './tree/tree.component';
+
+import { AutofocusDirective } from './_directives/autofocus.directive';
+import { FocusDirective } from './_directives/focus.directive';
+
+import { AppRoutingModule } from './/app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { LocalStorageModule } from 'angular-2-local-storage';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
+
+import { AgePipe } from './_pipes/age.pipe';
+import { IdToNamePipe } from './_pipes/idToName.pipe';
+import { OperatorPipe } from './_pipes/operator.pipe';
+
+import { BranchService } from './_services/branch.service';
+import { CommonService } from './_services/common.service';
+import { MessageService } from './_services/message.service';
 
 @NgModule({
     declarations: [
         AppComponent,
-        TreeComponent,
         BranchComponent,
-        FruitComponent,
-        ExampleComponent,
-        IdToNamePipe,
-        LoginComponent,
-        RegisterComponent,
-        NavbarComponent,
         CarouselComponent,
-        JumbotronComponent,
-        FooterComponent,
-        IndexComponent,
-        ProfileComponent,
-        MapComponent,
         DrivingTestComponent,
+        EarlyEducationComponent,
+        ExampleComponent,
         FlowchartComponent,
-        TestComponent,
-        FocusDirective,
-        AutofocusDirective,
-        PracticeComponent,
-        OperatorPipe,
+        FooterComponent,
+        FruitComponent,
+        IndexComponent,
+        JumbotronComponent,
+        LoginComponent,
+        MapComponent,
+        NavbarComponent,
         PowerComponent,
+        PracticeComponent,
+        ProfileComponent,
+        RegisterComponent,
         SkillchartComponent,
-        EarlyEducationComponent
+        TestComponent,
+        TreeComponent,
+
+        AutofocusDirective,
+        FocusDirective,
+
+        AgePipe,
+        IdToNamePipe,
+        OperatorPipe
     ],
     imports: [
-        BrowserModule,
         AppRoutingModule,
-        RouterModule,
-        HttpModule,
+        BrowserModule,
         FormsModule,
-        NgbModule.forRoot()
+        HttpModule,
+        NgbModule.forRoot(),
+        RouterModule
     ],
     providers: [
         BranchService,

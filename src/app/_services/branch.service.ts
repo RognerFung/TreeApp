@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Branch } from './branch';
-import { Fruit } from './fruit';
-import { Example } from './example';
-import { BRANCHES } from './mock-branches';
-import { FRUITS } from './mock-fruits';
-import { EXAMPLES } from './mock-examples';
+import { Branch } from '../_statics/branch';
+import { Fruit } from '../_statics/fruit';
+import { Example } from '../_statics/example';
+import { BRANCHES } from '../_statics/mock-branches';
+import { FRUITS } from '../_statics/mock-fruits';
+import { EXAMPLES } from '../_statics/mock-examples';
 import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
 import { ActivatedRoute } from '@angular/router';

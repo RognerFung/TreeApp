@@ -115,11 +115,11 @@
                     <input *ngIf="!user.birthday && !selectDay" class="form-control border-primary" name="age" placeholder="">
                     <input *ngIf="user.birthday" class="form-control border-primary" name="age" placeholder="{{ today.year - user.birthday.slice(0, 4) }}">
                 </div>
-                <label for="sex" class="col-12 col-md-1 offset-md-1 col-form-label">Sex</label>
+                <label for="gender" class="col-12 col-md-2 col-form-label">Gender</label>
                 <div class="col-12 col-md-4">
-                    <select class="custom-select border-primary" name="sex" [(ngModel)]="user.sex">
-                        <option [ngValue]="undefined" disabled selected>Sex</option>
-                        <option *ngFor="let sex of sexes" [ngValue]="sex">{{ sex }}</option>
+                    <select class="custom-select border-primary" name="gender" [(ngModel)]="user.gender">
+                        <option [ngValue]="undefined" disabled selected>Gender</option>
+                        <option *ngFor="let gender of genders" [ngValue]="gender">{{ gender }}</option>
                     </select>
                 </div>
             </div>

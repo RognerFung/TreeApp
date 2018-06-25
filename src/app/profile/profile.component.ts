@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbDatepickerConfig, NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
-import { CommonService } from '../common.service';
+import { CommonService } from '../_services/common.service';
 import { NgbModal, ModalDismissReasons, NgbActiveModal, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
-import * as COUNTRIES from '../userinfo.countries';
-import * as EDUCATIONS from '../userinfo.educations';
-import * as SEXES from '../userinfo.sexes';
+import * as COUNTRIES from '../_statics/userinfo.countries';
+import * as EDUCATIONS from '../_statics/userinfo.educations';
+import * as GENDERS from '../_statics/userinfo.genders';
 
 const now = new Date();
 
@@ -30,7 +30,7 @@ export class ProfileComponent implements OnInit {
     closeResult: string;
 
     countries: Array<string> = COUNTRIES.COUNTRIES;
-    sexes : Array<string> = SEXES.SEXES;
+    genders : Array<string> = GENDERS.GENDERS;
     educations: Array<string> = EDUCATIONS.EDUCATIONS;
 
     constructor(

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonService } from '../common.service';
+import { CommonService } from '../_services/common.service';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
     selector: 'app-early-education',
@@ -23,7 +24,8 @@ export class EarlyEducationComponent implements OnInit {
     ];
 
     constructor(
-        private commonService: CommonService
+        private commonService: CommonService,
+        private modalService: NgbModal
     ) { }
 
     ngOnInit() {
@@ -43,7 +45,6 @@ export class EarlyEducationComponent implements OnInit {
             data => {
                 this.earlyEdu = data[0];
                 this.earlyEdu.img = "assets/earlyedu/" + this.earlyEdu.age + ".png";
-                console.log(this.earlyEdu);
             }, 
             error => this.errorMessage = error
         );
@@ -58,7 +59,7 @@ export class EarlyEducationComponent implements OnInit {
         }
     };
 
-    check = (Cfield, cn) => {
+    check(Cfield, cn) {
         var selected = this.earlyEdu.content.find(f => {
             return f.Cfield === Cfield;
         }).content.find(e => {
@@ -67,4 +68,18 @@ export class EarlyEducationComponent implements OnInit {
         selected.score = selected.score === 0 ? 1 : 0;
     };
 
+    open(content: any, array: any) {
+        var len = array.reduce((t, c) => { 
+            return t > c.length ? t : c.length;
+        });
+        var size;
+        if (len > 24) {
+            size = "lg";
+        } else if (len > 12) {
+            size = "";
+        } else {
+            size = "sm";
+        }
+        this.modalService.open(content, { size: size });
+    }
 }

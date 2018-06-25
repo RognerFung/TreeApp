@@ -1,9 +1,9 @@
 import { Component, OnInit, Input, OnChanges } from '@angular/core';
-import { Branch } from '../branch';
-import { Fruit } from '../fruit';
+import { Branch } from '../_statics/branch';
+import { Fruit } from '../_statics/fruit';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { BranchService }  from '../branch.service';
+import { BranchService }  from '../_services/branch.service';
 
 @Component({
     selector: 'app-branch',

@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Tree } from '../tree';
-import { Branch } from '../branch';
-import { BranchService } from '../branch.service';
+import { Tree } from '../_statics/tree';
+import { Branch } from '../_statics/branch';
+import { BranchService } from '../_services/branch.service';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
-import { CommonService } from '../common.service';
+import { CommonService } from '../_services/common.service';
 
 @Component({
     selector: 'app-tree',

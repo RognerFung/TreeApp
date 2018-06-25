@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Fruit } from '../fruit';
+import { Fruit } from '../_statics/fruit';
 import { ActivatedRoute } from '@angular/router';
-import { BranchService }  from '../branch.service';
+import { BranchService }  from '../_services/branch.service';
 import { LocalStorageService } from 'angular-2-local-storage';
 
 @Component({

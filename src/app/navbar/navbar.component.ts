@@ -1,7 +1,7 @@
 import { Component, OnInit, OnChanges, OnDestroy } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { CommonService } from '../common.service';
-import { MessageService } from '../message.service';
+import { CommonService } from '../_services/common.service';
+import { MessageService } from '../_services/message.service';
 
 @Component({
     selector: 'app-navbar',

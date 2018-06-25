@@ -40,18 +40,20 @@ app.use(function (req, res, next) {
 var Schema = mongo.Schema;
 
 var UsersSchema = new Schema({
+    user_id: Number,
     username: String,
     password: String,
     email: String,
     firstname: String,
     lastname: String,
     birthday: Object,
-    sex: String,
+    gender: String,
     education: String,
     country: String,
     state: String,
     address: String,
-    aboutme: String  
+    aboutme: String
+    
 }, {
     versionKey: false
 });
@@ -85,16 +87,43 @@ var EarlyedusSchema = new Schema({
     versionKey: false
 });
 
+var CountersSchema = new Schema({
+    _id: String,
+    sequence_value: Number
+}, {
+    versionKey: false
+});
+
 var model = mongo.model('users', UsersSchema, 'users');
 var branchModel = mongo.model('branches', BranchesSchema, 'branches');
 var careerModel = mongo.model('careers', CareersSchema, 'careers');
 var eduModel = mongo.model('earlyedus', EarlyedusSchema, 'earlyedus');
+var counterModel = mongo.model('counters', CountersSchema, 'counters');
+
+function getNextSequenceValue(sequenceName){
+    
+}
 
 //Register user, save username and password (in hash) in database
+//Auto increment user_id for user
 app.post("/api/regUser", function(req, res) {
+    var seq_value;
+    counterModel.findOneAndUpdate(
+        {_id : "userid"}, 
+        {$inc:{sequence_value:1}}, 
+        {new: true},
+        function(err, doc) {
+            if (err) {
+                console.log("user counter has err");
+            } else {
+                seq_value = doc.sequence_value;
+            }
+        }
+    );
     bcrypt.genSalt(saltRounds, function(err, salt) {
         bcrypt.hash(req.body.password, salt, function(err, hash) {
-            var user = { 
+            var user = {
+                user_id: seq_value,
                 username: req.body.username, 
                 password: hash
             };
@@ -214,7 +243,7 @@ app.post("/api/updateUser", function (req, res) {
                     if (req.body.firstname) user.firstname = req.body.firstname;
                     if (req.body.lastname) user.lastname = req.body.lastname;
                     if (req.body.birthday) user.birthday = req.body.birthday;
-                    if (req.body.sex) user.sex = req.body.sex;
+                    if (req.body.gender) user.gender = req.body.gender;
                     if (req.body.education) user.education = req.body.education;
                     if (req.body.country) user.country = req.body.country;
                     if (req.body.state) user.state = req.body.state;

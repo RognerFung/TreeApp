@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormsModule } from '@angular/forms';
-import { CommonService } from '../common.service';
+import { CommonService } from '../_services/common.service';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import { Router } from '@angular/router';
-import { MessageService } from '../message.service';
+import { MessageService } from '../_services/message.service';
 
 
 @Component({

@@ -1,8 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Branch } from './branch';
-import { BRANCHES } from './mock-branches';
-import { Fruit } from './fruit';
-import { FRUITS } from './mock-fruits';
+import { Branch } from '../_statics/branch';
+import { BRANCHES } from '../_statics/mock-branches';
+import { Fruit } from '../_statics/fruit';
+import { FRUITS } from '../_statics/mock-fruits';
 
 @Pipe({name: 'idToName'})
 export class IdToNamePipe implements PipeTransform {

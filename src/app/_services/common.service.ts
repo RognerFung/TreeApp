@@ -8,7 +8,9 @@ import 'rxjs/add/operator/do';
 @Injectable()
 export class CommonService {
 
-    constructor(private http: Http) { }
+    constructor(
+        private http: Http
+    ) { }
     
     regUser(user){
         return this.http.post('http://localhost:3333/api/regUser/', user, {
