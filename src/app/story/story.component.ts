@@ -9,7 +9,7 @@ import { AudioDirective } from '../_directives/audio.directive';
 })
 export class StoryComponent implements OnInit {
 
-    @ViewChild('myaudio') myAudio: AudioDirective;
+    @ViewChild('storyAudio') storyAudio: AudioDirective;
 
     story: any;
     stories: any;
@@ -35,6 +35,7 @@ export class StoryComponent implements OnInit {
                 this.stories.forEach(story => {
                     story.src = "assets/stories/" + story.book + "/" + story.name + ".mp3";
                 });
+                console.log(this.stories);
                 this.story = this.stories[0];
             }, 
             error => this.errorMessage = error
@@ -44,13 +45,25 @@ export class StoryComponent implements OnInit {
     dealEnd = function () {
         let i = this.stories.indexOf(this.story);
         if (i === this.stories.length) {
-            this.story = undefined;
-            this.allEnd = true;
+            this.story = this.stories[0];
         } else {
             this.story = this.stories[i + 1];
         }
-        this.myAudio.nativeElement.src=this.story.src;
-        this.myAudio.nativeElement.play();
+        this.storyAudio.nativeElement.src = this.story.src;
+        this.storyAudio.nativeElement.play();
+        console.log(this.storyAudio.nativeElement);
     };
+
+    playBack = function () {
+        let i = this.stories.indexOf(this.story);
+        if (i === 0) {
+            this.story = this.stories[this.stories.length - 1];
+        } else {
+            this.story = this.stories[i - 1];
+        }
+        this.storyAudio.nativeElement.src = this.story.src;
+        this.storyAudio.nativeElement.play();
+        console.log(this.storyAudio.nativeElement);
+    }
 
 }

@@ -1,7 +1,18 @@
-<div *ngIf="stories">
-    <h5>{{story.name}}</h5>
-    <audio #myaudio controls (ended)="dealEnd()">
-        <source [src]="story.src">
-    </audio>
+<div *ngIf="stories" class="container justify-content-center">
+    <hr />
+    <h5 class="text-center my-5">{{story.name}}</h5>
+    <div class="row my-5">
+        <div class="col-1 offset-3 text-center">
+            <button class="btn align-middle" (click)="playBack()"><i class="fa fa-lg fa-step-backward"></i></button>
+        </div>
+        <div class="col-4 text-center">
+            <audio #storyAudio controls (ended)="dealEnd()">
+                <source [src]="story.src">
+            </audio>
+        </div>
+        <div class="col-1 text-center">
+            <button class="btn align-middle" (click)="dealEnd()"><i class="fa fa-lg fa-step-forward"></i></button>
+        </div>
+    </div>
     <hr />
 </div>
