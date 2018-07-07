@@ -1,16 +1,22 @@
-user
-    user_id
-    username
-    password
-    profile
-        education
-        gender
-        birthday
-        country
-        state
-        city
-        aboutme
-        address
-        firstname
-        lastname
-        email
+{
+    "register": {
+        "user_id": 1,
+        "username": "Rogner",
+        "password": ""
+    },
+    "profile": {
+        "firstname": "",
+        "lastname": "",
+        "email": "",
+        "education": "",
+        "gender": "",
+        "birthday": "",
+        "country": "",
+        "state": "",
+        "address": "",
+        "aboutme": ""
+    },
+    "achievements": {
+    }
+}
+        

@@ -17,6 +17,7 @@ import { PracticeComponent } from './practice/practice.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
 import { SkillchartComponent } from './skillchart/skillchart.component';
+import { StoryComponent } from './story/story.component';
 import { TestComponent } from './test/test.component';
 import { TreeComponent } from './tree/tree.component';
 
@@ -27,7 +28,6 @@ import { AppRoutingModule } from './/app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { LocalStorageModule } from 'angular-2-local-storage';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -39,6 +39,7 @@ import { OperatorPipe } from './_pipes/operator.pipe';
 import { BranchService } from './_services/branch.service';
 import { CommonService } from './_services/common.service';
 import { MessageService } from './_services/message.service';
+import { AudioDirective } from './_directives/audio.directive';
 
 @NgModule({
     declarations: [
@@ -61,6 +62,7 @@ import { MessageService } from './_services/message.service';
         ProfileComponent,
         RegisterComponent,
         SkillchartComponent,
+        StoryComponent,
         TestComponent,
         TreeComponent,
 
@@ -69,7 +71,8 @@ import { MessageService } from './_services/message.service';
 
         AgePipe,
         IdToNamePipe,
-        OperatorPipe
+        OperatorPipe,
+        AudioDirective
     ],
     imports: [
         AppRoutingModule,

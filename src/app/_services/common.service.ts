@@ -83,4 +83,10 @@ export class CommonService {
             withCredentials: true
         }).map((response: Response) => response.json());
     }
+
+    modifyStory(data) {
+        return this.http.post('http://localhost:3333/api/modifyStory/', data, {
+            withCredentials: true
+        }).map((response: Response) => response.json());
+    }
 }  

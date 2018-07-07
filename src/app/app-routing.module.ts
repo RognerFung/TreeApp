@@ -13,6 +13,7 @@ import { PowerComponent } from './power/power.component';
 import { PracticeComponent } from './practice/practice.component';
 import { DrivingTestComponent } from './driving-test/driving-test.component';
 import { EarlyEducationComponent } from './early-education/early-education.component';
+import { StoryComponent } from './story/story.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'index', pathMatch: 'full' },
@@ -25,6 +26,7 @@ const routes: Routes = [
     { path: 'practice', component: PracticeComponent },
     { path: 'driving-test', component: DrivingTestComponent },
     { path: 'early-education', component: EarlyEducationComponent },
+    { path: 'story', component: StoryComponent },
     { path: 'tree', component: TreeComponent },
     { path: 'tree/:branchId', component: BranchComponent },
     { path: 'tree/:branchId/:fruitId', component: FruitComponent },

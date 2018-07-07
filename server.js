@@ -87,6 +87,15 @@ var EarlyedusSchema = new Schema({
     versionKey: false
 });
 
+var StoriesSchema = new Schema({
+    name: String,
+    num: Number,
+    book: String,
+    set: Number
+}, {
+    versionKey: false
+});
+
 var CountersSchema = new Schema({
     _id: String,
     sequence_value: Number
@@ -98,6 +107,7 @@ var model = mongo.model('users', UsersSchema, 'users');
 var branchModel = mongo.model('branches', BranchesSchema, 'branches');
 var careerModel = mongo.model('careers', CareersSchema, 'careers');
 var eduModel = mongo.model('earlyedus', EarlyedusSchema, 'earlyedus');
+var storyModel = mongo.model('stories', StoriesSchema, 'stories');
 var counterModel = mongo.model('counters', CountersSchema, 'counters');
 
 function getNextSequenceValue(sequenceName){
@@ -360,6 +370,46 @@ app.post("/api/modifyEarlyedu", function(req, res) {
         });
     } else if (req.body.order === "select") {
         eduModel.find(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else {
+        console.log("receive false");
+    }
+    
+});
+
+//Insert, delete, update and select story in database
+app.post("/api/modifyStory", function(req, res) {
+    if (req.body.order === "insert") {
+        storyModel.insertMany(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "delete") {
+        storyModel.deleteMany(req.body.data, function(error) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send("deleted");
+            }
+        });
+    } else if (req.body.order === "update") {
+        storyModel.update(req.body.data, req.body.new, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "select") {
+        storyModel.find(req.body.data, function(error, doc) {
             if (error) {
                 res.send(error);
             } else {

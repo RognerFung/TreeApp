@@ -1,0 +1,7 @@
+<div *ngIf="stories">
+    <h5>{{story.name}}</h5>
+    <audio #myaudio controls (ended)="dealEnd()">
+        <source [src]="story.src">
+    </audio>
+    <hr />
+</div>
