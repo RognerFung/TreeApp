@@ -13,6 +13,7 @@ export class StoryComponent implements OnInit {
 
     story: any;
     stories: any;
+    sortStories: any = [];
     allEnd: boolean = false;
     audio: any;
 
@@ -34,8 +35,18 @@ export class StoryComponent implements OnInit {
                 this.stories = data;
                 this.stories.forEach(story => {
                     story.src = "assets/stories/" + story.book + "/" + story.name + ".mp3";
+                    let i = this.stories.indexOf(story);
+                    if (i % 4 === 3) {
+                        this.sortStories.push(
+                            {
+                                "name": story.book,
+                                "stories": [this.stories[i - 3], this.stories[i - 2], this.stories[i - 1], this.stories[i]],
+                            }
+                        );
+                    }
                 });
                 console.log(this.stories);
+                console.log(this.sortStories);
                 this.story = this.stories[0];
             }, 
             error => this.errorMessage = error
@@ -64,6 +75,22 @@ export class StoryComponent implements OnInit {
         this.storyAudio.nativeElement.src = this.story.src;
         this.storyAudio.nativeElement.play();
         console.log(this.storyAudio.nativeElement);
+    }
+
+    chooseStory = function (story) {
+        this.story = story;
+        this.storyAudio.nativeElement.src = this.story.src;
+        this.storyAudio.nativeElement.play();
+        console.log(this.storyAudio.nativeElement);
+    }
+
+    btnColor = function (set) {
+        switch(set) {
+            case(1): return "btn-outline-primary";
+            case(2): return "btn-outline-danger";
+            case(3): return "btn-outline-success";
+            case(4): return "btn-outline-warning";
+        }
     }
 
 }

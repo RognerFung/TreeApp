@@ -7,13 +7,25 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="Navbar">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" routerLink=""><span class="fa fa-home fa-lg"></span> Home</a></li>
-                <li class="nav-item active"><a class="nav-link" routerLink="/tree"><span class="fa fa-list fa-lg"></span> Tree</a></li>
-                <li class="nav-item active"><a class="nav-link" routerLink="/map"><span class="fa fa-usb fa-lg"></span> Map</a></li>
-                <li class="nav-item active"><a class="nav-link" routerLink="/practice"><span class="fa fa-th-list fa-lg"></span> Practice</a></li>
-                <li class="nav-item active"><a class="nav-link" routerLink="/profile"><span class="fa fa-address-card fa-lg"></span> Profile</a></li>
-                <li class="nav-item active"><a class="nav-link" routerLink="/power"><span class="fa fa-address-card fa-lg"></span> Power</a></li>
+            <ul class="nav mr-auto">
+                <li class="nav-item"><a class="nav-link text-white" routerLink=""><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" routerLink="/tree"><span class="fa fa-sitemap fa-lg"></span> Tree</a></li>
+                <li class="nav-item"><a class="nav-link text-white" routerLink="/map"><span class="fa fa-usb fa-lg"></span> Map</a></li>
+                <li class="nav-item"><a class="nav-link text-white" routerLink="/practice"><span class="fa fa-th-list fa-lg"></span> Practice</a></li>
+                <li class="nav-item"><a class="nav-link text-white" routerLink="/profile"><span class="fa fa-address-card fa-lg"></span> Profile</a></li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="fa fa-list fa-lg"></span>Activities
+                        </a>
+                        <div class="dropdown-menu bg-warning" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" routerLink="/story">Child Stories</a>
+                            <a class="dropdown-item" routerLink="/early-education">Early Education</a>
+                            <a class="dropdown-item" routerLink="/driving-test">Driving Theory Test</a>
+                            <a class="dropdown-item" routerLink="/power">Power Chart</a>
+                            <a class="dropdown-item" routerLink="/practice">Practice Math</a>
+                        </div>
+                    
+                </li>
             </ul>
             <span routerLink="/login" class="navbar-item active" *ngIf="username==='guest'">
                 <span class="fa fa-sign-in"></span> Sign in&emsp;

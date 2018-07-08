@@ -1,18 +1,23 @@
-<div *ngIf="stories" class="container justify-content-center">
-    <hr />
-    <h5 class="text-center my-5">{{story.name}}</h5>
-    <div class="row my-5">
-        <div class="col-1 offset-3 text-center">
+<div *ngIf="stories" class="container my-5">
+    <div class="row text-center">
+        <h5 class="text-center col-12">{{story.name}}</h5><br />
+        <div class="col-1 offset-3">
             <button class="btn align-middle" (click)="playBack()"><i class="fa fa-lg fa-step-backward"></i></button>
         </div>
-        <div class="col-4 text-center">
+        <div class="col-4">
             <audio #storyAudio controls (ended)="dealEnd()">
                 <source [src]="story.src">
             </audio>
         </div>
-        <div class="col-1 text-center">
+        <div class="col-1">
             <button class="btn align-middle" (click)="dealEnd()"><i class="fa fa-lg fa-step-forward"></i></button>
         </div>
     </div>
-    <hr />
+    <div class="col-12 row">
+        <div *ngFor="let sort of sortStories" class="card col-3 border-0 p-0" style="width: 18rem;">
+            <div class="card-body p-0">
+                <button *ngFor="let s of sort.stories" class="btn btn-sm m-1" [ngClass]="btnColor(s.set)" (click)="chooseStory(s)">{{s.name}}</button>
+            </div>
+        </div>
+    </div>
 </div>
