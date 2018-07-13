@@ -1,0 +1,44 @@
+[
+    {
+        "sport_id": 0,
+        "name": "jog",
+        "unit": "m",
+        "description": "mini-tramp, about 6 kilosteps per hour",
+        "K": 0.0006
+    },
+    {
+        "sport_id": 1,
+        "name": "run",
+        "unit": "m",
+        "description": "8 kilometers per hour",
+        "K": 0.000875
+    },
+    {
+        "sport_id": 2,
+        "name": "swim",
+        "unit": "m",
+        "description": "crawl, laps, slow, rest",
+        "K": 0.003
+    },
+    {
+        "sport_id": 3,
+        "name": "plunk",
+        "unit": "set",
+        "description": "1 set takes 1 minutes",
+        "K": 0.04
+    },
+    {
+        "sport_id": 4,
+        "name": "lift",
+        "unit": "set",
+        "description": "1 set takes 1 minutes",
+        "K": 0.04
+    },
+    {
+        "sport_id": 5,
+        "name": "stretch",
+        "unit": "set",
+        "description": "1 set takes 1 minutes",
+        "K": 0.025
+    }
+]

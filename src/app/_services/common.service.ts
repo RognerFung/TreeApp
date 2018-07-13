@@ -89,4 +89,22 @@ export class CommonService {
             withCredentials: true
         }).map((response: Response) => response.json());
     }
+
+    modifyUserinfo(data) {
+        return this.http.post('http://localhost:3333/api/modifyUserinfo/', data, {
+            withCredentials: true
+        }).map((response: Response) => response.json());
+    }
+
+    modifySports(data) {
+        return this.http.post('http://localhost:3333/api/modifySports/', data, {
+            withCredentials: true
+        }).map((response: Response) => response.json());
+    }
+
+    modifyWorkout(data) {
+        return this.http.post('http://localhost:3333/api/modifyWorkout/', data, {
+            withCredentials: true
+        }).map((response: Response) => response.json());
+    }
 }  

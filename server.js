@@ -96,6 +96,35 @@ var StoriesSchema = new Schema({
     versionKey: false
 });
 
+var UserinfoSchema = new Schema({
+    user_id: Number,
+    username: String,
+    age: Number,
+    height: Number,
+    weight: Number,
+    height_unit : String,
+    weight_unit : String
+}, {
+    versionKey: false
+});
+
+var SportsSchema = new Schema({
+    sport_id: Number,
+    name: String,
+    unit: String,
+    description: String,
+    K: Number
+}, {
+    versionKey: false
+});
+
+var WorkoutSchema = new Schema({
+    user_id: Number,
+    workout: Object
+}, {
+    versionKey: false
+});
+
 var CountersSchema = new Schema({
     _id: String,
     sequence_value: Number
@@ -108,11 +137,10 @@ var branchModel = mongo.model('branches', BranchesSchema, 'branches');
 var careerModel = mongo.model('careers', CareersSchema, 'careers');
 var eduModel = mongo.model('earlyedus', EarlyedusSchema, 'earlyedus');
 var storyModel = mongo.model('stories', StoriesSchema, 'stories');
+var userinfoModel = mongo.model('userinfo', UserinfoSchema, 'userinfo');
+var sportsModel = mongo.model('sports', SportsSchema, 'sports');
+var workoutModel = mongo.model('workouts', WorkoutSchema, 'workouts');
 var counterModel = mongo.model('counters', CountersSchema, 'counters');
-
-function getNextSequenceValue(sequenceName){
-    
-}
 
 //Register user, save username and password (in hash) in database
 //Auto increment user_id for user
@@ -214,7 +242,7 @@ app.get("/api/getUsersInfo", function (req, res) {
             } else {
                 res.send('false');
             }
-        })
+        });
     } else {
         res.send('false');
     }
@@ -410,6 +438,127 @@ app.post("/api/modifyStory", function(req, res) {
         });
     } else if (req.body.order === "select") {
         storyModel.find(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else {
+        console.log("receive false");
+    }
+    
+});
+
+//Insert, delete, update and select userinfo in database
+app.post("/api/modifyUserinfo", function(req, res) {
+    if (req.body.order === "insert") {
+        userinfoModel.insertMany(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "delete") {
+        userinfoModel.deleteMany(req.body.data, function(error) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send("deleted");
+            }
+        });
+    } else if (req.body.order === "update") {
+        userinfoModel.update(req.body.data, req.body.new, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "select") {
+        userinfoModel.find(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else {
+        console.log("receive false");
+    }
+    
+});
+
+//Insert, delete, update and select sports in database
+app.post("/api/modifySports", function(req, res) {
+    if (req.body.order === "insert") {
+        sportsModel.insertMany(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "delete") {
+        sportsModel.deleteMany(req.body.data, function(error) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send("deleted");
+            }
+        });
+    } else if (req.body.order === "update") {
+        sportsModel.update(req.body.data, req.body.new, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "select") {
+        sportsModel.find(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else {
+        console.log("receive false");
+    }
+    
+});
+
+//Insert, delete, update and select workout in database
+app.post("/api/modifyWorkout", function(req, res) {
+    if (req.body.order === "insert") {
+        workoutModel.insertMany(req.body.data, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "delete") {
+        workoutModel.deleteMany(req.body.data, function(error) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send("deleted");
+            }
+        });
+    } else if (req.body.order === "update") {
+        console.log(req.body);
+        workoutModel.update(req.body.data, req.body.new, function(error, doc) {
+            if (error) {
+                res.send(error);
+            } else {
+                res.send(doc);
+            }
+        });
+    } else if (req.body.order === "select") {
+        workoutModel.find(req.body.data, function(error, doc) {
             if (error) {
                 res.send(error);
             } else {

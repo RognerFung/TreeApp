@@ -1,0 +1,15 @@
+table {
+    width: auto !important;
+}
+
+
+.input-table {
+    background: transparent;
+}
+
+.table-button {
+    background: transparent;
+    border: none;
+    border-spacing: 0px;
+    display: inline;
+}

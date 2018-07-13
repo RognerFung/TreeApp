@@ -40,6 +40,7 @@ import { BranchService } from './_services/branch.service';
 import { CommonService } from './_services/common.service';
 import { MessageService } from './_services/message.service';
 import { AudioDirective } from './_directives/audio.directive';
+import { WorkoutComponent } from './workout/workout.component';
 
 @NgModule({
     declarations: [
@@ -72,7 +73,8 @@ import { AudioDirective } from './_directives/audio.directive';
         AgePipe,
         IdToNamePipe,
         OperatorPipe,
-        AudioDirective
+        AudioDirective,
+        WorkoutComponent
     ],
     imports: [
         AppRoutingModule,
