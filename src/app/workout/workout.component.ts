@@ -17,6 +17,52 @@ export class WorkoutComponent implements OnInit {
     isFocus: Boolean;
     isDisabled: Boolean;
 
+    public barChartData:Array<any>;
+    public barChartLabels:Array<any>;
+    public barChartOptions:any = {
+        responsive: true
+    };
+    public barChartColors:Array<any> = [
+        { // jog-red
+            backgroundColor: 'red'
+        },
+        { // run-orange
+            backgroundColor: 'orange'
+        },
+        { // swim-yellow
+            backgroundColor: 'yellow'
+        },
+        { // plunk-green
+            backgroundColor: 'green'
+        },
+        { // lift-blue
+            backgroundColor: 'blue'
+        },
+        { // stretch-purple
+            backgroundColor: 'purple'
+        },
+        { // line-cal-gold
+            backgroundColor: 'transparent',
+            borderColor: 'gold',
+            pointBackgroundColor: 'black',
+            pointBorderColor: 'white',
+            pointHoverBackgroundColor: 'white',
+            pointHoverBorderColor: 'black'
+        }
+      ];
+    public barChartLegend:boolean = true;
+    public barChartType:string = 'bar';
+    
+     
+    // events
+    public chartClicked(e:any):void {
+        console.log(e);
+    }
+    
+    public chartHovered(e:any):void {
+        console.log(e);
+    }
+
     constructor(
         private commonService: CommonService
     ) { }
@@ -93,6 +139,42 @@ export class WorkoutComponent implements OnInit {
                 } else {
                     this.workoutToday = JSON.parse(JSON.stringify(this.sports));
                 }
+                console.log(this.workoutToday[0]);
+                let s = ["jog", "run", "swim", "plunk", "lift", "stretch"];
+                console.log(s);
+
+                this.barChartData = [];
+                for (let i = 0; i < this.sports.length; i++) {
+                    let bar = this.workout.map(element => {
+                        return Math.ceil(element.sports[i].cal);
+                    });
+                    bar.push(Math.ceil(this.workoutToday[i].cal));
+                    this.barChartData.push(
+                        {
+                            data: bar,
+                            label: s[i]
+                        }
+                    );
+                }
+                let line = this.workout.map(element => {
+                    return Math.ceil(element.cal);
+                });
+                line.push(Math.ceil(this.sumCal()));
+                this.barChartData.push(
+                    {
+                        data: line,
+                        label: "cal",
+                        type: "line"
+                    }
+                );
+                let labels = this.workout.map(element => {
+                    return element.date;
+                });
+                labels.push(this.today.toDateString());
+                this.barChartLabels = labels;
+                console.log(this.barChartData);
+                console.log(this.barChartLabels);
+                console.log(this.today.toDateString());
             }, 
             error => this.errorMessage = error
         );
@@ -127,8 +209,7 @@ export class WorkoutComponent implements OnInit {
                 data: { user_id: this.workout.user_id },
                 new: { workout: this.workouts }
             }).subscribe(
-            data => {
-                
+            data => {        
                 console.log(data);
             }, 
             error => this.errorMessage = error

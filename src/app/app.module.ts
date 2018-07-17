@@ -26,6 +26,7 @@ import { FocusDirective } from './_directives/focus.directive';
 
 import { AppRoutingModule } from './/app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
+import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -79,6 +80,7 @@ import { WorkoutComponent } from './workout/workout.component';
     imports: [
         AppRoutingModule,
         BrowserModule,
+        ChartsModule,
         FormsModule,
         HttpModule,
         NgbModule.forRoot(),
